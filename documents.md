@@ -11,6 +11,7 @@
 
 ## React Solo Project
 
+- [Solo Project Week Question Protocol][solo-week-question-protocol]
 - [Module 5 Project Week Resources][solo-project-resources]
 - [Solo Project Roadmap][solo-project-roadmap]
 - [Supplemental Authenticate Me Read Along][authenticate-me-read-along]
@@ -32,3 +33,4 @@
 [fullstack-data-flow]: https://github.com/Lazytangent/DataFlow
 [solo-project-roadmap]: ./assets/react-project-week-roadmap.md
 [solo-project-resources]: https://github.com/Lazytangent/Mod-5-Project-Week
+[solo-week-question-protocol]: ./assets/solo-week-question-protocol.md
