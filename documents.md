@@ -17,7 +17,7 @@
 - [DB Schemas][db-schemas]
 - [Sequelize Cascade Delete][sequelize-cascade-delete]
 - [Migration Updating in Sequelize][sequelize-migration-update]
-- [AWS Just A Storage Bucket][aws-just-storage]
+- [Using AWS Only for a Storage Bucket][aws-just-storage]
 - [Fullstack DataFlow][fullstack-data-flow]
 
 [db-schemas]: ./assets/dbschemas
