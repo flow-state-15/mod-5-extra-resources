@@ -6,7 +6,7 @@ It is meant to be given to students around Week 15 Day 2 or thereafter.
 
 1. [Helpful Documents][documents]
 2. [Diagrams for Visual Learners][diagrams]
-3. [Videos][videos]
+3. [Supplemental Videos][videos]
 
 [diagrams]: ./diagrams.md
 [documents]: ./documents.md
