@@ -19,7 +19,7 @@
 5. [AWS Just A Storage Bucket][aws-just-storage]
 6. [Fullstack DataFlow][fullstack-data-flow]
 
-[db-schemas]: https://drive.google.com/drive/u/1/folders/130zMBDw7_1gRsM65OPF1BlxAHGRnpUJG
+[db-schemas]: ./assets/dbschemas
 [react-hooks-cheatsheet]: https://gist.github.com/jamesurobertson/f87c68f5eb2839e3dee88279aca6054c
 [week14-learning-objectives]: https://github.com/jdrichardsappacad/week14-react-learning-objectives
 [week15-learning-objectives]: https://github.com/jdrichardsappacad/week15-react-learning-objectives/
