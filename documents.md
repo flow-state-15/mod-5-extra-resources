@@ -20,6 +20,8 @@
 - [Migration Updating in Sequelize][sequelize-migration-update]
 - [Using AWS Only for a Storage Bucket][aws-just-storage]
 - [Fullstack DataFlow][fullstack-data-flow]
+- [Google Maps API Walkthrough][google-maps-api-walkthrough]
+- [Cloudinary Basic Setups][cloudinary-basic-setup]
 
 [db-schemas]: ./assets/dbschemas
 [react-hooks-cheatsheet]: https://gist.github.com/jamesurobertson/f87c68f5eb2839e3dee88279aca6054c
@@ -34,3 +36,5 @@
 [solo-project-roadmap]: ./assets/react-project-week-roadmap.md
 [solo-project-resources]: https://github.com/Lazytangent/Mod-5-Project-Week
 [solo-week-question-protocol]: ./assets/solo-week-question-protocol.md
+[google-maps-api-walkthrough]: https://github.com/Lazytangent/Google-Maps-API-Walkthrough
+[cloudinary-basic-setup]: https://github.com/Lazytangent/Cloudinary-BasicSetup.git
