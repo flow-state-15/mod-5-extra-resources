@@ -12,6 +12,6 @@
 [use-effect-flow]: ./assets/use-effect-flow.png
 [class-component-lifecycle]: ./class-component-lifecycle.png
 [react-redux-nothunk]: ./assets/react-redux-nothunk.png
-[fullstack-data-flow]: https://drive.google.com/drive/u/1/folders/130zMBDw7_1gRsM65OPF1BlxAHGRnpUJG
+[fullstack-data-flow]: https://drive.google.com/file/d/1LJGGFweo6BpGMPvRpn2MkMXEk2ihJVzq/view?usp=sharing
 [how-thunks-work]: https://drive.google.com/drive/u/1/folders/130zMBDw7_1gRsM65OPF1BlxAHGRnpUJG
 [db-schemas]: https://drive.google.com/drive/u/1/folders/130zMBDw7_1gRsM65OPF1BlxAHGRnpUJG
