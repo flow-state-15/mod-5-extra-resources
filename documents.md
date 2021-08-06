@@ -7,7 +7,7 @@
 
 ## Week 15 Learning Objectives
 
--. [Week 15 Learning Objectives][week15-learning-objectives]
+- [Week 15 Learning Objectives][week15-learning-objectives]
 
 ## React Solo Project
 
