@@ -69,6 +69,11 @@ Here are links that can aid Mod 5 students who are learning React.
 - [CSS Modules Github][css-modules-github]
 - [CSS Modules in Create React App][css-modules-cra]
 
+# Git
+
+- [Git CheatSheet][git-cheetsheat]
+
+[git-cheetsheat]: ./assets/git-cheatsheet
 [react-function-update]: https://reactjs.org/docs/hooks-reference.html#usestate
 [react-usestate]: https://reactjs.org/docs/hooks-state.html
 [react-useeffect]: https://reactjs.org/docs/hooks-effect.html
