@@ -119,5 +119,4 @@ Here are links that can aid Mod 5 students who are learning React.
 [css-modules-github]: https://github.com/css-modules/css-modules
 [css-modules-cra]: https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/
 [cra-images]: https://create-react-app.dev/docs/adding-images-fonts-and-files
-
-[find-method]:[https://developer.mozilla.org/en-us/docs/web/javascript/reference/global_objects/array/find]
+[find-method]: https://developer.mozilla.org/en-us/docs/web/javascript/reference/global_objects/array/find
