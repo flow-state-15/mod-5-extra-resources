@@ -44,7 +44,7 @@ Here are links that can aid Mod 5 students who are learning React.
 
 - [Nullish Coalescence][nullish-coalescence]
 - [Optional Chaining][optional-chaining]
-- [find Array Method][https://developer.mozilla.org/en-us/docs/web/javascript/reference/global_objects/array/find]
+- [.find Array Method][find-method]
 - [.map Array Method][map-function]
 - [Functional Programming][functional-programming]
 - [Browser History API][broser-history-api]
@@ -119,3 +119,5 @@ Here are links that can aid Mod 5 students who are learning React.
 [css-modules-github]: https://github.com/css-modules/css-modules
 [css-modules-cra]: https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/
 [cra-images]: https://create-react-app.dev/docs/adding-images-fonts-and-files
+
+[find-method]:[https://developer.mozilla.org/en-us/docs/web/javascript/reference/global_objects/array/find]
