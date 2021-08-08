@@ -44,8 +44,8 @@ Here are links that can aid Mod 5 students who are learning React.
 
 - [Nullish Coalescence][nullish-coalescence]
 - [Optional Chaining][optional-chaining]
-- [.find Function][https://developer.mozilla.org/en-us/docs/web/javascript/reference/global_objects/array/find]
-- [.map Function][map-function]
+- [find Array Method][https://developer.mozilla.org/en-us/docs/web/javascript/reference/global_objects/array/find]
+- [.map Array Method][map-function]
 - [Functional Programming][functional-programming]
 - [Browser History API][broser-history-api]
 - [Embedding Audio in your code][embed-audio]
