@@ -22,6 +22,7 @@ Here are links that can aid Mod 5 students who are learning React.
 - [Custom Hooks][custom-hooks]
 - [When to Use Callback or Memo][when-use-callback-memo]
 - [React Router Docs][react-router-docs-v5]
+- [Class Components & LifeCycle Methods][class-components]
 
 ## Redux
 
@@ -120,3 +121,4 @@ Here are links that can aid Mod 5 students who are learning React.
 [css-modules-cra]: https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/
 [cra-images]: https://create-react-app.dev/docs/adding-images-fonts-and-files
 [find-method]: https://developer.mozilla.org/en-us/docs/web/javascript/reference/global_objects/array/find
+[class-components]: https://reactjs.org/docs/react-component.html
