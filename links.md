@@ -38,8 +38,7 @@ Here are links that can aid Mod 5 students who are learning React.
 - [CombineReducers function][combine-reducers]
 - [applyMiddleware Middleware][applymiddleware]
 - [compose function][compose]
-- [Normlaizing State Shape][normalizing-state-shape]
-- [Normalization and Performance][normalize-and-performance]
+- [Normalizing State Shape][normalizing-state-shape]
 
 ## Vanilla JS
 
