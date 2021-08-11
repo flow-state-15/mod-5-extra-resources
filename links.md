@@ -77,8 +77,8 @@ Here are links that can aid Mod 5 students who are learning React.
 
 ## Up & Coming Tech (not for a/A project use)
 
-- [React Query (alternative to redux and context)][react-query]
-- [Redux Toolkit (up and coming way to use redux)][redux-toolkit]
+- [React Query (alternative to Redux and context)][react-query]
+- [Redux Toolkit (up and coming way to use Redux)][redux-toolkit]
 - [Intro to Redux Toolkit with Mark Erikson][mark-erikson-redux-toolkit]
 - [React Testing Library][react-testing-library]
 - [Jest Testing Library][jest-testing]
