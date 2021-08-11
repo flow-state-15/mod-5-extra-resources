@@ -80,6 +80,9 @@ Here are links that can aid Mod 5 students who are learning React.
 - [React Query (alternative to redux and context)][react-query]
 - [Redux Toolkit (up and coming way to use redux)][redux-toolkit]
 - [Intro to Redux Toolkit with Mark Erikson][mark-erikson-redux-toolkit]
+- [React Testing Library][react-testing-library]
+- [Jest Testing Library][jest-testing]
+- [Typescript for JS][typescript]
 
 [git-cheetsheat]: ./assets/git-cheatsheet
 [react-function-update]: https://reactjs.org/docs/hooks-reference.html#usestate
@@ -134,3 +137,6 @@ Here are links that can aid Mod 5 students who are learning React.
 [redux-toolkit]: https://redux-toolkit.js.org/
 [abramov-article]: https://stackoverflow.com/questions/34570758/why-do-we-need-middleware-for-async-flow-in-redux/34599594#34599594
 [mark-erikson-redux-toolkit]: https://www.youtube.com/watch?v=9zySeP5vH9c&t=1006s
+[react-testing-library]: https://testing-library.com/docs/react-testing-library/intro/
+[jest-testing]: https://jestjs.io/docs/getting-started
+[typescript]: https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html
