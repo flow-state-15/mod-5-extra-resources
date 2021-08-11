@@ -75,10 +75,11 @@ Here are links that can aid Mod 5 students who are learning React.
 - [Git CheatSheet][git-cheetsheat]
 - [Git Tutorial][git-tutorial]
 
-## Up & Coming Tech
+## Up & Coming Tech (not for a/A project use)
 
 - [React Query (alternative to redux and context)][react-query]
 - [Redux Toolkit (up and coming way to use redux)][redux-toolkit]
+- [Intro to Redux Toolkit with Mark Erikson][mark-erikson-redux-toolkit]
 
 [git-cheetsheat]: ./assets/git-cheatsheet
 [react-function-update]: https://reactjs.org/docs/hooks-reference.html#usestate
@@ -132,3 +133,4 @@ Here are links that can aid Mod 5 students who are learning React.
 [react-query]: https://react-query.tanstack.com/
 [redux-toolkit]: https://redux-toolkit.js.org/
 [abramov-article]: https://stackoverflow.com/questions/34570758/why-do-we-need-middleware-for-async-flow-in-redux/34599594#34599594
+[mark-erikson-redux-toolkit]: https://www.youtube.com/watch?v=9zySeP5vH9c&t=1006s
