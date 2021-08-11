@@ -58,10 +58,19 @@ Here are links that can aid Mod 5 students who are learning React.
 - [Sequelize v5][sequelize-v5]
 - [Sequelize Migrations][sequelize-migrations]
 
-## Popular Packages
+## Popular Packages & Tools
 
+- [React DevTools Chrome Extension][react-dev-tools]
+- [Redux DevTools Chrome Extension][redux-dev-tools]
+- [Redux Logger][redux-logger]
+- [React Router DOM][react-router-dom]
+- [Redux Thunk][redux-thunk]
+- [React Redux Binding Package][react-redux]
+- [nanoid (creates unique ids)][nanoid]
 - [Date FNS][date-fns]
 - [React Audio Player][audio-player]
+- [Quill Rich Text Editor][quill]
+- [Draft.js Rich Text Editor][draftjs]
 
 ## CSS
 
@@ -140,3 +149,12 @@ Here are links that can aid Mod 5 students who are learning React.
 [react-testing-library]: https://testing-library.com/docs/react-testing-library/intro/
 [jest-testing]: https://jestjs.io/docs/getting-started
 [typescript]: https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html
+[react-dev-tools]: https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en
+[redux-dev-tools]: https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en
+[redux-logger]: https://www.npmjs.com/package/redux-logger
+[react-router-dom]: https://www.npmjs.com/package/react-router-dom
+[redux-thunk]: https://www.npmjs.com/package/redux-thunk
+[nanoid]: https://www.npmjs.com/package/nanoid
+[react-redux]: https://www.npmjs.com/package/react-redux
+[quill]: https://www.npmjs.com/package/quill
+[draftjs]: https://draftjs.org/

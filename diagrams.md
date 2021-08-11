@@ -29,8 +29,8 @@
 [use-effect-flow]: ./assets/use-effect-flow.png
 [class-component-lifecycle]: ./class-component-lifecycle.png
 [react-redux-nothunk]: ./assets/react-redux-nothunk.png
-[fullstack-data-flow]: https://drive.google.com/file/d/1LJGGFweo6BpGMPvRpn2MkMXEk2ihJVzq/view?usp=sharing
-[how-thunks-work]: https://drive.google.com/file/d/1uED6aphDyDnuk6WhdvRlHR2_EsM8gUCc/view?usp=sharing
+[fullstack-data-flow]: ./assets/fullstack-dataflow.pdf
+[how-thunks-work]: ./assets/how_thunks_work.pdf
 [db-schemas]: https://drive.google.com/file/d/1Zcl-gZNqYDmcm8TTfZJt7XX2LXGu-oZ-/view?usp=sharing
 [airbnb]: ./assets/dbschemas/airbnb.jpg
 [bandcamp]: ./assets/dbschemas/bandcamp.jpg
