@@ -48,7 +48,7 @@ Here are links that can aid Mod 5 students who are learning React.
 - [.find Array Method][find-method]
 - [.map Array Method][map-function]
 - [Functional Programming][functional-programming]
-- [Browser History API][broser-history-api]
+- [Browser History API][browser-history-api]
 - [Embedding Audio in your code][embed-audio]
 
 ## Sequelize
@@ -121,7 +121,7 @@ Here are links that can aid Mod 5 students who are learning React.
 [functional-programming]: https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0
 [map-function]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
 [react-router-docs-v5]: https://reactrouter.com/web/guides/quick-start
-[broser-history-api]: https://developer.mozilla.org/en-US/docs/Web/API/History_API
+[browser-history-api]: https://developer.mozilla.org/en-US/docs/Web/API/History_API
 [date-fns]: https://www.npmjs.com/package/date-fns
 [audio-player]: https://www.npmjs.com/package/react-audio-player
 [embed-audio]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio
