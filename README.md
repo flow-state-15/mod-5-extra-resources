@@ -1,8 +1,7 @@
 # Module 5 Supplemental Resources
 
-**This repo contains supplementary documents, videos and diagrams.**
-
-It is meant to be given to students around Week 15 Day 2 or thereafter.
+Here is a repo of diagrams, docs, videos and external links that may assist you
+as you complete Mod 5 as well as your projects in the rest of your cohorts.
 
 1. [Helpful Documents][documents]
 2. [Diagrams for Visual Learners][diagrams]

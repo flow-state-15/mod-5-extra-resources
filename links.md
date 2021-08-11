@@ -39,6 +39,7 @@ Here are links that can aid Mod 5 students who are learning React.
 - [applyMiddleware Middleware][applymiddleware]
 - [compose function][compose]
 - [Normalizing State Shape][normalizing-state-shape]
+- [Dan Abramov Stackoverflow response to Thunks][abramov-article]
 
 ## Vanilla JS
 
@@ -62,16 +63,22 @@ Here are links that can aid Mod 5 students who are learning React.
 - [Date FNS][date-fns]
 - [React Audio Player][audio-player]
 
-# CSS
+## CSS
 
 - [Complete Guide to Flexbox][flexbox-csstricks]
 - [Flexbox MDN][flexbox-mdn]
 - [CSS Modules Github][css-modules-github]
 - [CSS Modules in Create React App][css-modules-cra]
 
-# Git
+## Git
 
 - [Git CheatSheet][git-cheetsheat]
+- [Git Tutorial][git-tutorial]
+
+## Up & Coming Tech
+
+- [React Query (alternative to redux and context)][react-query]
+- [Redux Toolkit (up and coming way to use redux)][redux-toolkit]
 
 [git-cheetsheat]: ./assets/git-cheatsheet
 [react-function-update]: https://reactjs.org/docs/hooks-reference.html#usestate
@@ -121,3 +128,7 @@ Here are links that can aid Mod 5 students who are learning React.
 [cra-images]: https://create-react-app.dev/docs/adding-images-fonts-and-files
 [find-method]: https://developer.mozilla.org/en-us/docs/web/javascript/reference/global_objects/array/find
 [class-components]: https://reactjs.org/docs/react-component.html
+[git-tutorial]: https://www.atlassian.com/git/tutorials/setting-up-a-repository
+[react-query]: https://react-query.tanstack.com/
+[redux-toolkit]: https://redux-toolkit.js.org/
+[abramov-article]: https://stackoverflow.com/questions/34570758/why-do-we-need-middleware-for-async-flow-in-redux/34599594#34599594
