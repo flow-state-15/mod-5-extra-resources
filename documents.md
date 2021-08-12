@@ -2,7 +2,8 @@
 
 ## Week 14 Learning & Assessment
 
-- [Week 14 Learning Objectives][week14-learning-objectives]-. [React Hooks Cheat Sheet][react-hooks-cheatsheet]
+- [Week 14 Learning Objectives][week14-learning-objectives]
+- [React Hooks Cheat Sheet][react-hooks-cheatsheet]
 - [React Router Docs][react-router-docs]
 
 ## Week 15 Learning Objectives
