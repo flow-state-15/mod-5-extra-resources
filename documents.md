@@ -23,6 +23,7 @@
 - [Fullstack DataFlow][fullstack-data-flow]
 - [Google Maps API Walkthrough][google-maps-api-walkthrough]
 - [Cloudinary Basic Setups][cloudinary-basic-setup]
+- [AWS S3 for User Uploads][aws-s3-user-uploads]
 
 [db-schemas]: ./assets/dbschemas
 [react-hooks-cheatsheet]: https://gist.github.com/jamesurobertson/f87c68f5eb2839e3dee88279aca6054c
@@ -39,3 +40,4 @@
 [solo-week-question-protocol]: ./assets/solo-week-question-protocol.md
 [google-maps-api-walkthrough]: https://github.com/Lazytangent/Google-Maps-API-Walkthrough
 [cloudinary-basic-setup]: https://github.com/Lazytangent/Cloudinary-BasicSetup.git
+[aws-s3-user-uploads]: https://github.com/jdrichardsappacad/aws-s3-pern-demo
