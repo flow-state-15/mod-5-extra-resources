@@ -132,6 +132,7 @@ Here are links that can aid Mod 5 students who are learning React.
 
 - [Why React Context is Not a "State Management" Tool (and Why It Doesn't Replace Redux)][context-not-state-management]
 - [Redux vs. The React Context API][redux-vs-context-api]
+- [React Calendar vs. React Scheduler: What’s the Difference and When To Use Them][react-calendar-vs-react-scheduler]
 
 [git-cheetsheat]: ./assets/git-cheatsheet
 [react-function-update]: https://reactjs.org/docs/hooks-reference.html#usestate
@@ -221,3 +222,4 @@ Here are links that can aid Mod 5 students who are learning React.
 [shallow-vs-deep-copy]: https://javascript.plainenglish.io/shallow-copy-and-deep-copy-in-javascript-a0a04104ab5c
 [immer]: https://www.npmjs.com/package/immer
 [normalizr]: https://www.npmjs.com/package/normalizr
+[react-calendar-vs-react-scheduler]: https://www.telerik.com/blogs/react-calendar-vs-react-scheduler-whats-difference-when-use#:~:text=A%20React%20calendar%20component%20is,birth%20or%20employee%20start%20date.&text=So%20a%20calendar%20is%20more,used%20for%20detailed%20schedules%2Fagendas.
