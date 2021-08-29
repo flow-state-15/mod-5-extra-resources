@@ -100,7 +100,7 @@ Here are links that can aid Mod 5 students who are learning React.
 ### Color Palettes
 
 - [colorhunt][colorhunt]
-- [coolors.co][colors.co]
+- [coolors.co][coolors.co]
 - [colormind.io][colormind.io]
 - [colorpallettes.net][colorpallettes.net]
 
