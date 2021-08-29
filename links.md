@@ -18,11 +18,12 @@ Here are links that can aid Mod 5 students who are learning React.
 - [Hook Rules][hook-rules]
 - [Synthetic Event][synthetic-events]:
 - [Hooks API][hooks-api]
-- [Fix React Render][fix-render]
+- [Fix the slow render before you fix the re-render][fix-render]
 - [Custom Hooks][custom-hooks]
 - [When to Use Callback or Memo][when-use-callback-memo]
 - [React Router Docs][react-router-docs-v5]
 - [Class Components & LifeCycle Methods][class-components]
+- [A Visual Guide To React Rendering Series][visual-guide-to-react-rendering]
 
 ## Redux
 
@@ -198,3 +199,4 @@ Here are links that can aid Mod 5 students who are learning React.
 [7-tips-web-font]: https://designshack.net/articles/typography/7-tips-for-choosing-the-best-web-font-for-your-design/
 [what-font]: https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm?hl=en
 [eye-dropper]: https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka?hl=en
+[visual-guide-to-react-rendering]: https://alexsidorenko.com/blog/react-render-always-rerenders/
