@@ -84,7 +84,33 @@ Here are links that can aid Mod 5 students who are learning React.
 - [Git CheatSheet][git-cheetsheat]
 - [Git Tutorial][git-tutorial]
 
-## Up & Coming Tech As You Advance (not for a/A project use)
+## Design
+
+### Fonts
+
+- [7 Tips for Choosing a Web Font][7-tips-web-font]
+- [Best Free Fonts 2021][best-free-fonts-2021]
+- [Google Fonts][google-fonts]
+
+### Font Pairings
+
+- [Wfonts][wfonts]
+- [Font Joy][fontjoy]
+
+### Color Palettes
+
+- [colorhunt][colorhunt]
+- [coolors.co][colors.co]
+- [colormind.io][colormind.io]
+- [colorpallettes.net][colorpallettes.net]
+
+### Chrome Extensions for Development
+
+- [ColorZilla][colorzilla]
+- [What Font][what-font]
+- [Eye Dropper][eye-dropper]
+
+## Added Tech As You Advance (not for a/A project use)
 
 - [React Query (alternative to Redux and context)][react-query]
 - [Redux Toolkit (up and coming way to use Redux)][redux-toolkit]
@@ -160,3 +186,15 @@ Here are links that can aid Mod 5 students who are learning React.
 [quill]: https://www.npmjs.com/package/quill
 [draftjs]: https://draftjs.org/
 [storybook]: https://storybook.js.org/
+[best-free-fonts-2021]: https://www.awwwards.com/best-free-fonts.html
+[google-fonts]: https://fonts.google.com/
+[wfonts]: https://wfonts.com
+[fontjoy]: http://fontjoy.com
+[colorhunt]: https://colorhunt.co/
+[coolors.co]: https://coolors.co/
+[colormind.io]: http://colormind.io/
+[colorpallettes.net]: https://colorpalettes.net/
+[colorzilla]: https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?hl=en
+[7-tips-web-font]: https://designshack.net/articles/typography/7-tips-for-choosing-the-best-web-font-for-your-design/
+[what-font]: https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm?hl=en
+[eye-dropper]: https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka?hl=en
