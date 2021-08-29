@@ -51,6 +51,7 @@ Here are links that can aid Mod 5 students who are learning React.
 - [Functional Programming][functional-programming]
 - [Browser History API][browser-history-api]
 - [Embedding Audio in your code][embed-audio]
+- [Shallow vs Deep Copy][shallow-vs-deep-copy]
 
 ## Sequelize
 
@@ -215,3 +216,4 @@ Here are links that can aid Mod 5 students who are learning React.
 [bem]: http://getbem.com/introduction/
 [newer-html-css-features]: https://css-tricks.com/beyond-media-queries-using-newer-html-css-features-for-responsive-designs/
 [complete-guide-to-media-queries]: https://css-tricks.com/a-complete-guide-to-css-media-queries/
+[shallow-vs-deep-copy]: https://javascript.plainenglish.io/shallow-copy-and-deep-copy-in-javascript-a0a04104ab5c
