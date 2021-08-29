@@ -79,6 +79,10 @@ Here are links that can aid Mod 5 students who are learning React.
 - [Flexbox MDN][flexbox-mdn]
 - [CSS Modules Github][css-modules-github]
 - [CSS Modules in Create React App][css-modules-cra]
+- [Styled Component][styled-components]
+- [BEM][bem]
+- [Beyond Media Queries: Using Newer HTML & CSS Features for Responsive Designs][newer-html-css-features]
+- [A Complete Guide to CSS Media Queries][complete-guide-to-media-queries]
 
 ## Git
 
@@ -120,6 +124,11 @@ Here are links that can aid Mod 5 students who are learning React.
 - [Jest Testing Library][jest-testing]
 - [Typescript for JS][typescript]
 - [Storybook for UI Components][storybook]
+
+## Worthwhile Articles
+
+- [Why React Context is Not a "State Management" Tool (and Why It Doesn't Replace Redux)][context-not-state-management]
+- [Redux vs. The React Context API][redux-vs-context-api]
 
 [git-cheetsheat]: ./assets/git-cheatsheet
 [react-function-update]: https://reactjs.org/docs/hooks-reference.html#usestate
@@ -200,3 +209,9 @@ Here are links that can aid Mod 5 students who are learning React.
 [what-font]: https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm?hl=en
 [eye-dropper]: https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka?hl=en
 [visual-guide-to-react-rendering]: https://alexsidorenko.com/blog/react-render-always-rerenders/
+[context-not-state-management]: https://blog.isquaredsoftware.com/2021/01/context-redux-differences/
+[redux-vs-context-api]: https://daveceddia.com/context-api-vs-redux/
+[styled-components]: https://styled-components.com/
+[bem]: http://getbem.com/introduction/
+[newer-html-css-features]: https://css-tricks.com/beyond-media-queries-using-newer-html-css-features-for-responsive-designs/
+[complete-guide-to-media-queries]: https://css-tricks.com/a-complete-guide-to-css-media-queries/
