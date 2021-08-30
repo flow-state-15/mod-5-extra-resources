@@ -125,6 +125,7 @@ Here are links that can aid Mod 5 students who are learning React.
 - [Jest Testing Library][jest-testing]
 - [Typescript for JS][typescript]
 - [Storybook for UI Components][storybook]
+- [Figma][figma]
 - [Immer][immer]
 - [Normalizr][normalizr]
 
@@ -223,3 +224,4 @@ Here are links that can aid Mod 5 students who are learning React.
 [immer]: https://www.npmjs.com/package/immer
 [normalizr]: https://www.npmjs.com/package/normalizr
 [react-calendar-vs-react-scheduler]: https://www.telerik.com/blogs/react-calendar-vs-react-scheduler-whats-difference-when-use#:~:text=A%20React%20calendar%20component%20is,birth%20or%20employee%20start%20date.&text=So%20a%20calendar%20is%20more,used%20for%20detailed%20schedules%2Fagendas.
+[figma]: https://www.figma.com/
