@@ -118,14 +118,29 @@ Here are links that can aid Mod 5 students who are learning React.
 
 ## Added Tech As You Advance (not for a/A project use)
 
+### Basic Redux Alternatives
+
 - [React Query (alternative to Redux and context)][react-query]
 - [Redux Toolkit (up and coming way to use Redux)][redux-toolkit]
 - [Intro to Redux Toolkit with Mark Erikson][mark-erikson-redux-toolkit]
+
+### Testing
+
 - [React Testing Library][react-testing-library]
 - [Jest Testing Library][jest-testing]
+
+### Static Type Checking
+
 - [Typescript for JS][typescript]
+
+### UX/UI
+
 - [Storybook for UI Components][storybook]
 - [Figma][figma]
+- [Balsamiq][balsamiq]
+
+### Packages
+
 - [Immer][immer]
 - [Normalizr][normalizr]
 
@@ -225,3 +240,4 @@ Here are links that can aid Mod 5 students who are learning React.
 [normalizr]: https://www.npmjs.com/package/normalizr
 [react-calendar-vs-react-scheduler]: https://www.telerik.com/blogs/react-calendar-vs-react-scheduler-whats-difference-when-use#:~:text=A%20React%20calendar%20component%20is,birth%20or%20employee%20start%20date.&text=So%20a%20calendar%20is%20more,used%20for%20detailed%20schedules%2Fagendas.
 [figma]: https://www.figma.com/
+[balsamiq]: https://balsamiq.com
