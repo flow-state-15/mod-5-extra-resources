@@ -97,6 +97,7 @@ Here are links that can aid Mod 5 students who are learning React.
 - [7 Tips for Choosing a Web Font][7-tips-web-font]
 - [Best Free Fonts 2021][best-free-fonts-2021]
 - [Google Fonts][google-fonts]
+- [DaFont][dafont]
 
 ### Font Pairings
 
@@ -241,3 +242,4 @@ Here are links that can aid Mod 5 students who are learning React.
 [react-calendar-vs-react-scheduler]: https://www.telerik.com/blogs/react-calendar-vs-react-scheduler-whats-difference-when-use#:~:text=A%20React%20calendar%20component%20is,birth%20or%20employee%20start%20date.&text=So%20a%20calendar%20is%20more,used%20for%20detailed%20schedules%2Fagendas.
 [figma]: https://www.figma.com/
 [balsamiq]: https://balsamiq.com
+[dafont]: https://www.dafont.com/
