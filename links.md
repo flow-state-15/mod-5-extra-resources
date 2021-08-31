@@ -145,11 +145,13 @@ Here are links that can aid Mod 5 students who are learning React.
 - [Immer][immer]
 - [Normalizr][normalizr]
 
-## Worthwhile Articles
+## Worthwhile Articles & Deep Dives
 
 - [Why React Context is Not a "State Management" Tool (and Why It Doesn't Replace Redux)][context-not-state-management]
 - [Redux vs. The React Context API][redux-vs-context-api]
-- [React Calendar vs. React Scheduler: What’s the Difference and When To Use Them][react-calendar-vs-react-scheduler]
+- [React Calendar vs. React Scheduler: What’s the Difference and When To Use
+  Them][react-calendar-vs-react-scheduler]
+- [An Introduction to React Fiber - The Algorithm Behind React][reconciliation-deep-dive]
 
 [git-cheetsheat]: ./assets/git-cheatsheet
 [react-function-update]: https://reactjs.org/docs/hooks-reference.html#usestate
@@ -243,3 +245,4 @@ Here are links that can aid Mod 5 students who are learning React.
 [figma]: https://www.figma.com/
 [balsamiq]: https://balsamiq.com
 [dafont]: https://www.dafont.com/
+[reconciliation-deep-dive]: https://www.velotio.com/engineering-blog/react-fiber-algorithm
