@@ -155,8 +155,18 @@ Here are links that can aid Mod 5 students who are learning React.
   React][reconciliation-deep-dive]
 - - [Why React Context is Not a "State Management" Tool (and Why It Doesn't
     Replace Redux)][context-not-state-management-tool]
-- [A (Mostly) Complete Guide to React Rendering Behavior][react-rendering-behavior]
+- [A (Mostly) Complete Guide to React Rendering
+  Behavior][react-rendering-behavior]
 
+## Styleguides
+
+- [airbnb JavaScript Style Guide][airbnb-js-styleguide]
+- [airbnb React Style Guide][airbnb-react-styleguide]
+- [Google JS Style Guide][google-js-styleguide]
+
+[google-js-styleguide]: https://google.github.io/styleguide/jsguide.html
+[airbnb-react-styleguide]: https://airbnb.io/javascript/react/
+[airbnb-js-styleguide]: https://github.com/airbnb/javascript
 [git-cheetsheat]: ./assets/git-cheatsheet
 [react-function-update]: https://reactjs.org/docs/hooks-reference.html#usestate
 [react-usestate]: https://reactjs.org/docs/hooks-state.html
