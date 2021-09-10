@@ -25,6 +25,14 @@
 - [Cloudinary Basic Setups][cloudinary-basic-setup]
 - [AWS S3 for User Uploads][aws-s3-user-uploads]
 
+## DB Schema Creation Apps
+
+[DB Diagram][db-diagram]
+[drawSQL][draw-sql]
+[Quick DBD][quick-dbd]
+[quick-dbd]:https://www.quickdatabasediagrams.com/
+[draw-sql]:https://drawsql.app/
+[db-diagram]:https://dbdiagram.io/home
 [db-schemas]: ./assets/dbschemas
 [react-hooks-cheatsheet]: https://gist.github.com/jamesurobertson/f87c68f5eb2839e3dee88279aca6054c
 [week14-learning-objectives]: https://github.com/jdrichardsappacad/week14-react-learning-objectives
