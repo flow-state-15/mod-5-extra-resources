@@ -27,9 +27,9 @@
 
 ## DB Schema Creation Apps
 
-[DB Diagram][db-diagram]
-[drawSQL][draw-sql]
-[Quick DBD][quick-dbd]
+- [DB Diagram][db-diagram]
+- [drawSQL][draw-sql]
+- [Quick DBD][quick-dbd]
 
 [quick-dbd]: https://www.quickdatabasediagrams.com/
 [draw-sql]: https://drawsql.app/
