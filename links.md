@@ -24,6 +24,7 @@ Here are links that can aid Mod 5 students who are learning React.
 - [React Router Docs][react-router-docs-v5]
 - [Class Components & LifeCycle Methods][class-components]
 - [A Visual Guide To React Rendering Series][visual-guide-to-react-rendering]
+- [The Rules of React][rules-of-react]
 
 ## Redux
 
@@ -164,6 +165,8 @@ Here are links that can aid Mod 5 students who are learning React.
 - [airbnb React Style Guide][airbnb-react-styleguide]
 - [Google JS Style Guide][google-js-styleguide]
 
+
+[rules-of-react]:https://gist.github.com/sebmarkbage/75f0838967cd003cd7f9ab938eb1958f
 [google-js-styleguide]: https://google.github.io/styleguide/jsguide.html
 [airbnb-react-styleguide]: https://airbnb.io/javascript/react/
 [airbnb-js-styleguide]: https://github.com/airbnb/javascript
