@@ -27,7 +27,7 @@
 
 [react-data-flow]: ./assets/react-data-flow.png
 [use-effect-flow]: ./assets/use-effect-flow.png
-[class-component-lifecycle]: ./class-component-lifecycle.png
+[class-component-lifecycle]: ./assets/class-component-lifecycle.png
 [react-redux-nothunk]: ./assets/react-redux-nothunk.png
 [fullstack-data-flow]: ./assets/fullstack-dataflow.pdf
 [how-thunks-work]: ./assets/how_thunks_work.pdf
