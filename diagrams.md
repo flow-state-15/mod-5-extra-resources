@@ -40,8 +40,8 @@
 [genius]: ./assets/dbschemas/genius.jpg
 [medium]: ./assets/dbschemas/medium.jpg
 [meetup]: ./assets/dbschemas/meetup.jpg
-[producthunt]: ./assets/dbschemas/producthunt
-[quora]: ./assets/dbschemas/quora
+[producthunt]: ./assets/dbschemas/producthunt.jpg
+[quora]: ./assets/dbschemas/quora.jpg
 [soundcloud]: ./assets/dbschemas/soundcloud.jpg
 [untappd]: ./assets/dbschemas/untappd.jpg
 [yelp]: ./assets/dbschemas/yelp.jpg
