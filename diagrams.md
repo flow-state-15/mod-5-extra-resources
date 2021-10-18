@@ -16,14 +16,13 @@
 3. [eventbrite][eventbrite]
 4. [evernote][evernote]
 5. [flickr][flickr]
-6. [genius][genius]
-7. [medium][medium]
-8. [meetup][meetup]
-9. [producthunt][producthunt]
-10. [quora][quora]
-11. [soundcloud][soundcloud]
-12. [untappd][untappd]
-13. [yelp][yelp]
+6. [medium][medium]
+7. [meetup][meetup]
+8. [producthunt][producthunt]
+9. [quora][quora]
+10. [soundcloud][soundcloud]
+11. [untappd][untappd]
+12. [yelp][yelp]
 
 [react-data-flow]: ./assets/react-data-flow.png
 [use-effect-flow]: ./assets/use-effect-flow.png
@@ -37,7 +36,6 @@
 [eventbrite]: ./assets/dbschemas/eventbrite.jpg
 [evernote]: ./assets/dbschemas/evernote.jpg
 [flickr]: ./assets/dbschemas/flickr.jpg
-[genius]: ./assets/dbschemas/genius.jpg
 [medium]: ./assets/dbschemas/medium.jpg
 [meetup]: ./assets/dbschemas/meetup.jpg
 [producthunt]: ./assets/dbschemas/producthunt.jpg
