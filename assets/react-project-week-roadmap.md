@@ -26,6 +26,8 @@ Tuesday:
 Wednesday:
 
 - Debug finishing touches for first MVP
+- Deploy to Heroku
+- Get signed off on your first MVP by your Team Advisor
 - Migrations, Routes & Seeders for second MVP
 - Begin Frontend React for second MVP
 
