@@ -46,8 +46,8 @@ Friday:
 
 Weekend
 
-- finish requirements for assessment
-- add little things like favicon
+- Finish requirements for assessment
+- Add little things like favicon
 - Clean up code
 - Write notes that help you remember code in application
 - Fix bugs
