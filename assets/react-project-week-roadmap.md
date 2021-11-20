@@ -13,9 +13,9 @@ Weekend:
 
 Monday:
 
-- Show your Deployed Authenticate Me at Standup
+- Show your deployed Authenticate Me at standup
 - Finish planning application routes, components and approach
-- Get Project Approval from Advisors
+- Get project approval from Advisors
 - Turn in Wiki Documentation
 - Migrations, Seeders, Routes for first full CRUD feature
 
@@ -47,6 +47,7 @@ Friday:
 Weekend
 
 - finish requirements for assessment
+- add little things like favicon
 - Clean up code
 - Write notes that help you remember code in application
 - Fix bugs
