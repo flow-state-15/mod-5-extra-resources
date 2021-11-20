@@ -4,45 +4,49 @@ This is not a Hard Core Road Map. Your pace and order of operation may differ fr
 
 Weekend:
 
-- Plan application features and what that looks like codewise and visually
+- Plan application features and what that looks like codewise and visually.
+- Plan your work flow using your Kanban Board
 - Create documentation for Wiki
 - CSS for landing page and authentication
-- Research clone and tools needed
+- Research the app you are cloning and tools needed
+- finish Authenticate Me if you haven't
 
 Monday:
 
+- Show your Deployed Authenticate Me at Standup
 - Finish planning application routes, components and approach
+- Get Project Approval from Advisors
 - Turn in Wiki Documentation
-- Migrations for first MVP
-  All Routes for first MVP
-- Seeders for first MVP
+- Migrations, Seeders, Routes for first full CRUD feature
 
 Tuesday:
 
-- Work on Frontend React for first MVP
+- Work on React Frontend for first feature
 - Refactor Backend if needed
-- CSS for first MVP
+- CSS for first feature
 
 Wednesday:
 
-- Debug finishing touches for first MVP
-- Migrations, Routes & Seeders for second MVP
-- Begin Frontend React for second MVP
+- Debug finishing touches for first feature
+- Deploy to Heroku
+- Get signed off on First feature
+- Migrations, Routes & Seeders for second feature
 
 Thursday:
 
-- Finish Frontend React for second MVP
-  Debug app functionality
-- CSS for second MVP
+- Finish React Frontend for second feature
+- Debug app functionality
+- CSS for second Feature
 
 Friday:
 
-- Work on 3rd MVP or Bonus Features
-  Fix parts of app for which you will need instructional help
-- Deploy updated app
+- Deploy second feature
+- Fix parts of app for which you will need instructional help
+- Work on 3rd Feature or Bonus Features on a Github branch
 
 Weekend
 
+- finish requirements for assessment
 - Clean up code
 - Write notes that help you remember code in application
 - Fix bugs
@@ -51,6 +55,7 @@ Weekend
 
 Monday:
 
-- Don’t add anything to the app!!!
+- Don’t add anything to the deployed application!!!
 - Practice presentation
 - Write notes that help you remember code in application
+- Present your deployed application
