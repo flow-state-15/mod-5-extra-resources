@@ -1,6 +1,6 @@
 # React Project Week Road Map
 
-This is not a Hard Core Road Map. Your pace and order of operation may differ from what is listed below and that is ok.
+This is not a Definitive Road Map. Your pace and order of operation may differ from what is listed below and that is ok.
 
 Weekend:
 
