@@ -9,7 +9,7 @@ Weekend:
 - Create documentation for Wiki
 - CSS for landing page and authentication
 - Research the app you are cloning and tools needed
-- finish Authenticate Me if you haven't
+- Finish Authenticate Me if you haven't
 
 Monday:
 
