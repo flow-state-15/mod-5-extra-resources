@@ -4,7 +4,7 @@ This is not a Definitive Road Map. Your pace and order of operation may differ f
 
 Weekend:
 
-- Plan application features and what that looks like codewise and visually.
+- Plan application features and what that looks like code-wise and visually.
 - Plan your work flow using your Kanban Board
 - Create documentation for Wiki
 - CSS for landing page and authentication
