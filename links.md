@@ -126,6 +126,10 @@ Here are links that can aid Mod 5 students who are learning React.
 - [Redux Toolkit (up and coming way to use Redux)][redux-toolkit]
 - [Intro to Redux Toolkit with Mark Erikson][mark-erikson-redux-toolkit]
 
+### Pre-Made React Components
+
+- [Awesome React Components](awesome-react-components)
+
 ### Testing
 
 - [React Testing Library][react-testing-library]
@@ -265,3 +269,4 @@ Here are links that can aid Mod 5 students who are learning React.
 [reconciliation-deep-dive]: https://www.velotio.com/engineering-blog/react-fiber-algorithm
 [context-not-state-management-tool]: https://blog.isquaredsoftware.com/2021/01/context-redux-differences/
 [react-rendering-behavior]: https://blog.isquaredsoftware.com/2020/05/blogged-answers-a-mostly-complete-guide-to-react-rendering-behavior/
+[awesome-react-components]: https://github.com/brillout/awesome-react-components
