@@ -59,6 +59,7 @@ React components, JSX and Routing
 
 - **What is React**?:
   - Explanation: React is a JavaScript library that builds ui's through a declarative, component based approach.
+  - Extra Notes: < your notes here >
 - **What are React components**?:
   - Explanation: React components are functions that return JSX. Components can accept a props object as its only argument.
   - Syntax:
@@ -69,9 +70,11 @@ React components, JSX and Routing
         )
     }
     ```
+  - Extra Notes: < your notes here >
 - **What is JSX**?
   - Explanation: JSX is a language made for react to enable declarative programming of ui. It is written like HTML and has similar tags. It uses the Babel compiler to convert this HTML-like syntax into JavaScript. Babel converts JSX into React functions.
   - Syntax: `<h1></h1>` and `<ReactComponent newKey={propValue}></ReactComponent>`
+  - Extra Notes: < your notes here >
 - **What are Component Props**?
   - Explanation: React components are functions, and react calls these functions with one argument: a props object. We can define new key value pairs in this props object within JSX.  Props keys are customarily deconstructed when the component is defined.
   - Syntax:
@@ -83,6 +86,7 @@ React components, JSX and Routing
         )
     }
     ```
+  - Extra Notes: < your notes here >
 - **What is React Router**?
   - Explanation: A library that keeps react components in sync with the url. It manages window location and dynamic route matching, and more.
   - Syntax:
@@ -99,9 +103,11 @@ React components, JSX and Routing
         )
     }
     ```
+  - Extra Notes: < your notes here >
 - **What is the useParams hook from React Router and how does it allow you to use parameters in your route? What does it return?**
   - Explanation: It enables you to extract wildcard values from your routes. `useParams()` returns an object with your parameter names as the key. We deconstruct the keys we need in our component.
   - Syntax: `const { userId } = useParams();`
+  - Extra Notes: < your notes here >
 - **What tools do you have to redirect a user**?
   - Explanation: Redirect component and useHistory hook
   - Syntax:
@@ -117,6 +123,7 @@ React components, JSX and Routing
             }
         }
     ```
+  - Extra Notes: < your notes here >
 
 - **React documentation url**: [https://reactjs.org](https://reactjs.org)
 - **React Router documentation url**: [https://v5.reactrouter.com/web/api/](https://v5.reactrouter.com/web/api/)
