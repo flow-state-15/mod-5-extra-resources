@@ -1,7 +1,5 @@
 # Module 5 Supplemental Resources
 
-### Created by JD Richards
-
 Here is a repo of diagrams, docs, videos and external links that may assist you
 as you work on your Mod 5 solo projects as well as when you create other
 projects in later cohorts.
