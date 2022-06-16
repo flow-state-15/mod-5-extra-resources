@@ -35,13 +35,19 @@ Eventbright Store Shape:
 store = {
     session: {},
     venues: {
-        venueId: {venue data as key value pairs,
-        events: { eventId: {event key value pairs, categoryType: "category string"}}},
+        venueId: {
+            venue data as key value pairs,
+            events: {
+                eventId: {
+                    event key value pairs,
+                    categoryType: "category string"
+                }
+            }
         optionalOrderedList: []
         },
     tickets: {
         ticketId: {ticket data as key value pairs}, optionalOrderedList: []
-        },
+        }
 }
 notes:
 -query venue and include event, nest include category but alias as lowercase category and use attributes array to only return one column: type
@@ -75,32 +81,68 @@ notes:
 
 
 Medium Store Shape:
+example 1
 store = {
     session: {},
     stories: {
-        ...normalizedData, optionalOrderedList: []
+        storyId: {story data as key value pairs,
+        optionalOrderedList: []
         },
     comments: {
-        ...normalizedData, optionalOrderedList: []
+        commentId: {comment key value pairs},
+        optionalOrderedList: []
+     },
+    likes: {
+        likeId: {like key value pairs},
+        optionalOrderedList: []
         },
-    songs: {
-        ...normalizedData, optionalOrderedList: []
-        }
+    userFollows: {normalizedUserData},
+    followingUser: {normalizedUserData}
 }
+note:
+-dispatch multiple thunks so more complicated on front end, but each reducers is more simple
 
+example 2
+store = {
+    session: {},
+    stories: {
+        storyId: {story data as key value pairs,
+        comments: {
+            normalizedComment
+            },
+        likes: {likeId: normalizedLike, optionalOrderedList: []}
+        optionalOrderedList: []
+        },
+    userFollows: {normalizedUserData},
+    followingUser: {normalizedUserData},
+}
+note:
+-normalized user data contains user data such as name
+-dispatch one thunk but reducer is more complicated
 
 MeetUp Store Shape:
 store = {
     session: {},
-    album: {
-        ...normalizedData, optionalOrderedList: []
+    eventss: {
+        eventsId: {
+            events data as key value pairs,
+            venues: {
+                venueId: {
+                    venue key value pairs,
+                    groupId: "groupType string"
+                }
+            }
+        optionalOrderedList: []
         },
-    comments: {
-        ...normalizedData, optionalOrderedList: []
+    rsvps: {
+        rsvpId: {rsvp data as key value pairs}, optionalOrderedList: []
         },
-    songs: {
-        ...normalizedData, optionalOrderedList: []
+    groups: {
+        normalizedGroupData,
+        users: {normalizedUserData},
+        events: {normalizedEventData}
         }
+
 }
 
 
