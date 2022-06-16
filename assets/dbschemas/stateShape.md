@@ -1,17 +1,19 @@
-AirBnb, HipCamp, CouchSurf State Shape:
+Store Examples for projects
+
+AirBnb, HipCamp, CouchSurf Store Shape:
 <!-- store = {
     session: {},
     spots: {
-        ...normalizedData, list: []
+        ...normalizedData, optionalOrderedList: []
         },
     reviewsForOneSpot: {
-        ...normalizedData, list: []
+        ...normalizedData, optionalOrderedList: []
         },
     bookings: {
-        ...normalizedData, list: []
+        ...normalizedData, optionalOrderedList: []
         },
     images: {
-        ...normalizedData, list: []
+        ...normalizedData, optionalOrderedList: []
         }
 } -->
 store = {
@@ -20,130 +22,128 @@ store = {
         spotId: {spot data as key value pairs, reviews:{}, images: {}}, optionalOrderedList: []
         }
     bookings: {
-        bookingId: {booking data as key value pairs, reviews:{}, images: {}}, optionalOrderedList: []
+        bookingId: {booking data as key value pairs}, optionalOrderedList: []
         }
 }
 notes:
 -when querying spot, include reviews, include images
--when the user logs in, hydrate bookings slive of stat for that user
+-when the user logs in, hydrate bookings slice of state for that user
 -an efficient way to add a review for example, would be to create the review in the database, json teh created review to redux, and then just add that one review to the store by repreading the old state at the upper level and the nested levels, and then adding the the new review in the normalized data
 
 
-Eventbright State Shape:
+Eventbright Store Shape:
 store = {
     session: {},
-    album: {
-        ...normalizedData, list: []
+    venues: {
+        venueId: {venue data as key value pairs,
+        events: { eventId: {event key value pairs, categoryType: "category string"}}},
+        optionalOrderedList: []
         },
-    comments: {
-        ...normalizedData, list: []
+    tickets: {
+        ticketId: {ticket data as key value pairs}, optionalOrderedList: []
         },
-    songs: {
-        ...normalizedData, list: []
+}
+notes:
+-query venue and include event, nest include category but alias as lowercase category and use attributes array to only return one column: type
+-tickets is mainly related to user so makes sense to make it it's own slice of state
+
+
+Evernote Store Shape:
+store = {
+    session: {},
+    notebooks: {
+        notebookId: {ticket data as key value pairs, notes: {normalizedNotes}}, optionalOrderedList: []
         }
 }
 
 
-Evernote State Shape:
+Flickr Store Shape:
 store = {
     session: {},
-    album: {
-        ...normalizedData, list: []
+    userAlbums: {
+        albumId: {album data as key value pairs, images: { normalizedImages}}, optionalOrderedList: []
+        },
+    singleImage: { //optional
+        image key value pair, comments: {normalizedComments} optionalOrderedList: []
+        },
+    allImages: [array of images for the splash page potentially, or all images for a specific album]
+}
+notes:
+-one slice of state for album and images
+-one slice of state for a image detail page
+-and an all image array for the splash page or we can even use it to hold images for an album
+
+
+Medium Store Shape:
+store = {
+    session: {},
+    stories: {
+        ...normalizedData, optionalOrderedList: []
         },
     comments: {
-        ...normalizedData, list: []
+        ...normalizedData, optionalOrderedList: []
         },
     songs: {
-        ...normalizedData, list: []
+        ...normalizedData, optionalOrderedList: []
         }
 }
 
 
-Flickr State Shape:
+MeetUp Store Shape:
 store = {
     session: {},
     album: {
-        ...normalizedData, list: []
+        ...normalizedData, optionalOrderedList: []
         },
     comments: {
-        ...normalizedData, list: []
+        ...normalizedData, optionalOrderedList: []
         },
     songs: {
-        ...normalizedData, list: []
+        ...normalizedData, optionalOrderedList: []
         }
 }
 
 
-Medium State Shape:
+ProductHunt Store Shape:
 store = {
     session: {},
     album: {
-        ...normalizedData, list: []
+        ...normalizedData, optionalOrderedList: []
         },
     comments: {
-        ...normalizedData, list: []
+        ...normalizedData, optionalOrderedList: []
         },
     songs: {
-        ...normalizedData, list: []
+        ...normalizedData, optionalOrderedList: []
         }
 }
 
 
-MeetUp State Shape:
+Quora Store Shape:
 store = {
     session: {},
     album: {
-        ...normalizedData, list: []
+        ...normalizedData, optionalOrderedList: []
         },
     comments: {
-        ...normalizedData, list: []
+        ...normalizedData, optionalOrderedList: []
         },
     songs: {
-        ...normalizedData, list: []
+        ...normalizedData, optionalOrderedList: []
         }
 }
 
 
-ProductHunt State Shape:
+SoundCloud Store Shape:
 store = {
     session: {},
     album: {
-        ...normalizedData, list: []
+        ...normalizedData, optionalOrderedList: []
         },
     comments: {
-        ...normalizedData, list: []
+        ...normalizedData, optionalOrderedList: []
         },
     songs: {
-        ...normalizedData, list: []
-        }
-}
-
-
-Quora State Shape:
-store = {
-    session: {},
-    album: {
-        ...normalizedData, list: []
-        },
-    comments: {
-        ...normalizedData, list: []
-        },
-    songs: {
-        ...normalizedData, list: []
-        }
-}
-
-
-SoundCloud State Shape:
-store = {
-    session: {},
-    album: {
-        ...normalizedData, list: []
-        },
-    comments: {
-        ...normalizedData, list: []
-        },
-    songs: {
-        ...normalizedData, list: []
+        ...normalizedData, optionalOrderedList: []
         }
 }
