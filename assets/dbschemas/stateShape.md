@@ -19,11 +19,25 @@ AirBnb, HipCamp, CouchSurf Store Shape:
 store = {
     session: {},
     spots: {
-        spotId: {spot data as key value pairs, reviews:{}, images: {}}, optionalOrderedList: []
-        }
+        spotId: {
+            spot data as key value pairs,
+            reviews:{reviewId: {
+                        reviewData,
+                        user: {userData who reviewed}
+                    }
+            },
+            images: {normalizedImageData}
+        },
+        optionalOrderedList: []
+    }
     bookings: {
-        bookingId: {booking data as key value pairs}, optionalOrderedList: []
-        }
+        bookingId: {
+            booking data as key value pairs.
+            user: {userData of user that booked}.
+            spot: {spotData for the booking}
+        },
+        optionalOrderedList: []
+    }
 }
 notes:
 -when querying spot, include reviews, include images
@@ -45,9 +59,15 @@ store = {
             }
         optionalOrderedList: []
         },
+    },
     tickets: {
-        ticketId: {ticket data as key value pairs}, optionalOrderedList: []
-        }
+        ticketId: {
+            ticket data as key value pairs,
+            user: {userData of who booked ticket},
+            event: {eventData for this event}
+        },
+        optionalOrderedList: []
+    }
 }
 notes:
 -query venue and include event, nest include category but alias as lowercase category and use attributes array to only return one column: type
@@ -58,8 +78,12 @@ Evernote Store Shape:
 store = {
     session: {},
     notebooks: {
-        notebookId: {ticket data as key value pairs, notes: {normalizedNotes}}, optionalOrderedList: []
-        }
+        notebookId: {
+            ticket data as key value pairs,
+            notes: {normalizedNotes}
+        },
+        optionalOrderedList: []
+    }
 }
 
 
@@ -67,10 +91,18 @@ Flickr Store Shape:
 store = {
     session: {},
     userAlbums: {
-        albumId: {album data as key value pairs, images: { normalizedImages}}, optionalOrderedList: []
+        albumId: {
+            album data as key value pairs,
+            images: { normalizedImages },
+            optionalOrderedList: []
         },
     singleImage: { //optional
-        image key value pair, comments: {normalizedComments} optionalOrderedList: []
+            image key value pair,
+            comments: {
+                normalizedComments,
+                user: {user who left review}
+            },
+            optionalOrderedList: []
         },
     allImages: [array of images for the splash page potentially, or all images for a specific album]
 }
@@ -85,8 +117,9 @@ example 1
 store = {
     session: {},
     stories: {
-        storyId: {story data as key value pairs,
-        optionalOrderedList: []
+        storyId: {
+            story data as key value pairs,
+            optionalOrderedList: []
         },
     comments: {
         commentId: {comment key value pairs},
@@ -108,9 +141,12 @@ store = {
     stories: {
         storyId: {story data as key value pairs,
         comments: {
-            normalizedComment
+                normalizedComment,
+                user: {user who left comment}
             },
-        likes: {likeId: normalizedLike, optionalOrderedList: []}
+        likes: {
+            likeId: likeData,
+        }
         optionalOrderedList: []
         },
     userFollows: {normalizedUserData},
@@ -123,9 +159,10 @@ note:
 MeetUp Store Shape:
 store = {
     session: {},
-    eventss: {
-        eventsId: {
-            events data as key value pairs,
+    events: {
+        eventId: {
+            event data as key value pairs,
+            user: {user who is hosting event},
             venues: {
                 venueId: {
                     venue key value pairs,
@@ -135,14 +172,15 @@ store = {
         optionalOrderedList: []
         },
     rsvps: {
-        rsvpId: {rsvp data as key value pairs}, optionalOrderedList: []
+        rsvpId: {rsvp data as key value pairs},
+        optionalOrderedList: []
         },
     groups: {
         normalizedGroupData,
         users: {normalizedUserData},
-        events: {normalizedEventData}
+        events: {normalizedEventData},
+        optionalOrderedList: []
         }
-
 }
 
 
@@ -152,6 +190,7 @@ store = {
     productDetail: {
         productId: {
                 product data as key value pairs,
+                user: {user who owns product},
                 reviews: {
                     reviewId: {
                             reviewData,
@@ -204,7 +243,10 @@ store = {
         songId: {
                 song data as key value pairs,
                 user: {data for user who uploaded song},
-                album: {album data for this song}
+                album: {
+                    album data for this song,
+                    user: {user who made or uplaoded album}
+                }
                 comments: {
                     commentId: {
                             commentData,
