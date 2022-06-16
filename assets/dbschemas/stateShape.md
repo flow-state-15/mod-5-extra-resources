@@ -85,9 +85,10 @@ store = {
 store = {
     session: {},
     notebooks: {
+        // note that evernote allows you to create notes without manually putting it in a notebook. Setup a default notebook for this. 
         notebookId: {
-            ticketData,
-            notes: {normalizedNotes}
+            ...notebookData,
+            notes: {...normalizedNotes}
         },
         optionalOrderedList: []
     }
