@@ -1,6 +1,6 @@
-# H1 Store Examples for projects
+# Store Examples for projects
 
-# H2 AirBnb, HipCamp, CouchSurf Store Shape:
+## AirBnb, HipCamp, CouchSurf Store Shape:
 <!-- store = {
     session: {},
     spots: {
@@ -16,15 +16,16 @@
         ...normalizedData, optionalOrderedList: []
         }
 } -->
-```
+```js
 store = {
     session: {},
     spots: {
         spotId: {
-            spot data as key value pairs,
-            reviews:{reviewId: {
+            spotData,
+            reviews:{
+                reviewId: {
                         reviewData,
-                        user: {userData who reviewed}
+                        user: {userData for who reviewed}
                     }
             },
             images: {normalizedImageData}
@@ -33,7 +34,7 @@ store = {
     }
     bookings: {
         bookingId: {
-            booking data as key value pairs.
+            bookingData,
             user: {userData of user that booked}.
             spot: {spotData for the booking}
         },
@@ -41,22 +42,23 @@ store = {
     }
 }
 ```
-# H3 notes:
+### notes:
 -when querying spot, include reviews, include images
 -when the user logs in, hydrate bookings slice of state for that user
 -an efficient way to add a review for example, would be to create the review in the database, json teh created review to redux, and then just add that one review to the store by repreading the old state at the upper level and the nested levels, and then adding the the new review in the normalized data
 
 
-# H2 Eventbright Store Shape:
-```
+## Eventbright Store Shape:
+```js
 store = {
     session: {},
     venues: {
         venueId: {
-            venue data as key value pairs,
+            venueData,
             events: {
                 eventId: {
-                    event key value pairs,
+                    eventData,
+                    user: (userData of host)
                     categoryType: "category string"
                 }
             }
@@ -65,7 +67,7 @@ store = {
     },
     tickets: {
         ticketId: {
-            ticket data as key value pairs,
+            ticketData,
             user: {userData of who booked ticket},
             event: {eventData for this event}
         },
@@ -73,18 +75,18 @@ store = {
     }
 }
 ```
-# H3 notes:
+### notes:
 -query venue and include event, nest include category but alias as lowercase category and use attributes array to only return one column: type
 -tickets is mainly related to user so makes sense to make it it's own slice of state
 
 
-# H2 Evernote Store Shape:
-```
+## Evernote Store Shape:
+```js
 store = {
     session: {},
     notebooks: {
         notebookId: {
-            ticket data as key value pairs,
+            ticketData,
             notes: {normalizedNotes}
         },
         optionalOrderedList: []
@@ -93,18 +95,24 @@ store = {
 ```
 
 
-# H2 Flickr Store Shape:
-```
+## Flickr Store Shape:
+```js
 store = {
     session: {},
     userAlbums: {
         albumId: {
-            album data as key value pairs,
-            images: { normalizedImages },
+            albumData,
+            images: {
+                imageId: {
+                    imageData,
+                    user: {userData of whoever uploaded image}
+                }
+            },
             optionalOrderedList: []
         },
     singleImage: { //optional
-            image key value pair,
+            imageData,
+            user: {userData of whoever uploaded image},
             comments: {
                 normalizedComments,
                 user: {user who left review}
@@ -114,78 +122,84 @@ store = {
     allImages: [array of images for the splash page potentially, or all images for a specific album]
 }
 ```
-# H3 notes:
+### notes:
 -one slice of state for album and images
 -one slice of state for a image detail page
 -and an all image array for the splash page or we can even use it to hold images for an album
 
 
-# H2 Medium Store Shape:
-# H3 example 1
-```
+## Medium Store Shape:
+### example 1
+```js
 store = {
     session: {},
     stories: {
         storyId: {
-            story data as key value pairs,
+            storyData,
+            user: {userData of author},
             optionalOrderedList: []
         },
     comments: {
         commentId: {comment key value pairs},
+        user: {userData of author},
         optionalOrderedList: []
      },
     likes: {
-        likeId: {like key value pairs},
+        likeId: {likeData},
         optionalOrderedList: []
         },
     userFollows: {normalizedUserData},
     followingUser: {normalizedUserData}
 }
 ```
-# H3 note:
+### note:
 -dispatch multiple thunks so more complicated on front end, but each reducers is more simple
 
-# H3 example 2
-```
+### example 2
+```js
 store = {
     session: {},
     stories: {
-        storyId: {story data as key value pairs,
-        comments: {
+        storyId: {
+            storyData,
+            user: {userData of author},
+            comments: {
                 normalizedComment,
-                user: {user who left comment}
+                user: {userData of author},
             },
-        likes: {
-            likeId: likeData,
-        }
-        optionalOrderedList: []
+            likes: {
+                likeId: likeData,
+            }
+            optionalOrderedList: []
         },
     userFollows: {normalizedUserData},
     followingUser: {normalizedUserData},
 }
 ```
-# H3 note:
+### note:
 -normalized user data contains user data such as name
 -dispatch one thunk but reducer is more complicated
 
-# H2 MeetUp Store Shape:
-```
+## MeetUp Store Shape:
+```js
 store = {
     session: {},
     events: {
         eventId: {
-            event data as key value pairs,
+            eventData,
+            groupId: "groupType string", //this is categoryId in the db schema image
             user: {user who is hosting event},
-            venues: {
-                venueId: {
-                    venue key value pairs,
-                    groupId: "groupType string"
-                }
+            venue: {
+                venueData
             }
         optionalOrderedList: []
         },
     rsvps: {
-        rsvpId: {rsvp data as key value pairs},
+        rsvpId: {
+            rsvpData,
+            user: {userData},
+            event: {eventData}
+        },
         optionalOrderedList: []
         },
     groups: {
@@ -198,13 +212,13 @@ store = {
 ```
 
 
-# H2 ProductHunt Store Shape:
-```
+## ProductHunt Store Shape:
+```js
 store = {
     session: {},
     productDetail: {
         productId: {
-                product data as key value pairs,
+                productData,
                 user: {user who owns product},
                 reviews: {
                     reviewId: {
@@ -217,8 +231,8 @@ store = {
     },
     allProducts: {
         productId: {
-            product data as key value pairs,
-            user: {data for user who asked product}
+            productData,
+            user: {userData}
         },
         optionalOrderedList: []
     }
@@ -226,18 +240,18 @@ store = {
 ```
 
 
-# H2 Quora Store Shape:
-```
+## Quora Store Shape:
+```js
 store = {
     session: {},
     questionDetail: {
         questionId: {
-                question data as key value pairs,
-                user: {data for user who asked question}
+                questionData,
+                user: {userData of author}
                 answers: {
                     answerId: {
                             answerData,
-                            user: {userData for who answered}
+                            user: {userData of author}
                     },
                     optionalOrderedList: []
                 }
@@ -245,8 +259,8 @@ store = {
     },
     allQuestions: {
         questionId: {
-            question data as key value pairs,
-            user: {data for user who asked question}
+            questionData,
+            user: {userData of author}
         },
         optionalOrderedList: []
     }
@@ -254,22 +268,22 @@ store = {
 ```
 
 
-# H2 SoundCloud Store Shape:
-```
+## SoundCloud Store Shape:
+```js
 store = {
     session: {},
     songDetail: {
         songId: {
-                song data as key value pairs,
-                user: {data for user who uploaded song},
+                songData,
+                user: {userData of author},
                 album: {
-                    album data for this song,
-                    user: {user who made or uplaoded album}
+                    albumData,
+                    user: {userData of author}
                 }
                 comments: {
                     commentId: {
                             commentData,
-                            user: {userData for who commented}
+                            user: {userData of author}
                     },
                     optionalOrderedList: []
                 }
@@ -277,8 +291,8 @@ store = {
     },
     allAlbums: {
         albumId: {
-            album data as key value pairs,
-            user: {data for user who uploaded album}
+            albumData,
+            user: {userData of author}
         },
         optionalOrderedList: []
     }
@@ -286,18 +300,18 @@ store = {
 ```
 
 
-# H2 Yelp Store Shape:
-```
+## Yelp Store Shape:
+```js
 store = {
     session: {},
     businessDetail: {
         businessId: {
-                business data as key value pairs,
-                user: {data for user who uploaded business},
+                businessData,
+                user: {userData for business owner},
                 reviews: {
                     reviewId: {
                             reviewData,
-                            user: {userData for who reviewed}
+                            user: {userData of author}
                     },
                     optionalOrderedList: []
                 }
@@ -305,8 +319,8 @@ store = {
     },
     allBusinesses: {
         businessId: {
-            business data as key value pairs,
-            user: {data for user who uploaded business}
+            businessData,
+            user: {userData for business owner}
         },
         optionalOrderedList: []
     }
