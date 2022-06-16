@@ -222,3 +222,29 @@ store = {
         optionalOrderedList: []
     }
 }
+
+
+Yelp Store Shape:
+store = {
+    session: {},
+    businessDetail: {
+        businessId: {
+                business data as key value pairs,
+                user: {data for user who uploaded business},
+                reviews: {
+                    reviewId: {
+                            reviewData,
+                            user: {userData for who reviewed}
+                    },
+                    optionalOrderedList: []
+                }
+        }
+    },
+    allBusinesses: {
+        businessId: {
+            business data as key value pairs,
+            user: {data for user who uploaded business}
+        },
+        optionalOrderedList: []
+    }
+}
