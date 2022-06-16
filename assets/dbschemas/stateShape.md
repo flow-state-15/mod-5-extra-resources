@@ -1,6 +1,6 @@
-Store Examples for projects
+# H1 Store Examples for projects
 
-AirBnb, HipCamp, CouchSurf Store Shape:
+# H2 AirBnb, HipCamp, CouchSurf Store Shape:
 <!-- store = {
     session: {},
     spots: {
@@ -16,6 +16,7 @@ AirBnb, HipCamp, CouchSurf Store Shape:
         ...normalizedData, optionalOrderedList: []
         }
 } -->
+```
 store = {
     session: {},
     spots: {
@@ -39,13 +40,15 @@ store = {
         optionalOrderedList: []
     }
 }
-notes:
+```
+# H3 notes:
 -when querying spot, include reviews, include images
 -when the user logs in, hydrate bookings slice of state for that user
 -an efficient way to add a review for example, would be to create the review in the database, json teh created review to redux, and then just add that one review to the store by repreading the old state at the upper level and the nested levels, and then adding the the new review in the normalized data
 
 
-Eventbright Store Shape:
+# H2 Eventbright Store Shape:
+```
 store = {
     session: {},
     venues: {
@@ -69,12 +72,14 @@ store = {
         optionalOrderedList: []
     }
 }
-notes:
+```
+# H3 notes:
 -query venue and include event, nest include category but alias as lowercase category and use attributes array to only return one column: type
 -tickets is mainly related to user so makes sense to make it it's own slice of state
 
 
-Evernote Store Shape:
+# H2 Evernote Store Shape:
+```
 store = {
     session: {},
     notebooks: {
@@ -85,9 +90,11 @@ store = {
         optionalOrderedList: []
     }
 }
+```
 
 
-Flickr Store Shape:
+# H2 Flickr Store Shape:
+```
 store = {
     session: {},
     userAlbums: {
@@ -106,14 +113,16 @@ store = {
         },
     allImages: [array of images for the splash page potentially, or all images for a specific album]
 }
-notes:
+```
+# H3 notes:
 -one slice of state for album and images
 -one slice of state for a image detail page
 -and an all image array for the splash page or we can even use it to hold images for an album
 
 
-Medium Store Shape:
-example 1
+# H2 Medium Store Shape:
+# H3 example 1
+```
 store = {
     session: {},
     stories: {
@@ -132,10 +141,12 @@ store = {
     userFollows: {normalizedUserData},
     followingUser: {normalizedUserData}
 }
-note:
+```
+# H3 note:
 -dispatch multiple thunks so more complicated on front end, but each reducers is more simple
 
-example 2
+# H3 example 2
+```
 store = {
     session: {},
     stories: {
@@ -152,11 +163,13 @@ store = {
     userFollows: {normalizedUserData},
     followingUser: {normalizedUserData},
 }
-note:
+```
+# H3 note:
 -normalized user data contains user data such as name
 -dispatch one thunk but reducer is more complicated
 
-MeetUp Store Shape:
+# H2 MeetUp Store Shape:
+```
 store = {
     session: {},
     events: {
@@ -182,9 +195,11 @@ store = {
         optionalOrderedList: []
         }
 }
+```
 
 
-ProductHunt Store Shape:
+# H2 ProductHunt Store Shape:
+```
 store = {
     session: {},
     productDetail: {
@@ -208,9 +223,11 @@ store = {
         optionalOrderedList: []
     }
 }
+```
 
 
-Quora Store Shape:
+# H2 Quora Store Shape:
+```
 store = {
     session: {},
     questionDetail: {
@@ -234,9 +251,11 @@ store = {
         optionalOrderedList: []
     }
 }
+```
 
 
-SoundCloud Store Shape:
+# H2 SoundCloud Store Shape:
+```
 store = {
     session: {},
     songDetail: {
@@ -264,9 +283,11 @@ store = {
         optionalOrderedList: []
     }
 }
+```
 
 
-Yelp Store Shape:
+# H2 Yelp Store Shape:
+```
 store = {
     session: {},
     businessDetail: {
@@ -290,3 +311,4 @@ store = {
         optionalOrderedList: []
     }
 }
+```
