@@ -149,43 +149,76 @@ store = {
 ProductHunt Store Shape:
 store = {
     session: {},
-    album: {
-        ...normalizedData, optionalOrderedList: []
-        },
-    comments: {
-        ...normalizedData, optionalOrderedList: []
-        },
-    songs: {
-        ...normalizedData, optionalOrderedList: []
+    productDetail: {
+        productId: {
+                product data as key value pairs,
+                reviews: {
+                    reviewId: {
+                            reviewData,
+                            user: {userData}
+                    },
+                    optionalOrderedList: []
+                }
         }
+    },
+    allProducts: {
+        productId: {
+            product data as key value pairs,
+            user: {data for user who asked product}
+        },
+        optionalOrderedList: []
+    }
 }
 
 
 Quora Store Shape:
 store = {
     session: {},
-    album: {
-        ...normalizedData, optionalOrderedList: []
-        },
-    comments: {
-        ...normalizedData, optionalOrderedList: []
-        },
-    songs: {
-        ...normalizedData, optionalOrderedList: []
+    questionDetail: {
+        questionId: {
+                question data as key value pairs,
+                user: {data for user who asked question}
+                answers: {
+                    answerId: {
+                            answerData,
+                            user: {userData for who answered}
+                    },
+                    optionalOrderedList: []
+                }
         }
+    },
+    allQuestions: {
+        questionId: {
+            question data as key value pairs,
+            user: {data for user who asked question}
+        },
+        optionalOrderedList: []
+    }
 }
 
 
 SoundCloud Store Shape:
 store = {
     session: {},
-    album: {
-        ...normalizedData, optionalOrderedList: []
-        },
-    comments: {
-        ...normalizedData, optionalOrderedList: []
-        },
-    songs: {
-        ...normalizedData, optionalOrderedList: []
+    songDetail: {
+        songId: {
+                song data as key value pairs,
+                user: {data for user who uploaded song},
+                album: {album data for this song}
+                comments: {
+                    commentId: {
+                            commentData,
+                            user: {userData for who commented}
+                    },
+                    optionalOrderedList: []
+                }
         }
+    },
+    allAlbums: {
+        albumId: {
+            album data as key value pairs,
+            user: {data for user who uploaded album}
+        },
+        optionalOrderedList: []
+    }
 }
