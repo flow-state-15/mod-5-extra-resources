@@ -24,6 +24,10 @@
 11. [untappd][untappd]
 12. [yelp][yelp]
 
+## Redux Store Shape for Project Week
+
+[Ideas for Redux stores](https://github.com/flow-state-15/mod-5-extra-resources/blob/main/assets/dbschemas/stateShape.md)
+
 [react-data-flow]: ./assets/react-data-flow.png
 [use-effect-flow]: ./assets/use-effect-flow.png
 [class-component-lifecycle]: ./assets/class-component-lifecycle.png

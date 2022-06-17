@@ -60,6 +60,7 @@ Here are links that can aid Mod 5 students who are learning React.
 - [Sequelize API][sequelize-api]
 - [Sequelize v5][sequelize-v5]
 - [Sequelize Migrations][sequelize-migrations]
+- [Sequelize Association Mixins][sequelize-association-mixins]
 
 ## Popular Packages & Tools
 
@@ -125,6 +126,11 @@ Here are links that can aid Mod 5 students who are learning React.
 - [React Query (alternative to Redux and context)][react-query]
 - [Redux Toolkit (up and coming way to use Redux)][redux-toolkit]
 - [Intro to Redux Toolkit with Mark Erikson][mark-erikson-redux-toolkit]
+
+### Pre-Made React Components
+
+- [Awesome React Components](awesome-react-components)
+- [ReactJsExample.com](reactjsexample)
 
 ### Testing
 
@@ -204,6 +210,7 @@ Here are links that can aid Mod 5 students who are learning React.
 [sequelize-v5]: https://sequelize.org/v5/
 [sequelize-cheatsheet]: ./assets/sequelize_cheatsheet.pdf
 [sequelize-migrations]: https://sequelize.org/master/manual/migrations.html
+[sequelize-association-mixins]: https://stackoverflow.com/questions/49467654/what-methods-mixins-sequelize-adds-to-the-models-when-an-association-is-made
 [functional-programming]: https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0
 [map-function]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
 [react-router-docs-v5]: https://reactrouter.com/web/guides/quick-start
@@ -265,3 +272,5 @@ Here are links that can aid Mod 5 students who are learning React.
 [reconciliation-deep-dive]: https://www.velotio.com/engineering-blog/react-fiber-algorithm
 [context-not-state-management-tool]: https://blog.isquaredsoftware.com/2021/01/context-redux-differences/
 [react-rendering-behavior]: https://blog.isquaredsoftware.com/2020/05/blogged-answers-a-mostly-complete-guide-to-react-rendering-behavior/
+[awesome-react-components]: https://github.com/brillout/awesome-react-components
+[reactjsexample]: https://reactjsexample.com/
