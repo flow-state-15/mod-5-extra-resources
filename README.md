@@ -1,13 +1,16 @@
-# Module 5 Supplemental Resources
+# Module 5 Resources
 
-Here is a repo of diagrams, docs, videos and external links that may assist you
-as you work on your Mod 5 solo projects as well as when you create other
-projects in later cohorts.
+Welcome to App Academy's Module 5 Resources for React, Redux and developing a full stack
+application!
 
-1. [Helpful Documents][documents]
-2. [Diagrams for Visual Learners][diagrams]
-3. [Supplemental Videos][videos]
-4. [External Links][links]
+This repo includes diagrams, documents, videos and external links that may
+assist you as you work on your Mod 5 projects as well as when you create other
+projects in later modules.
+
+- [Helpful Documents][documents]
+- [Diagrams for Visual Learners][diagrams]
+- [Supplemental Videos][videos]
+- [External Links][links]
 
 [diagrams]: ./diagrams.md
 [documents]: ./documents.md
