@@ -21,10 +21,7 @@ modules.
 
 ### [Project Week Materials][project-week]
 
-### [Videos][videos]
-
 [diagrams]: ./diagrams.md
 [external-links]: ./links.md
 [learning-objectives]: ./learning-objectives/README.md
 [project-week]: ./project-week/README.md
-[videos]: ./videos.md

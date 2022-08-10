@@ -1,20 +1,16 @@
-# External Links
+# External Resources
 
-Here are links that can aid Mod 5 students who are learning React.
-
-- [React Hooks Cheat Sheet][react-hooks-cheatsheet]
-
-[react-hooks-cheatsheet]: https://gist.github.com/jamesurobertson/f87c68f5eb2839e3dee88279aca6054c
+These are links to external resources that may aid students in mod 5.
 
 ## Create React App
 
-- [Create React App Docs][cra-docs]
-- [Adding Images][cra-images]
-- [CSS Modules][css-modules-cra]
+- [Create React App Official Docs][cra-docs]
+  - [Adding Images][cra-images]
+  - [CSS Modules][css-modules-cra]
 
-## React
+## React Official Docs:
 
-- [React JSX][react-jsx]
+- [React JSX Official Docs][react-jsx]
 - [React useState Hook][react-usestate]
 - [Prevent Stale State with useState Function Update][react-function-update]
 - [React useEffect Hook][react-useeffect]
@@ -22,13 +18,17 @@ Here are links that can aid Mod 5 students who are learning React.
 - [Hook Rules][hook-rules]
 - [Synthetic Event][synthetic-events]:
 - [Hooks API][hooks-api]
-- [Fix the slow render before you fix the re-render][fix-render]
 - [Custom Hooks][custom-hooks]
-- [When to Use Callback or Memo][when-use-callback-memo]
 - [React Router Docs][react-router-docs-v5]
 - [Class Components & LifeCycle Methods][class-components]
+
+## React External Resources:
+
 - [A Visual Guide To React Rendering Series][visual-guide-to-react-rendering]
+- [Fix the slow render before you fix the re-render][fix-render]
+- [React Hooks Cheat Sheet][react-hooks-cheatsheet]
 - [The Rules of React][rules-of-react]
+- [When to Use Callback or Memo][when-use-callback-memo]
 
 ## Redux
 
@@ -80,6 +80,13 @@ Here are links that can aid Mod 5 students who are learning React.
 - [Quill Rich Text Editor][quill]
 - [Draft.js Rich Text Editor][draftjs]
 
+## Git
+
+- [Git CheatSheet][git-cheetsheat]
+- [Git Tutorial][git-tutorial]
+
+## Design
+
 ## CSS
 
 - [Complete Guide to Flexbox][flexbox-csstricks]
@@ -90,13 +97,6 @@ Here are links that can aid Mod 5 students who are learning React.
 - [BEM][bem]
 - [Beyond Media Queries: Using Newer HTML & CSS Features for Responsive Designs][newer-html-css-features]
 - [A Complete Guide to CSS Media Queries][complete-guide-to-media-queries]
-
-## Git
-
-- [Git CheatSheet][git-cheetsheat]
-- [Git Tutorial][git-tutorial]
-
-## Design
 
 ### Fonts
 
@@ -175,6 +175,7 @@ Here are links that can aid Mod 5 students who are learning React.
 - [airbnb React Style Guide][airbnb-react-styleguide]
 - [Google JS Style Guide][google-js-styleguide]
 
+[react-hooks-cheatsheet]: https://gist.github.com/jamesurobertson/f87c68f5eb2839e3dee88279aca6054c
 [rules-of-react]: https://gist.github.com/sebmarkbage/75f0838967cd003cd7f9ab938eb1958f
 [google-js-styleguide]: https://google.github.io/styleguide/jsguide.html
 [airbnb-react-styleguide]: https://airbnb.io/javascript/react/
