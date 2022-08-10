@@ -19,6 +19,8 @@ modules.
 
 ### [External Links][external-links]
 
+### [Learning Objectives][learning-objectives]
+
 ### [Project Week Materials][project-week]
 
 ### [Videos][videos]
@@ -26,5 +28,6 @@ modules.
 [diagrams]: ./diagrams.md
 [documents]: ./documents.md
 [external-links]: ./links.md
+[learning-objectives]: ./learning-objectives/README.md
 [project-week]: ./project-week/README.md
 [videos]: ./videos.md
