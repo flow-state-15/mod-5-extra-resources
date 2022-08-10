@@ -1,4 +1,11 @@
-## Added Tech As You Advance (not for a/A project use)
+# Extra Resources
+
+This are links to resources that you may consider adding to your projects as
+you continue to develop your projects once you leave this mod and App Academy.
+
+**THESE TECHNOLOGIES SHOULD NOT BE USED ON YOUR PROJECT DURING YOUR TIME IN MOD 5.**
+
+[Link to Mod 5 Additional Resources](./README.md)
 
 ### Basic Redux Alternatives
 
@@ -39,15 +46,15 @@
   Them][react-calendar-vs-react-scheduler]
 - [An Introduction to React Fiber - The Algorithm Behind
   React][reconciliation-deep-dive]
-- - [Why React Context is Not a "State Management" Tool (and Why It Doesn't
-    Replace Redux)][context-not-state-management-tool]
+- [Why React Context is Not a "State Management" Tool (and Why It Doesn't
+  Replace Redux)][context-not-state-management-tool]
 - [A (Mostly) Complete Guide to React Rendering
   Behavior][react-rendering-behavior]
 
 ## Styleguides
 
-- [airbnb JavaScript Style Guide][airbnb-js-styleguide]
-- [airbnb React Style Guide][airbnb-react-styleguide]
+- [AirBnb JavaScript Style Guide][airbnb-js-styleguide]
+- [AirBnb React Style Guide][airbnb-react-styleguide]
 - [Google JS Style Guide][google-js-styleguide]
 
 [react-hooks-cheatsheet]: https://gist.github.com/jamesurobertson/f87c68f5eb2839e3dee88279aca6054c

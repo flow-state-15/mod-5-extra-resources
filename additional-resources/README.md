@@ -85,6 +85,13 @@ These are links to external resources that may aid students in mod 5.
 - [Git CheatSheet][git-cheetsheat]
 - [Git Tutorial][git-tutorial]
 
+### Extra Resources
+
+For future development options for your project, after you leave mod 5, you may
+consider into these resources:
+
+- [Extra Resources](./extra-resources.md)
+
 <!-- react -->
 
 [cra-docs]: https://create-react-app.dev/docs/getting-started/
