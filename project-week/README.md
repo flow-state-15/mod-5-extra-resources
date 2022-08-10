@@ -31,21 +31,19 @@
 - [Sequelize Cascade Delete][sequelize-cascade-delete]
 - [Supplemental Authenticate Me Read Along][authenticate-me-read-along]
 
-### External Links
+<!-- schema example links -->
 
-  <!-- schema example links -->
-
-  <!-- These are not currently options for mod 5 but may return in the future -->
-  <!-- Move these links up when they are available again -->
-  <!-- - [bandcamp][bandcamp] -->
-  <!-- - [eventbrite][eventbrite] -->
-  <!-- - [evernote][evernote] -->
-  <!-- - [flickr][flickr] -->
-  <!-- - [medium][medium] -->
-  <!-- - [producthunt][producthunt] -->
-  <!-- - [quora][quora] -->
-  <!-- - [untappd][untappd] -->
-  <!-- - [yelp][yelp] -->
+<!-- These are not currently options for mod 5 but may return in the future -->
+<!-- Move these links up when they are available again -->
+<!-- - [bandcamp][bandcamp] -->
+<!-- - [eventbrite][eventbrite] -->
+<!-- - [evernote][evernote] -->
+<!-- - [flickr][flickr] -->
+<!-- - [medium][medium] -->
+<!-- - [producthunt][producthunt] -->
+<!-- - [quora][quora] -->
+<!-- - [untappd][untappd] -->
+<!-- - [yelp][yelp] -->
 
 [airbnb]: ../assets/db-schemas/airbnb.jpg
 [bandcamp]: ../assets/db-schemas/bandcamp.jpg

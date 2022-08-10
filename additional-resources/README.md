@@ -183,7 +183,3 @@ consider into these resources:
 
 [git-cheetsheat]: ../assets/git-cheetsheat.pdf
 [git-tutorial]: https://www.atlassian.com/git/tutorials/setting-up-a-repository
-
-<!-- TODO -->
-<!-- ! organize links -->
-<!-- ! figure out which links to remove -->
