@@ -1,4 +1,4 @@
-React Solo Week QUESTION PROTOCOL:
+# React Solo Week QUESTION PROTOCOL:
 
 Questions will now be asked in your team Slack channel
 
@@ -14,8 +14,8 @@ Please remember wait times will be long during project week because of the natur
 When posting on Slack please include:
 
 1. The problem you’re facing: what you expect to happen vs what is actually happening.
-3. Screenshots of relevant code and/or errors.
-4. Important!! How you’ve tried to fix the problem
+2. Screenshots of relevant code and/or errors.
+3. Important!! How you’ve tried to fix the problem
 
 Reminders:
 
