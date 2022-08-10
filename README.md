@@ -19,9 +19,12 @@ modules.
 
 ### [External Links][external-links]
 
+### [Project Week Materials][project-week]
+
 ### [Videos][videos]
 
 [diagrams]: ./diagrams.md
 [documents]: ./documents.md
-[videos]: ./videos.md
 [external-links]: ./links.md
+[project-week]: ./project-week/README.md
+[videos]: ./videos.md
