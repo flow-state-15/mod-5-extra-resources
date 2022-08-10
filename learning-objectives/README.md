@@ -1,4 +1,4 @@
-# Mod 5 Learning Objects
+# Mod 5 Learning Objectives
 
 ##### [Back to main README](../README.md)
 
@@ -23,8 +23,21 @@ of React, Redux, and fullstack web apps.
 [use-effect-flow]: ./assets/react-use-effect-flow.png
 [redux-nothunk]: ./assets/react-redux-nothunk.png
 
-## Week 14
+## Learning Objectives
 
-## Week 15
+### Week 14
+
+- [Day 1](./w14-d1.md)
+- [Day 2](./w14-d2.md)
+- [Day 3](./w14-d3.md)
+- [Day 4](./w14-d4.md)
+
+- [Week 14 Practice Assessment Walkthrough](w14-practice-assessment.md)
+
+### Week 15
+
+- [Day 1](./w15-d1.md)
+- [Day 2](./w15-d2.md)
+- [Day 4](./w15-d4.md)
 
 ##### [Back to main README](../README.md)
