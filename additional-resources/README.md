@@ -2,6 +2,8 @@
 
 These are links to external resources that may aid students in mod 5.
 
+##### [Back to main README](../README.md)
+
 ### React
 
 - [Create React App Official Docs][cra-docs]
@@ -91,6 +93,8 @@ For future development options for your project, after you leave mod 5, you may
 consider into these resources:
 
 - [Extra Resources](./extra-resources.md)
+
+##### [Back to main README](../README.md)
 
 <!-- react -->
 

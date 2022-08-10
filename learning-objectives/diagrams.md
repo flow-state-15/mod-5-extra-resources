@@ -12,6 +12,8 @@ of React, Redux, and fullstack web apps.
 - [React Use Effect Flow][use-effect-flow]
 - [React Redux No Thunk Flow][redux-nothunk]
 
+##### [Back to learning objectives README](./README.md)
+
 [data-flow]: ./assets/react-data-flow.png
 [class-component-lifecycle]: ./assets/react-class-component-lifecycle.png
 [fullstack-data-flow]: ./assets/react-fullstack-dataflow.pdf

@@ -13,15 +13,33 @@ This repo includes diagrams, documents, videos and external links that may
 assist you as you in Mod 5 as well as when you create other projects in later
 modules.
 
-### [Diagrams for Visual Learners][diagrams]
+- ### [Learning Objectives][learning-objectives]
 
-### [External Links][external-links]
+  - [Diagrams for Visual Learners][diagrams]
+  - [Practice Assessment VODs][practice-assessment]
 
-### [Learning Objectives][learning-objectives]
+- ### [Project Week Materials][project-week]
 
-### [Project Week Materials][project-week]
+  - [Design and Styling Resources][design and styling]
+  - [Question Asking Protocol][question-protocol]
 
-[diagrams]: ./diagrams.md
-[external-links]: ./links.md
+- ### [Additional Resources][additional-resources]
+
+  - [Extra Resources][extra-resources]
+
+<!-- additional resources -->
+
+[additional-resources]: ./additional-resources/README.md
+[extra-resources]: ./additional-resources/extra-resources.md
+
+<!-- learning objectives -->
+
 [learning-objectives]: ./learning-objectives/README.md
+[diagrams]: ./learning-objectives/diagrams.md
+[practice-assessment]: ./learning-objectives/practice-assessment.md
+
+<!-- project week -->
+
 [project-week]: ./project-week/README.md
+[design and styling]: ./project-week/design-and-styling.md
+[question-protocol]: ./project-week/question-asking-protocol.md

@@ -5,7 +5,7 @@ you continue to develop your projects once you leave this mod and App Academy.
 
 **THESE TECHNOLOGIES SHOULD NOT BE USED ON YOUR PROJECT DURING YOUR TIME IN MOD 5.**
 
-[Link to Mod 5 Additional Resources](./README.md)
+##### [Back to additional resources README](./README.md)
 
 ### Basic Redux Alternatives
 
@@ -56,6 +56,8 @@ you continue to develop your projects once you leave this mod and App Academy.
 - [AirBnb JavaScript Style Guide][airbnb-js-styleguide]
 - [AirBnb React Style Guide][airbnb-react-styleguide]
 - [Google JS Style Guide][google-js-styleguide]
+
+##### [Back to additional resources README](./README.md)
 
 [react-hooks-cheatsheet]: https://gist.github.com/jamesurobertson/f87c68f5eb2839e3dee88279aca6054c
 [rules-of-react]: https://gist.github.com/sebmarkbage/75f0838967cd003cd7f9ab938eb1958f

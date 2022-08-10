@@ -1,5 +1,7 @@
 # References for Design and Styling
 
+##### [Back to project week README](./README.md)
+
 ### CSS
 
 - [Complete Guide to Flexbox][flexbox-csstricks]
@@ -81,6 +83,8 @@
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Bootstrap](https://getbootstrap.com/)
 - [Material UI](https://mui.com/)
+
+##### [Back to project week README](./README.md)
 
 [flexbox-mdn]: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
 [flexbox-csstricks]: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
