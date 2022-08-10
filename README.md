@@ -15,8 +15,6 @@ modules.
 
 ### [Diagrams for Visual Learners][diagrams]
 
-### [Documents][documents]
-
 ### [External Links][external-links]
 
 ### [Learning Objectives][learning-objectives]
@@ -26,7 +24,6 @@ modules.
 ### [Videos][videos]
 
 [diagrams]: ./diagrams.md
-[documents]: ./documents.md
 [external-links]: ./links.md
 [learning-objectives]: ./learning-objectives/README.md
 [project-week]: ./project-week/README.md
