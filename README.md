@@ -16,27 +16,27 @@ modules.
 - ### [Learning Objectives][learning-objectives]
 
   - [Diagrams for Visual Learners][diagrams]
-  - [Practice Assessment VODs][practice-assessment]
+  - [Week 14 Practice Assessment Recordings][practice-assessment]
 
 - ### [Project Week Materials][project-week]
 
   - [Design and Styling Resources][design and styling]
   - [Question Asking Protocol][question-protocol]
 
-- ### [Additional Resources][additional-resources]
+- ### [Resources][resources]
 
   - [Extra Resources][extra-resources]
 
 <!-- additional resources -->
 
-[additional-resources]: ./additional-resources/README.md
-[extra-resources]: ./additional-resources/extra-resources.md
+[resources]: ./resources/README.md
+[extra-resources]: ./resources/extra-resources.md
 
 <!-- learning objectives -->
 
 [learning-objectives]: ./learning-objectives/README.md
-[diagrams]: ./learning-objectives/diagrams.md
-[practice-assessment]: ./learning-objectives/practice-assessment.md
+[diagrams]: ./learning-objectives/README.md#diagrams-for-the-visual-learners
+[practice-assessment]: ./learning-objectives/w14-practice-assessment.md
 
 <!-- project week -->
 
