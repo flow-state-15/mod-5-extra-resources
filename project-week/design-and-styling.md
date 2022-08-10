@@ -1,93 +1,82 @@
-# External Resources
+# References for CSS and Design
 
-These are links to external resources that may aid students in mod 5.
+## General CSS reference
 
-## Create React App
+- [cssreference.io](https://cssreference.io)
 
-- [Create React App Official Docs][cra-docs]
-  - [Adding Images][cra-images]
-  - [CSS Modules][css-modules-cra]
+- [htmlcheatsheet.com](https://htmlcheatsheet.com/css/)
 
-## React Official Docs:
+- [A guide to flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
-- [React JSX Official Docs][react-jsx]
-- [React useState Hook][react-usestate]
-- [Prevent Stale State with useState Function Update][react-function-update]
-- [React useEffect Hook][react-useeffect]
-- [React Hooks][react-hooks]
-- [Hook Rules][hook-rules]
-- [Synthetic Event][synthetic-events]:
-- [Hooks API][hooks-api]
-- [Custom Hooks][custom-hooks]
-- [React Router Docs][react-router-docs-v5]
-- [Class Components & LifeCycle Methods][class-components]
+- [CSS module tools and examples](https://purecss.io/)
 
-## React External Resources:
+- [CSS articles and tutorials](https://css-tricks.com/)
 
-- [A Visual Guide To React Rendering Series][visual-guide-to-react-rendering]
-- [Fix the slow render before you fix the re-render][fix-render]
-- [React Hooks Cheat Sheet][react-hooks-cheatsheet]
-- [The Rules of React][rules-of-react]
-- [When to Use Callback or Memo][when-use-callback-memo]
+---
 
-## Redux
+## Color creation
 
-- [Redux Style Guide][redux-style-guide]
-- [useSelector & useDispatch][redux-hooks]
-- [Redux Overview][redux-overview]
-- [Redux App Structure][redux-app-structure]
-- [Redux DataFlow][redux-data-flow]
-- [Redux Fundamentals][redux-fundamentals]
-- [Redux Thunk][redux-thunks]
-- [Redux Store][redux-store]
-- [CreateStore Function][createstore]
-- [CombineReducers function][combine-reducers]
-- [applyMiddleware Middleware][applymiddleware]
-- [compose function][compose]
-- [Normalizing State Shape][normalizing-state-shape]
-- [Dan Abramov Stackoverflow response to Thunks][abramov-article]
+- [adobe color wheel](https://color.adobe.com/create/color-wheel)
 
-## Vanilla JS
+- [colorzilla.com](https://www.colorzilla.com/)
 
-- [Nullish Coalescence][nullish-coalescence]
-- [Optional Chaining][optional-chaining]
-- [.find Array Method][find-method]
-- [.map Array Method][map-function]
-- [Functional Programming][functional-programming]
-- [Browser History API][browser-history-api]
-- [Embedding Audio in your code][embed-audio]
-- [Shallow vs Deep Copy][shallow-vs-deep-copy]
+---
 
-## Sequelize
+## Font resources
 
-- [Sequelize CheatSheet][sequelize-cheatsheet]
-- [Sequelize API][sequelize-api]
-- [Sequelize v5][sequelize-v5]
-- [Sequelize Migrations][sequelize-migrations]
-- [Sequelize Association Mixins][sequelize-association-mixins]
+- [cssfontstack.com](https://www.cssfontstack.com/)
 
-## Popular Packages & Tools
+- [fonts.google.com](https://fonts.google.com/)
 
-- [React DevTools Chrome Extension][react-dev-tools]
-- [Redux DevTools Chrome Extension][redux-dev-tools]
-- [Redux Logger][redux-logger]
-- [React Router DOM][react-router-dom]
-- [Redux Thunk][redux-thunk]
-- [React Redux Binding Package][react-redux]
-- [nanoid (creates unique ids)][nanoid]
-- [Date FNS][date-fns]
-- [React Audio Player][audio-player]
-- [Quill Rich Text Editor][quill]
-- [Draft.js Rich Text Editor][draftjs]
+- [fontawesome.com](https://fontawesome.com/)
 
-## Git
+- [typewolf.com](https://www.typewolf.com/)
 
-- [Git CheatSheet][git-cheetsheat]
-- [Git Tutorial][git-tutorial]
+- [websitesetup.org/web-safe-fonts-html-css](https://websitesetup.org/web-safe-fonts-html-css/)
+
+---
+
+## Design Inspiration
+
+- [designspiration.com](https://www.designspiration.com/)
+
+- [hugeinc.com](https://www.hugeinc.com/us/)
+
+---
+
+## Stock Images
+
+- [placeimg.com](https://placeimg.com/)
+
+---
+
+## Icons
+
+- [Free icons from icon8.com](https://icons8.com/)
+
+- [Generate a favicon](https://favicon.io/)
+
+- [Icon finder](https://www.iconfinder.com/)
+
+---
+
+### HTML Resources
+
+- [Free general HTML guide](https://htmlreference.io/)
+
+- [Wireframes](https://wireframe.cc/)
+
+- [HTML Cheatsheet](https://htmlcheatsheet.com/)
+
+- [Netlify Hosting](https://www.netlify.com/)
+
+- [PUG cheatsheet](https://devhints.io/pug)
+
+---
 
 ## Design
 
-## CSS
+### CSS
 
 - [Complete Guide to Flexbox][flexbox-csstricks]
 - [Flexbox MDN][flexbox-mdn]
@@ -123,57 +112,13 @@ These are links to external resources that may aid students in mod 5.
 - [What Font][what-font]
 - [Eye Dropper][eye-dropper]
 
-## Added Tech As You Advance (not for a/A project use)
+## Libraries (banned from AA projects)
 
-### Basic Redux Alternatives
+- [tailwind](https://tailwindcss.com/)
 
-- [React Query (alternative to Redux and context)][react-query]
-- [Redux Toolkit (up and coming way to use Redux)][redux-toolkit]
-- [Intro to Redux Toolkit with Mark Erikson][mark-erikson-redux-toolkit]
+- [bootstrap](https://getbootstrap.com/)
 
-### Pre-Made React Components
-
-- [Awesome React Components](awesome-react-components)
-- [ReactJsExample.com](reactjsexample)
-
-### Testing
-
-- [React Testing Library][react-testing-library]
-- [Jest Testing Library][jest-testing]
-
-### Static Type Checking
-
-- [Typescript for JS][typescript]
-
-### UX/UI
-
-- [Storybook for UI Components][storybook]
-- [Figma][figma]
-- [Balsamiq][balsamiq]
-
-### Packages
-
-- [Immer][immer]
-- [Normalizr][normalizr]
-
-## Worthwhile Articles & Deep Dives
-
-- [Why React Context is Not a "State Management" Tool (and Why It Doesn't Replace Redux)][context-not-state-management]
-- [Redux vs. The React Context API][redux-vs-context-api]
-- [React Calendar vs. React Scheduler: What’s the Difference and When To Use
-  Them][react-calendar-vs-react-scheduler]
-- [An Introduction to React Fiber - The Algorithm Behind
-  React][reconciliation-deep-dive]
-- - [Why React Context is Not a "State Management" Tool (and Why It Doesn't
-    Replace Redux)][context-not-state-management-tool]
-- [A (Mostly) Complete Guide to React Rendering
-  Behavior][react-rendering-behavior]
-
-## Styleguides
-
-- [airbnb JavaScript Style Guide][airbnb-js-styleguide]
-- [airbnb React Style Guide][airbnb-react-styleguide]
-- [Google JS Style Guide][google-js-styleguide]
+- [material](https://mui.com/)
 
 [react-hooks-cheatsheet]: https://gist.github.com/jamesurobertson/f87c68f5eb2839e3dee88279aca6054c
 [rules-of-react]: https://gist.github.com/sebmarkbage/75f0838967cd003cd7f9ab938eb1958f
