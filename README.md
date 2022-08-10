@@ -1,18 +1,27 @@
 # Module 5 Resources
 
-Welcome to App Academy's Module 5 Resources for React, Redux and developing a full stack
-application!
+<div align='center'>
+  <img height='200px' src='./assets/splash/react-logo.svg'/>
+  <h2>Welcome to App Academy's Module 5 Resources!</h2>
+</div>
+<br>
+
+Here you will find resources for React, Redux and developing a full stack
+application.
 
 This repo includes diagrams, documents, videos and external links that may
-assist you as you work on your Mod 5 projects as well as when you create other
-projects in later modules.
+assist you as you in Mod 5 as well as when you create other projects in later
+modules.
 
-- [Helpful Documents][documents]
-- [Diagrams for Visual Learners][diagrams]
-- [Supplemental Videos][videos]
-- [External Links][links]
+### [Diagrams for Visual Learners][diagrams]
+
+### [Documents][documents]
+
+### [External Links][external-links]
+
+### [Videos][videos]
 
 [diagrams]: ./diagrams.md
 [documents]: ./documents.md
 [videos]: ./videos.md
-[links]: ./links.md
+[external-links]: ./links.md
