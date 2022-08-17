@@ -25,12 +25,7 @@ modules.
 
 - ### [Resources][resources]
 
-  - [Extra Resources][extra-resources]
-
-<!-- additional resources -->
-
-[resources]: ./resources/README.md
-[extra-resources]: ./resources/extra-resources.md
+  - [Post Mod 5 Resources][post-mod-5-resources]
 
 <!-- learning objectives -->
 
@@ -43,3 +38,8 @@ modules.
 [project-week]: ./project-week/README.md
 [design and styling]: ./project-week/design-and-styling.md
 [question-protocol]: ./project-week/question-asking-protocol.md
+
+<!-- resources -->
+
+[resources]: ./resources/README.md
+[post-mod-5-resources]: ./resources/post-mod-5-resources.md
