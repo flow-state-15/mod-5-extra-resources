@@ -1,125 +1,11 @@
-# External Links
+# Extra Resources
 
-Here are links that can aid Mod 5 students who are learning React.
+This are links to resources that you may consider adding to your projects as
+you continue to develop your projects once you leave this mod and App Academy.
 
-## Create React App
+**THESE TECHNOLOGIES SHOULD NOT BE USED ON YOUR PROJECT DURING YOUR TIME IN MOD 5.**
 
-- [Create React App Docs][cra-docs]
-- [Adding Images][cra-images]
-- [CSS Modules][css-modules-cra]
-
-## React
-
-- [React JSX][react-jsx]
-- [React useState Hook][react-usestate]
-- [Prevent Stale State with useState Function Update][react-function-update]
-- [React useEffect Hook][react-useeffect]
-- [React Hooks][react-hooks]
-- [Hook Rules][hook-rules]
-- [Synthetic Event][synthetic-events]:
-- [Hooks API][hooks-api]
-- [Fix the slow render before you fix the re-render][fix-render]
-- [Custom Hooks][custom-hooks]
-- [When to Use Callback or Memo][when-use-callback-memo]
-- [React Router Docs][react-router-docs-v5]
-- [Class Components & LifeCycle Methods][class-components]
-- [A Visual Guide To React Rendering Series][visual-guide-to-react-rendering]
-- [The Rules of React][rules-of-react]
-
-## Redux
-
-- [Redux Style Guide][redux-style-guide]
-- [useSelector & useDispatch][redux-hooks]
-- [Redux Overview][redux-overview]
-- [Redux App Structure][redux-app-structure]
-- [Redux DataFlow][redux-data-flow]
-- [Redux Fundamentals][redux-fundamentals]
-- [Redux Thunk][redux-thunks]
-- [Redux Store][redux-store]
-- [CreateStore Function][createstore]
-- [CombineReducers function][combine-reducers]
-- [applyMiddleware Middleware][applymiddleware]
-- [compose function][compose]
-- [Normalizing State Shape][normalizing-state-shape]
-- [Dan Abramov Stackoverflow response to Thunks][abramov-article]
-
-## Vanilla JS
-
-- [Nullish Coalescence][nullish-coalescence]
-- [Optional Chaining][optional-chaining]
-- [.find Array Method][find-method]
-- [.map Array Method][map-function]
-- [Functional Programming][functional-programming]
-- [Browser History API][browser-history-api]
-- [Embedding Audio in your code][embed-audio]
-- [Shallow vs Deep Copy][shallow-vs-deep-copy]
-
-## Sequelize
-
-- [Sequelize CheatSheet][sequelize-cheatsheet]
-- [Sequelize API][sequelize-api]
-- [Sequelize v5][sequelize-v5]
-- [Sequelize Migrations][sequelize-migrations]
-- [Sequelize Association Mixins][sequelize-association-mixins]
-
-## Popular Packages & Tools
-
-- [React DevTools Chrome Extension][react-dev-tools]
-- [Redux DevTools Chrome Extension][redux-dev-tools]
-- [Redux Logger][redux-logger]
-- [React Router DOM][react-router-dom]
-- [Redux Thunk][redux-thunk]
-- [React Redux Binding Package][react-redux]
-- [nanoid (creates unique ids)][nanoid]
-- [Date FNS][date-fns]
-- [React Audio Player][audio-player]
-- [Quill Rich Text Editor][quill]
-- [Draft.js Rich Text Editor][draftjs]
-
-## CSS
-
-- [Complete Guide to Flexbox][flexbox-csstricks]
-- [Flexbox MDN][flexbox-mdn]
-- [CSS Modules Github][css-modules-github]
-- [CSS Modules in Create React App][css-modules-cra]
-- [Styled Component][styled-components]
-- [BEM][bem]
-- [Beyond Media Queries: Using Newer HTML & CSS Features for Responsive Designs][newer-html-css-features]
-- [A Complete Guide to CSS Media Queries][complete-guide-to-media-queries]
-
-## Git
-
-- [Git CheatSheet][git-cheetsheat]
-- [Git Tutorial][git-tutorial]
-
-## Design
-
-### Fonts
-
-- [7 Tips for Choosing a Web Font][7-tips-web-font]
-- [Best Free Fonts 2021][best-free-fonts-2021]
-- [Google Fonts][google-fonts]
-- [DaFont][dafont]
-
-### Font Pairings
-
-- [Wfonts][wfonts]
-- [Font Joy][fontjoy]
-
-### Color Palettes
-
-- [colorhunt][colorhunt]
-- [coolors.co][coolors.co]
-- [colormind.io][colormind.io]
-- [colorpallettes.net][colorpallettes.net]
-
-### Chrome Extensions for Development
-
-- [ColorZilla][colorzilla]
-- [What Font][what-font]
-- [Eye Dropper][eye-dropper]
-
-## Added Tech As You Advance (not for a/A project use)
+##### [Back to additional resources README](./README.md)
 
 ### Basic Redux Alternatives
 
@@ -160,19 +46,21 @@ Here are links that can aid Mod 5 students who are learning React.
   Them][react-calendar-vs-react-scheduler]
 - [An Introduction to React Fiber - The Algorithm Behind
   React][reconciliation-deep-dive]
-- - [Why React Context is Not a "State Management" Tool (and Why It Doesn't
-    Replace Redux)][context-not-state-management-tool]
+- [Why React Context is Not a "State Management" Tool (and Why It Doesn't
+  Replace Redux)][context-not-state-management-tool]
 - [A (Mostly) Complete Guide to React Rendering
   Behavior][react-rendering-behavior]
 
 ## Styleguides
 
-- [airbnb JavaScript Style Guide][airbnb-js-styleguide]
-- [airbnb React Style Guide][airbnb-react-styleguide]
+- [AirBnb JavaScript Style Guide][airbnb-js-styleguide]
+- [AirBnb React Style Guide][airbnb-react-styleguide]
 - [Google JS Style Guide][google-js-styleguide]
 
+##### [Back to additional resources README](./README.md)
 
-[rules-of-react]:https://gist.github.com/sebmarkbage/75f0838967cd003cd7f9ab938eb1958f
+[react-hooks-cheatsheet]: https://gist.github.com/jamesurobertson/f87c68f5eb2839e3dee88279aca6054c
+[rules-of-react]: https://gist.github.com/sebmarkbage/75f0838967cd003cd7f9ab938eb1958f
 [google-js-styleguide]: https://google.github.io/styleguide/jsguide.html
 [airbnb-react-styleguide]: https://airbnb.io/javascript/react/
 [airbnb-js-styleguide]: https://github.com/airbnb/javascript

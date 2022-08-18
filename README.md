@@ -1,15 +1,45 @@
-# Module 5 Supplemental Resources
+# Module 5 Resources
 
-Here is a repo of diagrams, docs, videos and external links that may assist you
-as you work on your Mod 5 solo projects as well as when you create other
-projects in later cohorts.
+<div align='center'>
+  <img height='150px' src='./assets/splash/react-logo.svg'/>
+  <h2>Welcome to App Academy's Module 5 Resources!</h2>
+</div>
+<br>
 
-1. [Helpful Documents][documents]
-2. [Diagrams for Visual Learners][diagrams]
-3. [Supplemental Videos][videos]
-4. [External Links][links]
+Here you will find resources for React, Redux and developing a full stack
+application.
 
-[diagrams]: ./diagrams.md
-[documents]: ./documents.md
-[videos]: ./videos.md
-[links]: ./links.md
+This repo includes diagrams, documents, videos and external links that may
+assist you as you in Mod 5 as well as when you create other projects in later
+modules.
+
+- ### [Learning Objectives][learning-objectives]
+
+  - [Diagrams for Visual Learners][diagrams]
+  - [Week 14 Practice Assessment Recordings][practice-assessment]
+
+- ### [Project Week Materials][project-week]
+
+  - [Design and Styling Resources][design and styling]
+  - [Question Asking Protocol][question-protocol]
+
+- ### [Resources][resources]
+
+  - [Post Mod 5 Resources][post-mod-5-resources]
+
+<!-- learning objectives -->
+
+[learning-objectives]: ./learning-objectives/README.md
+[diagrams]: ./learning-objectives/README.md#diagrams-for-the-visual-learners
+[practice-assessment]: ./learning-objectives/w14-practice-assessment.md
+
+<!-- project week -->
+
+[project-week]: ./project-week/README.md
+[design and styling]: ./project-week/design-and-styling.md
+[question-protocol]: ./project-week/question-asking-protocol.md
+
+<!-- resources -->
+
+[resources]: ./resources/README.md
+[post-mod-5-resources]: ./resources/post-mod-5-resources.md

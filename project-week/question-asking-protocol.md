@@ -1,4 +1,6 @@
-React Solo Week QUESTION PROTOCOL:
+# React Solo Week QUESTION PROTOCOL:
+
+##### [Back to project week README](./README.md)
 
 Questions will now be asked in your team Slack channel
 
@@ -14,8 +16,8 @@ Please remember wait times will be long during project week because of the natur
 When posting on Slack please include:
 
 1. The problem you’re facing: what you expect to happen vs what is actually happening.
-3. Screenshots of relevant code and/or errors.
-4. Important!! How you’ve tried to fix the problem
+2. Screenshots of relevant code and/or errors.
+3. Important!! How you’ve tried to fix the problem
 
 Reminders:
 
@@ -33,3 +35,5 @@ using your resources (online, docs, Slack, cohort networking).
 So this procedure is meant as a part of your growth as a professional programmer.
 
 You Got This! Good Luck!
+
+##### [Back to project week README](./README.md)
