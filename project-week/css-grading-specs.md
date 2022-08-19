@@ -1,5 +1,7 @@
 # CSS Grading Specs
 
+##### [Back to project week README](./README.md)
+
 For any item that is a no, indicate the offending areas (as best as possible). Functionality should be working before grading the items below. Inspection should be visual in nature, please do not use dev tools to confirm an exact match. Students should not be using CSS animations or transitions in their project.
 
 - All links, buttons, text features on the site are functioning properly and belong to the feature that were worked on. (Y/N)
@@ -23,3 +25,5 @@ For any item that is a no, indicate the offending areas (as best as possible). F
 - No UI CSS Frameworks (Tailwind, Bootstrap, Material).
 - NPM Packages on Approval Basis from Project Advisor.
 - No Copying and Pasting CSS code.
+
+##### [Back to project week README](./README.md)

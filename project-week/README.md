@@ -2,6 +2,11 @@
 
 ##### [Back to main README](../README.md)
 
+### Grading and Presentation Requirements
+
+- [React Project CSS Grading Specs][css-grading-specs]
+- [React Project Grading and Presentation Process][grading-presentation]
+
 ### Database Schemas Examples
 
 - [AirBnb][airbnb]
@@ -34,6 +39,11 @@
 - [Supplemental Authenticate Me Read Along][authenticate-me-read-along]
 
 ##### [Back to main README](../README.md)
+
+<!-- grading information -->
+
+[css-grading-specs]: ./css-grading-specs.md
+[grading-presentation]: ./overview-of-react-project-grading-process.md.md
 
 <!-- schema example links -->
 

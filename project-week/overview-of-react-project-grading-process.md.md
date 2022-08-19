@@ -1,5 +1,7 @@
 # Overview of React Project Grading Process
 
+##### [Back to project week README](./README.md)
+
 This is an outline of the steps you will take for your presentations of the
 project on Monday of week 17. Grading takes place on the same day.
 
@@ -102,3 +104,5 @@ your presentations.
 
    - Note, you may want to create TWO items. One to showcase individual Delete.
      Another to let your Feature 2 cascade Delete (if applicable).
+
+##### [Back to project week README](./README.md)

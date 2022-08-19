@@ -20,6 +20,8 @@ modules.
 
 - ### [Project Week Materials][project-week]
 
+  - [React Project CSS Grading Specs][css-grading-specs]
+  - [React Project Grading and Presentation Process][grading-presentation]
   - [Design and Styling Resources][design and styling]
   - [Question Asking Protocol][question-protocol]
 
@@ -35,6 +37,8 @@ modules.
 
 <!-- project week -->
 
+[css-grading-specs]: ./project-week/css-grading-specs.md
+[grading-presentation]: ./project-week/overview-of-react-project-grading-process.md.md
 [project-week]: ./project-week/README.md
 [design and styling]: ./project-week/design-and-styling.md
 [question-protocol]: ./project-week/question-asking-protocol.md
