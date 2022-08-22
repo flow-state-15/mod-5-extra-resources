@@ -64,4 +64,10 @@ way to receive help is by making it as easy as possible to be helped!
 
 This process is to practice and improve your abilities at requesting assistance.
 
+**Industry guides on programming questions:**
+
+[Stack Overflow's Question guide.](https://stackoverflow.com/help/how-to-ask)\
+[Writing the perfect question.](https://codeblog.jonskeet.uk/2010/08/29/writing-the-perfect-question/)\
+[How to be great at asking coding questions.](https://medium.com/@gordon_zhu/how-to-be-great-at-asking-questions-e37be04d0603)
+
 ##### [Back to project week README](./README.md)
