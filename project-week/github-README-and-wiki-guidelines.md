@@ -7,7 +7,7 @@ The goals of documentation are to answer the following questions:
 2. How can someone run, develop and use your code?
 3. How can you be contacted or asked a question?
 
-## Overview and Checklist of Requirements:
+## Overview and Checklist of Requirements
 
 - `/` **README.md**
   - Located at project root (`/`).
@@ -35,7 +35,20 @@ The goals of documentation are to answer the following questions:
         detailed as user stories
     - Redux state shape.
 
-## README Examples:
+## Resources
+
+These are resources and documentation that may be useful in facilitating the
+generation of documentation for your projects.
+
+- [GitHub Docs About READMEs][github-about-readmes]
+  - Official documentation for setting up GitHub documentation.
+- [GitHub Docs Basic Formatting Syntax (Markdown)][github-markdown]
+  - Markdown syntax is very useful for organizing your documentation on GitHub.
+- [Best-README-Template][best-readme-template]
+  - README template that is similar to the above suggestions. This may be
+    useful for inspiration.
+
+## README Examples
 
 Note, parts of this documentation will only be completable once most of your
 project is complete, such as images of your web app.
@@ -65,6 +78,9 @@ documentation) for these sections.
 
 ### Wiki Home Example
 
+The Wiki Home is the landing page of the Wiki section. Documentation is then
+organized in subsections as "pages".
+
 ![wiki-home](../assets/images/github-wiki-home.png)
 
 ### Feature List Section Example
@@ -72,3 +88,9 @@ documentation) for these sections.
 Details should be included but it does not have to be as thorough as user stories.
 
 ![feature-list](../assets/images/github-feature-list.png)
+
+<!-- resources links -->
+
+[best-readme-template]: https://github.com/othneildrew/Best-README-Template
+[github-about-readmes]: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes
+[github-markdown]: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#headings
