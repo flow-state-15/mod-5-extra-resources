@@ -35,17 +35,40 @@ The goals of documentation are to answer the following questions:
         detailed as user stories
     - Redux state shape.
 
-## README EXAMPLES:
+## README Examples:
 
-Note, this part of your documentation should be done last. We do not expect it to look polished until much later stages of development.
+Note, parts of this documentation will only be completable once most of your
+project is complete, such as images of your web app.
 
-## Wiki:
+- Flicker Clone
 
-Each project you make is expected to have thorough supporting documentation. Most of which will be in the project’s respective Wiki. This is a separate section that will have many subsections of your GitHub Repo.
+![readme-example-1](../assets/images/github-readme-example-1.png)
 
-(Note: a Frontend Routes section is not required for mod 5 but would be ideal in the long run)
+- AirBnb Clone
 
-Feature List Section Example:
-Note, some detail should be included but it does not have to be as detailed as user stories.
+![readme-example-2](../assets/images/github-readme-example-2.png)
 
-## Redux State Shape Section Example:
+- SoundCloud Clone
+
+![readme-example-3](../assets/images/github-readme-example-3.png)
+
+## Wiki
+
+Each project you make is expected to have thorough supporting documentation.
+Most documentation will be in the Wiki. This is a separate section that will
+have many subsections of your GitHub repo.
+
+Use the documentation you created in mod 4 (database schema and API
+documentation) for these sections.
+
+![wiki-bar](../assets/images/github-wiki-bar.png)
+
+### Wiki Home Example
+
+![wiki-home](../assets/images/github-wiki-home.png)
+
+### Feature List Section Example
+
+Details should be included but it does not have to be as thorough as user stories.
+
+![feature-list](../assets/images/github-feature-list.png)
