@@ -11,14 +11,15 @@ The goals of documentation are to answer the following questions:
 
 - `/` **README.md**
   - Located at project root (`/`).
-  - Brief description of your site.
   - Link to live site.
+  - Brief description of your site.
   - List of technologies used.
   - Usage descriptions of features.
     - Images and/or GIFs of your own site showcasing and additional insight
       some functionality.
   - Road map or to do list for future features.
-  - Instructions on how to set up the repo to run the project locally.
+  - Get started section with instructions on how to set up the repo to run the
+    project locally.
   - Contact information.
 - `/backend` **README.md**
   - The **README.md** you made in Mod 4 should now be the default **README.md**
@@ -35,8 +36,6 @@ The goals of documentation are to answer the following questions:
     - Redux state shape.
 
 ## README EXAMPLES:
-
-Note this part of documentation is usually done last. It should not be expected to look polished until mostly everything else has been done.
 
 Note, this part of your documentation should be done last. We do not expect it to look polished until much later stages of development.
 
