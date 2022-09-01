@@ -1,29 +1,44 @@
 # GitHub README and Wiki Guidelines
 
-## Overview (details and examples further below):
+Every great project needs great documentation, including a README and a Wiki.
+The goals of documentation are to answer the following questions:
 
-- Wiki: (separate these into their own pages)
-  - API Routes (these are your backend routes)
-  - Database Schema Image with Relationships
-  - Features List
-  - Redux State Shape
-- /backend README.md
-  - The README.md you made in mod 4 should now be the default README.md in the root of your /backend
-- main README.md
-  - Located at project root. Brief description of your site.
-  - Link to live site (You want visitors to be able to easily access your site!).
-  - This can eventually include images/gifs of your own site showcasing some functionality.
+1. What is your project, what does it do, and how was it designed?
+2. How can someone run, develop and use your code?
+3. How can you be contacted or asked a question?
+
+## Overview and Checklist of Requirements:
+
+- `/` **README.md**
+  - Located at project root (`/`).
+  - Brief description of your site.
+  - Link to live site.
   - List of technologies used.
-  - Instructions on how to set up the repo to run locally.
-  - Note this part of documentation is usually done last. It should not be expected to look polished until mostly everything else has been done.
+  - Usage descriptions of features.
+    - Images and/or GIFs of your own site showcasing and additional insight
+      some functionality.
+  - Road map or to do list for future features.
+  - Instructions on how to set up the repo to run the project locally.
+  - Contact information.
+- `/backend` **README.md**
+  - The **README.md** you made in Mod 4 should now be the default **README.md**
+    in the root of your /backend
+    - You do not need to edit this file further after moving it.
+- **Wiki**
+  - Separate each of these into their own pages on the Wiki.
+    - API routes.
+      - List the documentation you have from mod 4.
+    - Database schema image with relationships.
+    - Features list.
+      - Include descriptions and some details. This does not need to be as
+        detailed as user stories
+    - Redux state shape.
 
-Does your README answer the following questions:
+## README EXAMPLES:
 
-What is the project?
-How does someone develop, use, and test the code?
-How can people become more involved?
-What is the licensing for this project?
-How do people contact the developers or ask a question?
+Note this part of documentation is usually done last. It should not be expected to look polished until mostly everything else has been done.
+
+Note, this part of your documentation should be done last. We do not expect it to look polished until much later stages of development.
 
 ## Wiki:
 
@@ -35,7 +50,3 @@ Feature List Section Example:
 Note, some detail should be included but it does not have to be as detailed as user stories.
 
 ## Redux State Shape Section Example:
-
-## main README EXAMPLES:
-
-Note, this part of your documentation should be done last. We do not expect it to look polished until much later stages of development.
