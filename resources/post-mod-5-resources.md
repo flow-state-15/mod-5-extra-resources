@@ -1,11 +1,15 @@
 # Extra Resources
 
+<a href="#readme-top"></a>
+
 This are links to resources that you may consider adding to your projects as
 you continue to develop your projects once you leave this mod and App Academy.
 
 **THESE TECHNOLOGIES SHOULD NOT BE USED ON YOUR PROJECT DURING YOUR TIME IN MOD 5.**
 
-##### [Back to additional resources README](./README.md)
+<p align="right" style="font-size:10px">
+  (<a href="../README.md">Back to main README.md</a>)
+</p>
 
 ### Basic Redux Alternatives
 
@@ -57,7 +61,12 @@ you continue to develop your projects once you leave this mod and App Academy.
 - [AirBnb React Style Guide][airbnb-react-styleguide]
 - [Google JS Style Guide][google-js-styleguide]
 
-##### [Back to additional resources README](./README.md)
+<p align="right" style="font-size:10px">
+  (<a href="#readme-top">Back to the top</a>)
+</p>
+<p align="right" style="font-size:10px">
+  (<a href="../README.md">Back to main README.md</a>)
+</p>
 
 [react-hooks-cheatsheet]: https://gist.github.com/jamesurobertson/f87c68f5eb2839e3dee88279aca6054c
 [rules-of-react]: https://gist.github.com/sebmarkbage/75f0838967cd003cd7f9ab938eb1958f
