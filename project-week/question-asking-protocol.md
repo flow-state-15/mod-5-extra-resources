@@ -99,7 +99,7 @@ this documentation link for examples:
   <a href="#readme-top">Back to the top</a>
 </p>
 <p align="right" style="font-size:10px">
-  <a href="../README.md">Back to project week README</a>
+  <a href="./README.md">Back to project week README</a>
 </p>
 
 <!-- screenshots documentation links -->

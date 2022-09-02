@@ -64,7 +64,7 @@ you continue to develop your projects once you leave this mod and App Academy.
   <a href="#readme-top">Back to the top</a>
 </p>
 <p align="right" style="font-size:10px">
-  <a href="../README.md">Back to main README.md</a>
+  <a href="./README.md">Back to resources README.md</a>
 </p>
 
 [react-hooks-cheatsheet]: https://gist.github.com/jamesurobertson/f87c68f5eb2839e3dee88279aca6054c

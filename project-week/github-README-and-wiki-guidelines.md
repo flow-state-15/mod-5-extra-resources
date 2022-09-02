@@ -99,7 +99,7 @@ Details should be included but it does not have to be as thorough as user storie
   <a href="#readme-top">Back to the top</a>
 </p>
 <p align="right" style="font-size:10px">
-  <a href="../README.md">Back to project week README</a>
+  <a href="./README.md">Back to project week README</a>
 </p>
 
 <!-- resources links -->
