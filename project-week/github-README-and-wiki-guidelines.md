@@ -1,5 +1,7 @@
 # GitHub README and Wiki Guidelines
 
+<a href="#readme-top"></a>
+
 <p align="right" style="font-size:10px">
   <a href="../README.md">Back to project week README</a>
 </p>
@@ -93,6 +95,9 @@ Details should be included but it does not have to be as thorough as user storie
 
 ![feature-list](../assets/images/github-feature-list.png)
 
+<p align="right" style="font-size:10px">
+  <a href="#readme-top">Back to the top</a>
+</p>
 <p align="right" style="font-size:10px">
   <a href="../README.md">Back to project week README</a>
 </p>

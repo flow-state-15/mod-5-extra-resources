@@ -1,5 +1,7 @@
 # CSS Requirements for App Academy Portfolio Projects
 
+<a href="#readme-top"></a>
+
 <p align="right" style="font-size:10px">
   <a href="../README.md">Back to project week README</a>
 </p>
@@ -90,6 +92,9 @@ you must consult and get approval from your Project Advisor.
 If you have any questions, or if you are not sure if your feature meets these
 minimum CSS requirements, please consult your Project Advisor.
 
+<p align="right" style="font-size:10px">
+  <a href="#readme-top">Back to the top</a>
+</p>
 <p align="right" style="font-size:10px">
   <a href="../README.md">Back to project week README</a>
 </p>

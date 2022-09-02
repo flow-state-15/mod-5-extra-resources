@@ -1,5 +1,7 @@
 # Overview of React Project Grading Process
 
+<a href="#readme-top"></a>
+
 <p align="right" style="font-size:10px">
   <a href="../README.md">Back to project week README</a>
 </p>
@@ -107,6 +109,9 @@ your presentations.
    - Note, you may want to create TWO items. One to showcase individual Delete.
      Another to let your Feature 2 cascade Delete (if applicable).
 
+<p align="right" style="font-size:10px">
+  <a href="#readme-top">Back to the top</a>
+</p>
 <p align="right" style="font-size:10px">
   <a href="../README.md">Back to project week README</a>
 </p>
