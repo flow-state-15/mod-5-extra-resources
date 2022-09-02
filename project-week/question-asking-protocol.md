@@ -1,6 +1,10 @@
-# React Solo Week QUESTION PROTOCOL
+# React Solo Week Question Protocol
 
-##### [Back to project week README](./README.md)
+<a name="#readme-top"></a>
+
+<p align="right" style="font-size:10px">
+  <a href="../README.md">Back to project week README</a>
+</p>
 
 Questions during project week will be asked on Slack! Please do so in your
 cohort's online lecture questions channel. This way other students, not in your
@@ -37,10 +41,10 @@ Screenshots: <snippets/ss of code that you think we would need to solve the prob
 > Problem: I'm having an issue when creating a pokemon. When creating a pokemon, the pokemon is created in the database, but only appears when refreshing the page.
 >
 > What you’ve tried: I've tried tracing the data flow from the submission of the create pokemon form to the database. I found that the pokemon was created in the database, so the error must be in my store file for pokemon. I've checked my thunk, reducer, and actions but I'm unsure of what the error could be. There are no errors in the console or backend terminal. Attached below are my handleSubmit, thunk, action, reducer, and backend route.
-
-Github branch: http://github.com/jdrichardsappaca/my-solo-project
-
-Screenshots:
+>
+> Github branch: ...github.com/your-user-name/my-solo-project/tree/debug
+>
+> Screenshots: ...
 
 ## Reminders
 
@@ -91,7 +95,12 @@ this documentation link for examples:
 - [Writing the perfect question][the-perfect-question]
 - [How to be great at asking coding questions][great-at-asking-questions]
 
-##### [Back to project week README](./README.md)
+<p align="right" style="font-size:10px">
+  <a href="#readme-top">Back to the top</a>
+</p>
+<p align="right" style="font-size:10px">
+  <a href="./README.md">Back to project week README</a>
+</p>
 
 <!-- screenshots documentation links -->
 

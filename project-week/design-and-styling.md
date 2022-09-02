@@ -1,6 +1,10 @@
 # References for Design and Styling
 
-##### [Back to project week README](./README.md)
+<a name="#readme-top"></a>
+
+<p align="right" style="font-size:10px">
+  <a href="../README.md">Back to project week README</a>
+</p>
 
 ### CSS
 
@@ -84,7 +88,12 @@
 - [Bootstrap](https://getbootstrap.com/)
 - [Material UI](https://mui.com/)
 
-##### [Back to project week README](./README.md)
+<p align="right" style="font-size:10px">
+  <a href="#readme-top">Back to the top</a>
+</p>
+<p align="right" style="font-size:10px">
+  <a href="./README.md">Back to project week README</a>
+</p>
 
 [flexbox-mdn]: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
 [flexbox-csstricks]: https://css-tricks.com/snippets/css/a-guide-to-flexbox/

@@ -1,11 +1,14 @@
 # Extra Resources
 
+<a name="#readme-top"></a>
 This are links to resources that you may consider adding to your projects as
 you continue to develop your projects once you leave this mod and App Academy.
 
 **THESE TECHNOLOGIES SHOULD NOT BE USED ON YOUR PROJECT DURING YOUR TIME IN MOD 5.**
 
-##### [Back to additional resources README](./README.md)
+<p align="right" style="font-size:10px">
+  <a href="../README.md">Back to main README.md</a>
+</p>
 
 ### Basic Redux Alternatives
 
@@ -16,7 +19,7 @@ you continue to develop your projects once you leave this mod and App Academy.
 ### Pre-Made React Components
 
 - [Awesome React Components](awesome-react-components)
-- [ReactJsExample.com](reactjsexample)
+- [ReactJsExample.com](reactjs-example)
 
 ### Testing
 
@@ -51,13 +54,18 @@ you continue to develop your projects once you leave this mod and App Academy.
 - [A (Mostly) Complete Guide to React Rendering
   Behavior][react-rendering-behavior]
 
-## Styleguides
+## Style Guides
 
 - [AirBnb JavaScript Style Guide][airbnb-js-styleguide]
 - [AirBnb React Style Guide][airbnb-react-styleguide]
 - [Google JS Style Guide][google-js-styleguide]
 
-##### [Back to additional resources README](./README.md)
+<p align="right" style="font-size:10px">
+  <a href="#readme-top">Back to the top</a>
+</p>
+<p align="right" style="font-size:10px">
+  <a href="./README.md">Back to resources README.md</a>
+</p>
 
 [react-hooks-cheatsheet]: https://gist.github.com/jamesurobertson/f87c68f5eb2839e3dee88279aca6054c
 [rules-of-react]: https://gist.github.com/sebmarkbage/75f0838967cd003cd7f9ab938eb1958f
@@ -161,4 +169,4 @@ you continue to develop your projects once you leave this mod and App Academy.
 [context-not-state-management-tool]: https://blog.isquaredsoftware.com/2021/01/context-redux-differences/
 [react-rendering-behavior]: https://blog.isquaredsoftware.com/2020/05/blogged-answers-a-mostly-complete-guide-to-react-rendering-behavior/
 [awesome-react-components]: https://github.com/brillout/awesome-react-components
-[reactjsexample]: https://reactjsexample.com/
+[reactjs-example]: https://reactjsexample.com/

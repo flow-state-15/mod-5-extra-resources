@@ -1,6 +1,8 @@
 # Mod 5 Learning Objectives
 
-##### [Back to main README](../README.md)
+<p align="right" style="font-size:10px">
+  <a href="../README.md">Back to main README.md</a>
+</p>
 
 ## Diagrams for the Visual Learners
 
@@ -14,14 +16,14 @@ of React, Redux, and fullstack web apps.
 - [React Fullstack Data Flow][react-fullstack-data-flow]
 - [React How Thunks Work][react-how-thunks-work]
 - [React Use Effect Flow][react-use-effect-flow]
-- [React Redux No Thunk Flow][react-redux-nothunk]
+- [React Redux No Thunk Flow][react-redux-no-thunk]
 
 [data-flow]: ./assets/react-data-flow.png
 [class-component-lifecycle]: ./assets/react-class-component-lifecycle.png
 [fullstack-data-flow]: ./assets/react-fullstack-dataflow.pdf
 [how-thunks-work]: ./assets/react-how-thunks-work.pdf
 [use-effect-flow]: ./assets/react-use-effect-flow.png
-[redux-nothunk]: ./assets/react-redux-nothunk.png
+[redux-nothunk]: ./assets/react-redux-no-thunk.png
 
 ## Learning Objectives
 
@@ -45,11 +47,13 @@ of React, Redux, and fullstack web apps.
 
 - [Day 4](./w15-d4.md)
 
-##### [Back to main README](../README.md)
+<p align="right" style="font-size:10px">
+  <a href="../README.md">Back to main README.md</a>
+</p>
 
 [react-data-flow]: ../assets/react-data-flow.png
 [react-class-component-lifecycle]: ../assets/react-class-component-lifecycle.png
 [react-fullstack-data-flow]: ../assets/react-fullstack-dataflow.pdf
 [react-how-thunks-work]: ../assets/react-how-thunks-work.pdf
 [react-use-effect-flow]: ../assets/react-use-effect-flow.png
-[react-redux-nothunk]: ../assets/react-redux-nothunk.png
+[react-redux-no-thunk]: ../assets/react-redux-nothunk.png

@@ -1,5 +1,11 @@
 # GitHub README and Wiki Guidelines
 
+<a name="#readme-top"></a>
+
+<p align="right" style="font-size:10px">
+  <a href="../README.md">Back to project week README</a>
+</p>
+
 Every great project needs great documentation, including a README and a Wiki.
 The goals of documentation are to answer the following questions:
 
@@ -88,6 +94,13 @@ organized in subsections as "pages".
 Details should be included but it does not have to be as thorough as user stories.
 
 ![feature-list](../assets/images/github-feature-list.png)
+
+<p align="right" style="font-size:10px">
+  <a href="#readme-top">Back to the top</a>
+</p>
+<p align="right" style="font-size:10px">
+  <a href="./README.md">Back to project week README</a>
+</p>
 
 <!-- resources links -->
 

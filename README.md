@@ -1,5 +1,3 @@
-# Module 5 Resources
-
 <div align='center'>
   <img height='150px' src='./assets/splash/react-logo.svg'/>
   <h2>Welcome to App Academy's Module 5 Resources!</h2>
@@ -24,6 +22,7 @@ modules.
   - [React Project Grading and Presentation Process][grading-presentation]
   - [Design and Styling Resources][design and styling]
   - [Question Asking Protocol][question-protocol]
+  - [GitHub README and Wiki Guidelines][readme-wiki-guidelines]
 
 - ### [Resources][resources]
 
@@ -42,6 +41,7 @@ modules.
 [project-week]: ./project-week/README.md
 [design and styling]: ./project-week/design-and-styling.md
 [question-protocol]: ./project-week/question-asking-protocol.md
+[readme-wiki-guidelines]: ./project-week/github-README-and-wiki-guidelines.md
 
 <!-- resources -->
 
