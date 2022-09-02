@@ -64,6 +64,23 @@ way to receive help is by making it as easy as possible to be helped!
 
 This process is to practice and improve your abilities at requesting assistance.
 
+## How To Take Screenshots?
+
+Taking screenshots is an easy way to improve the quality of your questions.
+Once you learn the keyboard shortcuts it takes seconds to consistently acquire
+multiple screenshots that can be used to convey the nature of your bug.
+
+Consult the documentation linked below to learn more about taking screenshots
+on your operating system. These keyboard shortcuts below will work for most
+purposes:
+
+- [Windows][windows-screenshot]:
+  - `Windows logo key + Shift + S`
+- [MacOS][macos-screenshot]:
+  - `Shift + Command + 4`
+- [Linux][linux-screenshot]:
+  - `Shift + PrtScn`
+
 ## Industry Guides on How to Ask a Question
 
 - [Stack Overflow's question guide][stack-overflow-question-guide]
@@ -71,6 +88,12 @@ This process is to practice and improve your abilities at requesting assistance.
 - [How to be great at asking coding questions][great-at-asking-questions]
 
 ##### [Back to project week README](./README.md)
+
+<!-- screenshots documentation links -->
+
+[windows-screenshot]: https://support.microsoft.com/en-us/windows/use-snipping-tool-to-capture-screenshots-00246869-1843-655f-f220-97299b865f6b#:~:text=Press%C2%A0Windows%20logo%20key%C2%A0%2B%C2%A0Shift%C2%A0%2B%C2%A0S.
+[macos-screenshot]: https://support.apple.com/guide/mac-help/take-a-screenshot-or-screen-recording-mh26782/mac#:~:text=Take%20pictures%20using%20keyboard%20shortcuts
+[linux-screenshot]: https://www.wikihow.com/Take-a-Screenshot-in-Linux#:~:text=Press%20.%E2%87%A7%20Shift%2BPrtScn%20to%20select%20what%20you%20capture
 
 <!-- resources links -->
 
