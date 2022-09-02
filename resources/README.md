@@ -5,7 +5,7 @@
 These are links to external resources that may aid students in mod 5.
 
 <p align="right" style="font-size:10px">
-  (<a href="../README.md">Back to main README.md</a>)
+  <a href="../README.md">Back to main README.md</a>
 </p>
 
 ### React
@@ -99,10 +99,10 @@ consider into these resources:
 - [Post Mod 5 Resources](./post-mod-5-resources.md)
 
 <p align="right" style="font-size:10px">
-  (<a href="#readme-top">Back to the top</a>)
+  <a href="#readme-top">Back to the top</a>
 </p>
 <p align="right" style="font-size:10px">
-  (<a href="../README.md">Back to main README.md</a>)
+  <a href="../README.md">Back to main README.md</a>
 </p>
 
 <!-- react -->

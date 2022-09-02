@@ -8,7 +8,7 @@ you continue to develop your projects once you leave this mod and App Academy.
 **THESE TECHNOLOGIES SHOULD NOT BE USED ON YOUR PROJECT DURING YOUR TIME IN MOD 5.**
 
 <p align="right" style="font-size:10px">
-  (<a href="../README.md">Back to main README.md</a>)
+  <a href="../README.md">Back to main README.md</a>
 </p>
 
 ### Basic Redux Alternatives
@@ -62,10 +62,10 @@ you continue to develop your projects once you leave this mod and App Academy.
 - [Google JS Style Guide][google-js-styleguide]
 
 <p align="right" style="font-size:10px">
-  (<a href="#readme-top">Back to the top</a>)
+  <a href="#readme-top">Back to the top</a>
 </p>
 <p align="right" style="font-size:10px">
-  (<a href="../README.md">Back to main README.md</a>)
+  <a href="../README.md">Back to main README.md</a>
 </p>
 
 [react-hooks-cheatsheet]: https://gist.github.com/jamesurobertson/f87c68f5eb2839e3dee88279aca6054c
