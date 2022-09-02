@@ -19,7 +19,7 @@ you continue to develop your projects once you leave this mod and App Academy.
 ### Pre-Made React Components
 
 - [Awesome React Components](awesome-react-components)
-- [ReactJsExample.com](reactjsexample)
+- [ReactJsExample.com](reactjs-example)
 
 ### Testing
 
@@ -54,7 +54,7 @@ you continue to develop your projects once you leave this mod and App Academy.
 - [A (Mostly) Complete Guide to React Rendering
   Behavior][react-rendering-behavior]
 
-## Styleguides
+## Style Guides
 
 - [AirBnb JavaScript Style Guide][airbnb-js-styleguide]
 - [AirBnb React Style Guide][airbnb-react-styleguide]
@@ -169,4 +169,4 @@ you continue to develop your projects once you leave this mod and App Academy.
 [context-not-state-management-tool]: https://blog.isquaredsoftware.com/2021/01/context-redux-differences/
 [react-rendering-behavior]: https://blog.isquaredsoftware.com/2020/05/blogged-answers-a-mostly-complete-guide-to-react-rendering-behavior/
 [awesome-react-components]: https://github.com/brillout/awesome-react-components
-[reactjsexample]: https://reactjsexample.com/
+[reactjs-example]: https://reactjsexample.com/
