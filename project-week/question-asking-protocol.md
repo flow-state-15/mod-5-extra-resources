@@ -1,6 +1,6 @@
 # React Solo Week Question Protocol
 
-<a href="#readme-top"></a>
+<a name="#readme-top"></a>
 
 <p align="right" style="font-size:10px">
   <a href="../README.md">Back to project week README</a>
@@ -96,7 +96,7 @@ this documentation link for examples:
 - [How to be great at asking coding questions][great-at-asking-questions]
 
 <p align="right" style="font-size:10px">
-  <a href="#react-solo-week-question-protocol">Back to the top</a>
+  <a href="#readme-top">Back to the top</a>
 </p>
 <p align="right" style="font-size:10px">
   <a href="../README.md">Back to project week README</a>
