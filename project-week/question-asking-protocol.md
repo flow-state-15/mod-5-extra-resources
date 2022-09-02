@@ -18,7 +18,7 @@ may be long during project week.
 
 When posting on Slack please utilize the following format:
 
-## Question Asking Protocol
+### Question Asking Protocol
 
 Your questions will be a copy of this form, filled out:
 
@@ -32,17 +32,15 @@ Github branch: <all students must make a branch for debugging, please provide a 
 Screenshots: <snippets/ss of code that you think we would need to solve the problem, always provide screenshot of any errors in the terminal or console>
 ```
 
-## Example of Question Asking Protocol
+### Example of Question Asking Protocol
 
-```
-Problem: I'm having an issue when creating a pokemon. When creating a pokemon, the pokemon is created in the database, but only appears when refreshing the page.
-
-What you’ve tried: I've tried tracing the data flow from the submission of the create pokemon form to the database. I found that the pokemon was created in the database, so the error must be in my store file for pokemon. I've checked my thunk, reducer, and actions but I'm unsure of what the error could be. There are no errors in the console or backend terminal. Attached below are my handleSubmit, thunk, action, reducer, and backend route.
+> Problem: I'm having an issue when creating a pokemon. When creating a pokemon, the pokemon is created in the database, but only appears when refreshing the page.
+>
+> What you’ve tried: I've tried tracing the data flow from the submission of the create pokemon form to the database. I found that the pokemon was created in the database, so the error must be in my store file for pokemon. I've checked my thunk, reducer, and actions but I'm unsure of what the error could be. There are no errors in the console or backend terminal. Attached below are my handleSubmit, thunk, action, reducer, and backend route.
 
 Github branch: http://github.com/jdrichardsappaca/my-solo-project
 
 Screenshots:
-```
 
 ## Reminders
 
@@ -64,10 +62,46 @@ way to receive help is by making it as easy as possible to be helped!
 
 This process is to practice and improve your abilities at requesting assistance.
 
-**Industry guides on programming questions:**
+## How to Take Screenshots and Format Code on Slack?
 
-[Stack Overflow's Question guide.](https://stackoverflow.com/help/how-to-ask)\
-[Writing the perfect question.](https://codeblog.jonskeet.uk/2010/08/29/writing-the-perfect-question/)\
-[How to be great at asking coding questions.](https://medium.com/@gordon_zhu/how-to-be-great-at-asking-questions-e37be04d0603)
+Taking screenshots is an easy way to improve the quality of your questions.
+Once you learn the keyboard shortcuts it takes seconds to consistently acquire
+multiple screenshots that can be used to convey the nature of your bug.
+
+Consult the documentation linked below to learn more about taking screenshots
+on your operating system. These keyboard shortcuts below will work for most
+purposes:
+
+- [Windows][windows-screenshot]:
+  - `Windows logo key + Shift + S`
+- [MacOS][macos-screenshot]:
+  - `Shift + Command + 4`
+- [Linux][linux-screenshot]:
+  - `Shift + PrtScn`
+
+Formatting text and code can be done in a Slack message with either Markdown
+syntax directly or utilizing the built in user interface buttons. Check out
+this documentation link for examples:
+
+- [Format your messages on Slack][slack-format-messages]
+
+## Industry Guides on How to Ask a Question
+
+- [Stack Overflow's question guide][stack-overflow-question-guide]
+- [Writing the perfect question][the-perfect-question]
+- [How to be great at asking coding questions][great-at-asking-questions]
 
 ##### [Back to project week README](./README.md)
+
+<!-- screenshots documentation links -->
+
+[windows-screenshot]: https://support.microsoft.com/en-us/windows/use-snipping-tool-to-capture-screenshots-00246869-1843-655f-f220-97299b865f6b#:~:text=Press%C2%A0Windows%20logo%20key%C2%A0%2B%C2%A0Shift%C2%A0%2B%C2%A0S.
+[macos-screenshot]: https://support.apple.com/guide/mac-help/take-a-screenshot-or-screen-recording-mh26782/mac#:~:text=Take%20pictures%20using%20keyboard%20shortcuts
+[linux-screenshot]: https://www.wikihow.com/Take-a-Screenshot-in-Linux#:~:text=Press%20.%E2%87%A7%20Shift%2BPrtScn%20to%20select%20what%20you%20capture
+
+<!-- resources links -->
+
+[slack-format-messages]: https://slack.com/help/articles/202288908-Format-your-messages
+[stack-overflow-question-guide]: https://stackoverflow.com/help/how-to-ask
+[the-perfect-question]: https://codeblog.jonskeet.uk/2010/08/29/writing-the-perfect-question/
+[great-at-asking-questions]: https://medium.com/@gordon_zhu/how-to-be-great-at-asking-questions-e37be04d0603
