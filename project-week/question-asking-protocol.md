@@ -34,15 +34,13 @@ Screenshots: <snippets/ss of code that you think we would need to solve the prob
 
 ### Example of Question Asking Protocol
 
-```
-Problem: I'm having an issue when creating a pokemon. When creating a pokemon, the pokemon is created in the database, but only appears when refreshing the page.
-
-What you’ve tried: I've tried tracing the data flow from the submission of the create pokemon form to the database. I found that the pokemon was created in the database, so the error must be in my store file for pokemon. I've checked my thunk, reducer, and actions but I'm unsure of what the error could be. There are no errors in the console or backend terminal. Attached below are my handleSubmit, thunk, action, reducer, and backend route.
+> Problem: I'm having an issue when creating a pokemon. When creating a pokemon, the pokemon is created in the database, but only appears when refreshing the page.
+>
+> What you’ve tried: I've tried tracing the data flow from the submission of the create pokemon form to the database. I found that the pokemon was created in the database, so the error must be in my store file for pokemon. I've checked my thunk, reducer, and actions but I'm unsure of what the error could be. There are no errors in the console or backend terminal. Attached below are my handleSubmit, thunk, action, reducer, and backend route.
 
 Github branch: http://github.com/jdrichardsappaca/my-solo-project
 
 Screenshots:
-```
 
 ## Reminders
 
@@ -64,7 +62,7 @@ way to receive help is by making it as easy as possible to be helped!
 
 This process is to practice and improve your abilities at requesting assistance.
 
-## How To Take Screenshots?
+## How to Take Screenshots and Format Code on Slack?
 
 Taking screenshots is an easy way to improve the quality of your questions.
 Once you learn the keyboard shortcuts it takes seconds to consistently acquire
@@ -80,6 +78,12 @@ purposes:
   - `Shift + Command + 4`
 - [Linux][linux-screenshot]:
   - `Shift + PrtScn`
+
+Formatting text and code can be done in a Slack message with either Markdown
+syntax directly or utilizing the built in user interface buttons. Check out
+this documentation link for examples:
+
+- [Format your messages on Slack][slack-format-messages]
 
 ## Industry Guides on How to Ask a Question
 
@@ -97,6 +101,7 @@ purposes:
 
 <!-- resources links -->
 
+[slack-format-messages]: https://slack.com/help/articles/202288908-Format-your-messages
 [stack-overflow-question-guide]: https://stackoverflow.com/help/how-to-ask
 [the-perfect-question]: https://codeblog.jonskeet.uk/2010/08/29/writing-the-perfect-question/
 [great-at-asking-questions]: https://medium.com/@gordon_zhu/how-to-be-great-at-asking-questions-e37be04d0603
