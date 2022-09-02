@@ -1,29 +1,90 @@
-# CSS Grading Specs
+# CSS Requirements for App Academy Portfolio Projects
 
-##### [Back to project week README](./README.md)
+First impressions are a HUGE deal when interviewing for a job or
+presenting your portfolio projects to potential employers.
 
-For any item that is a no, indicate the offending areas (as best as possible). Functionality should be working before grading the items below. Inspection should be visual in nature, please do not use dev tools to confirm an exact match. Students should not be using CSS animations or transitions in their project.
+A visually satisfying portfolio project will more likely catch and
+hold the attention of a potential employer than a portfolio project
+that lacks visual appeal **regardless** of functionality.
 
-- All links, buttons, text features on the site are functioning properly and belong to the feature that were worked on. (Y/N)
-- Is the alignment / justification of each element consistent with the target site? (Y/N)
-- Are the colors used on each element comparable with the target site or within professional standards (Y/N)
-- Are the fonts & font sizes used on each element comparable with the target site? (Y/N)
-- Does the site have no glaring visual issues on a standard size laptop (needs to be a desktop version of the site (1024px) (Y/N)
-- The logo and name of the application are different from the target site. (Y/N)
-- The page title and favicon match that of the student’s application (Y/N)
-- Is the whitespacing (padding, margin, border, and positioning) of each element consistent with the target site? (Y/N)
-- Are the box-shadows of each element consistent with the target site? (Y/N)
-- Are the buttons consistent with the target site? (Y/N)
-- Are the menus consistent with the target site? (Y/N)
-- Are the mouse-pointers consistent with industry standards? (Y/N)
-- Are hover effects on each element consistent with the target site? (Y/N)
+To keep future potential employers and interviewers interested in your
+portfolio project, you must make your portfolio project visually
+appealing, otherwise you risk being passed over in favor of other applicants.
 
-## (Dis)Allowed CSS/JS Libraries
+You might be thinking, "I have time to make it visually appealing after
+I graduate from App Academy, so I don't need to worry about it now." This
+is far from correct. You will be very busy leading up to graduation and
+after graduation. Delaying the work on making your portfolio project
+visually appealing now will delay your job search significantly.
 
-- FlexBox is ok.
-- Grid.css is ok.
-- No UI CSS Frameworks (Tailwind, Bootstrap, Material).
-- NPM Packages on Approval Basis from Project Advisor.
-- No Copying and Pasting CSS code.
+CSS styling is a big part of making a full-stack portfolio project visually
+appealing. You may find that the **majority of time that you spend on the
+full-stack portfolio project is on CSS, and that is normal**. CSS is the
+make-or-break factor of your portfolio project from a potential employer's
+perspective.
 
-##### [Back to project week README](./README.md)
+The rest of this document will outline what you should achieve to meet the
+minimum CSS requirements of your full-stack portfolio project.
+
+## CSS Specifications
+
+You must follow the design of the application you are cloning as close as
+possible, down to the colors. This is not a bootcamp for creating designers,
+and you are not training to be designers. The application that you are
+cloning is already designed and you must replicate and implement the design
+of the target cloned site through organizing your HTML elements and
+styling them through CSS.
+
+### TO DO CHECKLIST
+
+**Important Note**: You must finish the basic functionality of your feature
+before styling it.
+
+- ✅ All links, buttons, input fields, and text features on the site are
+  functioning properly and belong to the features that were worked on
+- ✅ The alignment / justification of each element is consistent with the target
+  cloned site
+- ✅ The colors used on each element are comparable with the target cloned site or
+  within professional standards
+- ✅ The fonts & font sizes used on each element are comparable with the target
+  cloned site
+- ✅ [Google Fonts] or the built-in browser fonts must be used for fonts
+- ✅ Your site has no glaring visual issues on a standard size laptop (needs
+  to be a desktop version of the target cloned site - 1024px)
+- ✅ The logo and name of your application are different from the target cloned
+  site
+- ✅ Your document page title and application's favicon match that of the name
+  and the logo of your application
+- ✅ The white spacing (padding, margin, border, and positioning) of each element
+  are consistent with the target cloned site
+- ✅ The box-shadows of each element are consistent with the target cloned site
+- ✅ The buttons are consistent with the target cloned site
+- ✅ The menus are consistent with the target cloned site
+- ✅ The mouse-pointers are consistent with industry standards
+- ✅ The hover effects on each element are consistent with the target cloned site
+- ✅ The icons used are comparable with the target cloned site
+- ✅ [FontAwesome] must be used for icons
+
+- You can use FlexBox
+- You can use Grid.css
+
+### MAKE SURE YOU DO NOT DO THE FOLLOWING
+
+- ❌ Don't copy/paste the HTML element structure directly from the application that you
+  are cloning
+- ❌ Don't copy the CSS styling directly from the application that you are cloning
+- ❌ Don't look at or copy the HTML element structure from another student's
+  application
+- ❌ Don't look at or copy the CSS styling from another student's application
+- ❌ Don't work on CSS animations or transitions
+- ❌ Don't use any React component library (MaterialUI, Ant Design, etc)
+- ❌ Don't use any UI/CSS frameworks (Tailwind, Bootstrap, etc.)
+
+**Important Note**: If you wish to use a CSS/JavaScript library or NPM package,
+you must consult and get approval from your Project Advisor.
+
+If you have any questions, or if you are not sure if your feature meets these
+minimum CSS requirements, please consult your Project Advisor.
+
+[google fonts]: https://fonts.google.com/
+[fontawesome]: https://fontawesome.com/
