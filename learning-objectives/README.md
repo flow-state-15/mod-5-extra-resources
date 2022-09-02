@@ -23,7 +23,7 @@ of React, Redux, and fullstack web apps.
 [fullstack-data-flow]: ./assets/react-fullstack-dataflow.pdf
 [how-thunks-work]: ./assets/react-how-thunks-work.pdf
 [use-effect-flow]: ./assets/react-use-effect-flow.png
-[redux-nothunk]: ./assets/react-redux-nothunk.png
+[redux-nothunk]: ./assets/react-redux-no-thunk.png
 
 ## Learning Objectives
 
@@ -56,4 +56,4 @@ of React, Redux, and fullstack web apps.
 [react-fullstack-data-flow]: ../assets/react-fullstack-dataflow.pdf
 [react-how-thunks-work]: ../assets/react-how-thunks-work.pdf
 [react-use-effect-flow]: ../assets/react-use-effect-flow.png
-[react-redux-nothunk]: ../assets/react-redux-nothunk.png
+[react-redux-no-thunk]: ../assets/react-redux-nothunk.png
