@@ -18,7 +18,7 @@ may be long during project week.
 
 When posting on Slack please utilize the following format:
 
-## Question Asking Protocol
+### Question Asking Protocol
 
 Your questions will be a copy of this form, filled out:
 
@@ -32,7 +32,7 @@ Github branch: <all students must make a branch for debugging, please provide a 
 Screenshots: <snippets/ss of code that you think we would need to solve the problem, always provide screenshot of any errors in the terminal or console>
 ```
 
-## Example of Question Asking Protocol
+### Example of Question Asking Protocol
 
 ```
 Problem: I'm having an issue when creating a pokemon. When creating a pokemon, the pokemon is created in the database, but only appears when refreshing the page.
@@ -64,10 +64,16 @@ way to receive help is by making it as easy as possible to be helped!
 
 This process is to practice and improve your abilities at requesting assistance.
 
-**Industry guides on programming questions:**
+## Industry Guides on How to Ask a Question
 
-[Stack Overflow's Question guide.](https://stackoverflow.com/help/how-to-ask)\
-[Writing the perfect question.](https://codeblog.jonskeet.uk/2010/08/29/writing-the-perfect-question/)\
-[How to be great at asking coding questions.](https://medium.com/@gordon_zhu/how-to-be-great-at-asking-questions-e37be04d0603)
+- [Stack Overflow's question guide][stack-overflow-question-guide]
+- [Writing the perfect question][the-perfect-question]
+- [How to be great at asking coding questions][great-at-asking-questions]
 
 ##### [Back to project week README](./README.md)
+
+<!-- resources links -->
+
+[stack-overflow-question-guide]: https://stackoverflow.com/help/how-to-ask
+[the-perfect-question]: https://codeblog.jonskeet.uk/2010/08/29/writing-the-perfect-question/
+[great-at-asking-questions]: https://medium.com/@gordon_zhu/how-to-be-great-at-asking-questions-e37be04d0603
