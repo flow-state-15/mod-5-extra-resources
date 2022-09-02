@@ -1,7 +1,6 @@
 # Extra Resources
 
-<a href="#readme-top"></a>
-
+<a name="#readme-top"></a>
 This are links to resources that you may consider adding to your projects as
 you continue to develop your projects once you leave this mod and App Academy.
 

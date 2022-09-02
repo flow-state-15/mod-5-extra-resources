@@ -1,6 +1,6 @@
 # GitHub README and Wiki Guidelines
 
-<a href="#readme-top"></a>
+<a name="#readme-top"></a>
 
 <p align="right" style="font-size:10px">
   <a href="../README.md">Back to project week README</a>

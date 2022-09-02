@@ -1,7 +1,6 @@
 # External Resources
 
-<a href="#readme-top"></a>
-
+<a name="#readme-top"></a>
 These are links to external resources that may aid students in mod 5.
 
 <p align="right" style="font-size:10px">
