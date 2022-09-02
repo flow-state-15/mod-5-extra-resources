@@ -9,6 +9,12 @@
 - [React Project CSS Grading Specs][css-grading-specs]
 - [React Project Grading and Presentation Process][grading-presentation]
 
+### Project Resources
+
+- [Question Asking Protocol][question-asking-protocol]
+- [GitHub README and Wiki Guidelines][readme-wiki-guidelines]
+- [Design and Styling Resources][design and styling]
+
 ### Database Schemas Examples
 
 - [AirBnb][airbnb]
@@ -24,10 +30,6 @@
 ### Redux Store Shape Examples
 
 - [Redux Stores][redux-stores]
-
-### Project Resources
-
-- [Question Asking Protocol][question-asking-protocol]
 
 ### Guides
 
@@ -48,6 +50,12 @@
 
 [css-grading-specs]: ./css-grading-specs.md
 [grading-presentation]: ./overview-of-react-project-grading-process.md.md
+
+<!-- project links -->
+
+[question-asking-protocol]: ./question-asking-protocol.md
+[readme-wiki-guidelines]: ./github-README-and-wiki-guidelines.md
+[design and styling]: ./project-week/design-and-styling.md
 
 <!-- schema example links -->
 
@@ -85,10 +93,6 @@
 <!-- redux stores -->
 
 [redux-stores]: ../assets/react-redux-state-shape.md
-
-<!-- project links -->
-
-[question-asking-protocol]: ./question-asking-protocol.md
 
 <!-- guides links -->
 
