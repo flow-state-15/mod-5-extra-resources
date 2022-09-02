@@ -1,6 +1,8 @@
 # React Solo Week QUESTION PROTOCOL
 
-##### [Back to project week README](./README.md)
+<p align="right" style="font-size:10px">
+  <a href="../README.md">Back to project week README</a>
+</p>
 
 Questions during project week will be asked on Slack! Please do so in your
 cohort's online lecture questions channel. This way other students, not in your
@@ -91,7 +93,9 @@ this documentation link for examples:
 - [Writing the perfect question][the-perfect-question]
 - [How to be great at asking coding questions][great-at-asking-questions]
 
-##### [Back to project week README](./README.md)
+<p align="right" style="font-size:10px">
+  <a href="../README.md">Back to project week README</a>
+</p>
 
 <!-- screenshots documentation links -->
 

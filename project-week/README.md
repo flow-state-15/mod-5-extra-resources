@@ -1,6 +1,8 @@
 # Resources for Mod 5 Project Week
 
-##### [Back to main README](../README.md)
+<p align="right" style="font-size:10px">
+  <a href="../README.md">Back to main README.md</a>
+</p>
 
 ### Grading and Presentation Requirements
 
@@ -38,7 +40,9 @@
 - [Sequelize Cascade Delete][sequelize-cascade-delete]
 - [Supplemental Authenticate Me Read Along][authenticate-me-read-along]
 
-##### [Back to main README](../README.md)
+<p align="right" style="font-size:10px">
+  <a href="../README.md">Back to main README.md</a>
+</p>
 
 <!-- grading information -->
 

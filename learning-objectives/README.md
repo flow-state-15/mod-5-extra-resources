@@ -1,6 +1,8 @@
 # Mod 5 Learning Objectives
 
-##### [Back to main README](../README.md)
+<p align="right" style="font-size:10px">
+  <a href="../README.md">Back to main README.md</a>
+</p>
 
 ## Diagrams for the Visual Learners
 
@@ -45,7 +47,9 @@ of React, Redux, and fullstack web apps.
 
 - [Day 4](./w15-d4.md)
 
-##### [Back to main README](../README.md)
+<p align="right" style="font-size:10px">
+  <a href="../README.md">Back to main README.md</a>
+</p>
 
 [react-data-flow]: ../assets/react-data-flow.png
 [react-class-component-lifecycle]: ../assets/react-class-component-lifecycle.png
