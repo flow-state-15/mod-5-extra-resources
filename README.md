@@ -26,6 +26,7 @@ modules.
 
 - ### [Resources][resources]
 
+  - [How to Screenshot and Format Code for Slack][how-to-screenshot-formatting]
   - [Post Mod 5 Resources][post-mod-5-resources]
 
 <!-- learning objectives -->
@@ -46,4 +47,5 @@ modules.
 <!-- resources -->
 
 [resources]: ./resources/README.md
+[how-to-screenshot-formatting]: ./resources/how-to-screenshots-and-formatting.md
 [post-mod-5-resources]: ./resources/post-mod-5-resources.md
