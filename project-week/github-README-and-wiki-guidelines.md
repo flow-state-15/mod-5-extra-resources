@@ -3,7 +3,7 @@
 <a name="#readme-top"></a>
 
 <p align="right" style="font-size:10px">
-  <a href="../README.md">Back to project week README</a>
+  <a href="./README.md">Back to project week README</a>
 </p>
 
 Every great project needs great documentation, including a README and a Wiki.

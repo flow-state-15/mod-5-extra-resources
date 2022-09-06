@@ -1,14 +1,15 @@
 # Extra Resources
 
 <a name="#readme-top"></a>
+
+<p align="right" style="font-size:10px">
+  <a href="./README.md">Back to resources README.md</a>
+</p>
+
 This are links to resources that you may consider adding to your projects as
 you continue to develop your projects once you leave this mod and App Academy.
 
 **THESE TECHNOLOGIES SHOULD NOT BE USED ON YOUR PROJECT DURING YOUR TIME IN MOD 5.**
-
-<p align="right" style="font-size:10px">
-  <a href="../README.md">Back to main README.md</a>
-</p>
 
 ### Basic Redux Alternatives
 

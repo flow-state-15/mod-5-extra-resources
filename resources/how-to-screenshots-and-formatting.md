@@ -1,5 +1,9 @@
 ## How to Take Screenshots and Format Code on Slack?
 
+<p align="right" style="font-size:10px">
+  <a href="./README.md">Back to Resources README.md</a>
+</p>
+
 Taking screenshots is an easy way to improve the quality of your questions.
 Once you learn the keyboard shortcuts it takes seconds to consistently acquire
 multiple screenshots that can be used to convey the nature of your bug.
