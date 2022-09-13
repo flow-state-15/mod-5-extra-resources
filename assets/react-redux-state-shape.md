@@ -1,6 +1,6 @@
 # Store Examples for projects
 
-## AirBnb, HipCamp, CouchSurf Store Shape:
+## AirBnb Store Shape:
 <!-- store = {
     session: {},
     spots: {
@@ -16,39 +16,115 @@
         ...normalizedData, optionalOrderedList: []
         }
 } -->
+*BEGINNER*
+```js
+store = {
+    session: {},
+    allSpots: {
+        [spotId]: {
+            spotData
+        },
+        optionalOrderedList: []
+    },
+    singleSpot: {
+        spotData,
+        SpotImages: [imagesData],
+        Owner: {
+            ownerData
+        }
+    },
+    spotReviews: {
+        [reviewId]: {
+            reviewData,
+            User: {
+                userData
+            },
+            ReviewImages: [imagesData]
+        },
+        optionalOrderedList: []
+    },
+    userReviews: {
+        [reviewId]: {
+            reviewData,
+            User: {
+                userData
+            },
+            Spot: {
+                spotData
+            },
+            ReviewImages: [imagesData]
+        }
+    },
+    spotBookings
+}
+```
+*INTERMEDIATE*
 ```js
 store = {
     session: {},
     spots: {
-        spotId: {
-            spotData,
-            reviews:{
-                reviewId: {
-                        reviewData,
-                        user: {userData for who reviewed}
-                    }
+        allSpots: {
+            [spotId]: {
+                spotData
             },
-            images: {normalizedImageData}
+            optionalOrderedList: []
         },
-        optionalOrderedList: []
-    }
+        singleSpot: {
+            spotData,
+            SpotImages: [imagesData],
+            Owner: {
+                ownerData
+            }
+        }
+    },
+    reviews: {
+        spot: {
+            [reviewId]: {
+                reviewData,
+                User: {
+                    userData
+                },
+                ReviewImages: [imagesData]
+            },
+            optionalOrderedList: []
+        },
+        user: {
+            [reviewId]: {
+                reviewData,
+                User: {
+                    userData,
+                },
+                Spot: {
+                    spotData
+                },
+                ReviewImages: [imagesData]
+            },
+            optionalOrderedList: []
+        }
+    },
     bookings: {
-        bookingId: {
-            bookingData,
-            user: {userData of user that booked}.
-            spot: {spotData for the booking}
+        user: {
+            [bookingId]: {
+                bookingData,
+                Spot: {
+                    spotData
+                }
+            },
+            optionalOrderedList: []
         },
-        optionalOrderedList: []
+        spot: {
+            [bookingId]: {
+                bookingData
+            },
+            optionalOrderedList: []
+        }
     }
 }
 ```
 ### notes:
--when querying spot, include reviews, include images
--when the user logs in, hydrate bookings slice of state for that user
--an efficient way to add a review for example, would be to create the review in the database, json teh created review to redux, and then just add that one review to the store by repreading the old state at the upper level and the nested levels, and then adding the the new review in the normalized data
 
 
-## Eventbright Store Shape:
+<!-- ## Eventbright Store Shape:
 ```js
 store = {
     session: {},
@@ -179,7 +255,7 @@ store = {
 ```
 ### note:
 -normalized user data contains user data such as name
--dispatch one thunk but reducer is more complicated
+-dispatch one thunk but reducer is more complicated -->
 
 ## MeetUp Store Shape:
 ```js
@@ -188,30 +264,19 @@ store = {
     events: {
         eventId: {
             eventData,
-            groupId: "groupType string", //this is categoryId in the db schema image
-            user: {user who is hosting event},
             venue: {
                 venueData
             }
         optionalOrderedList: []
         },
-    rsvps: {
-        rsvpId: {
-            rsvpData,
-            user: {userData},
-            event: {eventData}
-        },
-        optionalOrderedList: []
-        },
     groups: {
+        groupId: 
         normalizedGroupData,
-        users: {normalizedUserData},
-        events: {normalizedEventData},
         optionalOrderedList: []
         }
 }
 ```
-
+<!-- 
 
 ## ProductHunt Store Shape:
 ```js
@@ -266,7 +331,7 @@ store = {
         optionalOrderedList: []
     }
 }
-```
+``` -->
 
 
 ## SoundCloud Store Shape:
@@ -299,7 +364,7 @@ store = {
     }
 }
 ```
-
+<!-- 
 
 ## Yelp Store Shape:
 ```js
@@ -326,4 +391,4 @@ store = {
         optionalOrderedList: []
     }
 }
-```
+``` -->
