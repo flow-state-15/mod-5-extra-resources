@@ -68,12 +68,7 @@ store = {
                 spotData
             }
         },
-        spot: {
-            [bookingId]: {
-                bookingData
-            },
-            optionalOrderedList: []
-        }
+        optionalOrderedList: []
     }
 }
 ```
@@ -83,7 +78,7 @@ store = {
     session: {},
     spots: {
         // Notice there are two slices of state within spots. This is to handle your two different routes for getting a spot.
-        // Refer to your API Docs to get more information
+        // Refer to your API Docs to get more information.
         allSpots: {
             [spotId]: {
                 spotData
@@ -102,9 +97,9 @@ store = {
         }
     },
     // Again the idea here is two have sepearte slices for the different data responses you recieve from your routes.
-    // The idea here would to be to use each of these slices specifically for the component you are dealing with on the frontend.
+    // For example, you could use each of these slices specifically for the component you are dealing with on the frontend.
     reviews: {
-        // When on a single spot, load the spot slice.
+        // When on a single spot, use the spot slice.
         spot: {
             [reviewId]: {
                 reviewData,
@@ -141,7 +136,7 @@ store = {
             optionalOrderedList: []
         },
         // Note here that your responses can actually be different here as well.
-        // Hint: What information should you see if you own this spot? (Refer to API Docs)
+        // Hint: What information should you see if you own this spot? (Refer to API Docs).
         spot: {
             [bookingId]: {
                 bookingData
