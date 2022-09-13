@@ -55,7 +55,26 @@ store = {
             ReviewImages: [imagesData]
         }
     },
-    spotBookings
+    spotBookings: {
+        [bookingId]: {
+            bookingData
+        },
+        optionalOrderedList: []
+    },
+    userBookings: {
+        [bookingId]: {
+            bookingData,
+            Spot: {
+                spotData
+            }
+        },
+        spot: {
+            [bookingId]: {
+                bookingData
+            },
+            optionalOrderedList: []
+        }
+    }
 }
 ```
 *INTERMEDIATE*
@@ -63,12 +82,17 @@ store = {
 store = {
     session: {},
     spots: {
+        // Notice there are two slices of state within spots. This is to handle your two different routes for getting a spot.
+        // Refer to your API Docs to get more information
         allSpots: {
             [spotId]: {
                 spotData
             },
+            // These optional ordered lists are for you to be able to store an order in which you want your data displayed.
+            // you can do this on the frontend instead of in your slice is state which is why it is optional.
             optionalOrderedList: []
         },
+        // Notice singleSpot has more data that the allSpots slice. Review your API Docs for more information.
         singleSpot: {
             spotData,
             SpotImages: [imagesData],
@@ -77,7 +101,10 @@ store = {
             }
         }
     },
+    // Again the idea here is two have sepearte slices for the different data responses you recieve from your routes.
+    // The idea here would to be to use each of these slices specifically for the component you are dealing with on the frontend.
     reviews: {
+        // When on a single spot, load the spot slice.
         spot: {
             [reviewId]: {
                 reviewData,
@@ -88,6 +115,7 @@ store = {
             },
             optionalOrderedList: []
         },
+        // When on the user's reviews, use the user slice.
         user: {
             [reviewId]: {
                 reviewData,
@@ -112,6 +140,8 @@ store = {
             },
             optionalOrderedList: []
         },
+        // Note here that your responses can actually be different here as well.
+        // Hint: What information should you see if you own this spot? (Refer to API Docs)
         spot: {
             [bookingId]: {
                 bookingData
