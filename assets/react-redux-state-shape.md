@@ -1,24 +1,11 @@
 # Store Examples for projects
 
 ## AirBnb Store Shape:
-<!-- store = {
-    session: {},
-    spots: {
-        ...normalizedData, optionalOrderedList: []
-        },
-    reviewsForOneSpot: {
-        ...normalizedData, optionalOrderedList: []
-        },
-    bookings: {
-        ...normalizedData, optionalOrderedList: []
-        },
-    images: {
-        ...normalizedData, optionalOrderedList: []
-        }
-} -->
 *BEGINNER*
 ```js
 store = {
+    // To keep things simple and not have nested objects/arrays we are going to
+    // separate the route logic. (Refer to API Docs for mor information)
     session: {},
     allSpots: {
         [spotId]: {
@@ -26,6 +13,8 @@ store = {
         },
         optionalOrderedList: []
     },
+    // Notice how singleSpot has more information than the allSpots slice.
+    // Refer to your API Docs to find out what your response is for each route and match accordingly.
     singleSpot: {
         spotData,
         SpotImages: [imagesData],
@@ -33,6 +22,7 @@ store = {
             ownerData
         }
     },
+    // This slice of state can be used for a single spot component of some sort.
     spotReviews: {
         [reviewId]: {
             reviewData,
@@ -43,6 +33,8 @@ store = {
         },
         optionalOrderedList: []
     },
+    // While this slice of state can be used for a component showing all of the user's own reviews.
+    // Note the difference between the two data structures and make changes according to your API Docs.
     userReviews: {
         [reviewId]: {
             reviewData,
@@ -55,6 +47,7 @@ store = {
             ReviewImages: [imagesData]
         }
     },
+    // HINT: This may have different response structures based on a certain criteria. (Check your API Docs!)
     spotBookings: {
         [bookingId]: {
             bookingData
@@ -136,7 +129,7 @@ store = {
             optionalOrderedList: []
         },
         // Note here that your responses can actually be different here as well.
-        // Hint: What information should you see if you own this spot? (Refer to API Docs).
+        // HINT: What information should you see if you own this spot? (Refer to API Docs).
         spot: {
             [bookingId]: {
                 bookingData
