@@ -5,7 +5,7 @@
 ```js
 store = {
     // To keep things simple and not have nested objects/arrays we are going to
-    // separate the route logic. (Refer to API Docs for mor information)
+    // separate the route logic. (Refer to API Docs for more information)
     session: {},
     allSpots: {
         [spotId]: {
