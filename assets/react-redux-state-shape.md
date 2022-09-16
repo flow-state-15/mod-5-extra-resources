@@ -1,5 +1,12 @@
 # Store Examples for projects
 
+The examples below are to provide suggestions and inspiration for designing
+your own redux store shapes.
+
+**There is not only one correct way to implement your Redux store shape.**
+
+Please feel free to deviate if it makes sense to you for your project.
+
 ## AirBnb Store Shape:
 
 _BEGINNER_
