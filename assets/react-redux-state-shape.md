@@ -93,7 +93,7 @@ store = {
       },
     },
   },
-  // Again the idea here is two have sepearte slices for the different data responses you recieve from your routes.
+  // Again the idea here is two have separate slices for the different data responses you receive from your routes.
   // For example, you could use each of these slices specifically for the component you are dealing with on the frontend.
   reviews: {
     // When on a single spot, use the spot slice.
