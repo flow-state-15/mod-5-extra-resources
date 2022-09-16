@@ -1,54 +1,230 @@
 # Store Examples for projects
 
-## AirBnb, HipCamp, CouchSurf Store Shape:
-<!-- store = {
-    session: {},
-    spots: {
-        ...normalizedData, optionalOrderedList: []
-        },
-    reviewsForOneSpot: {
-        ...normalizedData, optionalOrderedList: []
-        },
-    bookings: {
-        ...normalizedData, optionalOrderedList: []
-        },
-    images: {
-        ...normalizedData, optionalOrderedList: []
-        }
-} -->
+## AirBnb Store Shape:
+
+_BEGINNER_
+
 ```js
 store = {
-    session: {},
-    spots: {
-        spotId: {
-            spotData,
-            reviews:{
-                reviewId: {
-                        reviewData,
-                        user: {userData for who reviewed}
-                    }
-            },
-            images: {normalizedImageData}
-        },
-        optionalOrderedList: []
-    }
-    bookings: {
-        bookingId: {
-            bookingData,
-            user: {userData of user that booked}.
-            spot: {spotData for the booking}
-        },
-        optionalOrderedList: []
-    }
-}
+  // To keep things simple and not have nested objects/arrays we are going to
+  // separate the route logic. (Refer to API Docs for more information)
+  session: {},
+  allSpots: {
+    [spotId]: {
+      spotData,
+    },
+    optionalOrderedList: [],
+  },
+  // Notice how singleSpot has more information than the allSpots slice.
+  // Refer to your API Docs to find out what your response is for each route and match accordingly.
+  singleSpot: {
+    spotData,
+    SpotImages: [imagesData],
+    Owner: {
+      ownerData,
+    },
+  },
+  // This slice of state can be used for a single spot component of some sort.
+  spotReviews: {
+    [reviewId]: {
+      reviewData,
+      User: {
+        userData,
+      },
+      ReviewImages: [imagesData],
+    },
+    optionalOrderedList: [],
+  },
+  // While this slice of state can be used for a component showing all of the user's own reviews.
+  // Note the difference between the two data structures and make changes according to your API Docs.
+  userReviews: {
+    [reviewId]: {
+      reviewData,
+      User: {
+        userData,
+      },
+      Spot: {
+        spotData,
+      },
+      ReviewImages: [imagesData],
+    },
+  },
+  // HINT: This may have different response structures based on a certain criteria. (Check your API Docs!)
+  spotBookings: {
+    [bookingId]: {
+      bookingData,
+    },
+    optionalOrderedList: [],
+  },
+  userBookings: {
+    [bookingId]: {
+      bookingData,
+      Spot: {
+        spotData,
+      },
+    },
+    optionalOrderedList: [],
+  },
+};
 ```
-### notes:
--when querying spot, include reviews, include images
--when the user logs in, hydrate bookings slice of state for that user
--an efficient way to add a review for example, would be to create the review in the database, json teh created review to redux, and then just add that one review to the store by repreading the old state at the upper level and the nested levels, and then adding the the new review in the normalized data
 
+_INTERMEDIATE_
 
-## Eventbright Store Shape:
+```js
+store = {
+  session: {},
+  spots: {
+    // Notice there are two slices of state within spots. This is to handle your two different routes for getting a spot.
+    // Refer to your API Docs to get more information.
+    allSpots: {
+      [spotId]: {
+        spotData,
+      },
+      // These optional ordered lists are for you to be able to store an order in which you want your data displayed.
+      // you can do this on the frontend instead of in your slice is state which is why it is optional.
+      optionalOrderedList: [],
+    },
+    // Notice singleSpot has more data that the allSpots slice. Review your API Docs for more information.
+    singleSpot: {
+      spotData,
+      SpotImages: [imagesData],
+      Owner: {
+        ownerData,
+      },
+    },
+  },
+  // Again the idea here is two have separate slices for the different data responses you receive from your routes.
+  // For example, you could use each of these slices specifically for the component you are dealing with on the frontend.
+  reviews: {
+    // When on a single spot, use the spot slice.
+    spot: {
+      [reviewId]: {
+        reviewData,
+        User: {
+          userData,
+        },
+        ReviewImages: [imagesData],
+      },
+      optionalOrderedList: [],
+    },
+    // When on the user's reviews, use the user slice.
+    user: {
+      [reviewId]: {
+        reviewData,
+        User: {
+          userData,
+        },
+        Spot: {
+          spotData,
+        },
+        ReviewImages: [imagesData],
+      },
+      optionalOrderedList: [],
+    },
+  },
+  bookings: {
+    user: {
+      [bookingId]: {
+        bookingData,
+        Spot: {
+          spotData,
+        },
+      },
+      optionalOrderedList: [],
+    },
+    // Note here that your responses can actually be different here as well.
+    // HINT: What information should you see if you own this spot? (Refer to API Docs).
+    spot: {
+      [bookingId]: {
+        bookingData,
+      },
+      optionalOrderedList: [],
+    },
+  },
+};
+```
+
+## MeetUp Store Shape:
+
+```js
+store = {
+  session: {},
+  groups: {
+    allGroups: {
+      [groupId]: {
+        groupData,
+      },
+      optionalOrderedList: [],
+    },
+    singleGroup: {
+      groupData,
+      GroupImages: [imagesData],
+      Organizer: {
+        organizerData,
+      },
+      Venues: [venuesData],
+    },
+  },
+  events: {
+    allEvents: {
+      [eventId]: {
+        eventData,
+        Group: {
+          groupData,
+        },
+        Venue: {
+          venueData,
+        },
+      },
+    },
+    // In this slice we have much more info about the event than in the allEvents slice.
+    singleEvent: {
+      eventData,
+      Group: {
+        groupData,
+      },
+      // Note that venue here will have more information than venue did in the all events slice. (Refer to your API Docs for more info)
+      Venue: {
+        venueData,
+      },
+      EventImages: [imagesData],
+      // These would be extra features, not required for your first 2 CRUD features
+      Members: [membersData],
+      Attendees: [attendeeData],
+    },
+  },
+};
+```
+
+## SoundCloud Store Shape:
+
+```js
+store = {
+  session: {},
+  songs: {
+    allSongs: {
+      [songId]: {
+        songData,
+      },
+      optionalOrderedList: [],
+    },
+    singleSong: {
+      songData,
+      Artist: {
+        artistData,
+      },
+      // Not a required feature for first 2 CRUD features
+      Album: {},
+    },
+  },
+};
+```
+
+<!-- The examples below are outdated and are not currently in use. -->
+<!-- They are here only for future potential updates. -->
+
+<!-- ## Eventbright Store Shape:
+
 ```js
 store = {
     session: {},
@@ -75,28 +251,30 @@ store = {
     }
 }
 ```
+
 ### notes:
+
 -query venue and include event, nest include category but alias as lowercase category and use attributes array to only return one column: type
 -tickets is mainly related to user so makes sense to make it it's own slice of state
 
-
 ## Evernote Store Shape:
+
 ```js
 store = {
-    session: {},
-    notebooks: {
-        // note that evernote allows you to create notes without manually putting it in a notebook. Setup a default notebook for this. 
-        notebookId: {
-            ...notebookData,
-            notes: {...normalizedNotes}
-        },
-        optionalOrderedList: []
-    }
-}
+  session: {},
+  notebooks: {
+    // note that evernote allows you to create notes without manually putting it in a notebook. Setup a default notebook for this.
+    notebookId: {
+      ...notebookData,
+      notes: { ...normalizedNotes },
+    },
+    optionalOrderedList: [],
+  },
+};
 ```
 
-
 ## Flickr Store Shape:
+
 ```js
 store = {
     session: {},
@@ -123,14 +301,17 @@ store = {
     allImages: [array of images for the splash page potentially, or all images for a specific album]
 }
 ```
+
 ### notes:
+
 -one slice of state for album and images
 -one slice of state for a image detail page
 -and an all image array for the splash page or we can even use it to hold images for an album
 
-
 ## Medium Store Shape:
+
 ### example 1
+
 ```js
 store = {
     session: {},
@@ -153,10 +334,13 @@ store = {
     followingUser: {normalizedUserData}
 }
 ```
+
 ### note:
+
 -dispatch multiple thunks so more complicated on front end, but each reducers is more simple
 
 ### example 2
+
 ```js
 store = {
     session: {},
@@ -177,43 +361,14 @@ store = {
     followingUser: {normalizedUserData},
 }
 ```
+
 ### note:
+
 -normalized user data contains user data such as name
 -dispatch one thunk but reducer is more complicated
 
-## MeetUp Store Shape:
-```js
-store = {
-    session: {},
-    events: {
-        eventId: {
-            eventData,
-            groupId: "groupType string", //this is categoryId in the db schema image
-            user: {user who is hosting event},
-            venue: {
-                venueData
-            }
-        optionalOrderedList: []
-        },
-    rsvps: {
-        rsvpId: {
-            rsvpData,
-            user: {userData},
-            event: {eventData}
-        },
-        optionalOrderedList: []
-        },
-    groups: {
-        normalizedGroupData,
-        users: {normalizedUserData},
-        events: {normalizedEventData},
-        optionalOrderedList: []
-        }
-}
-```
-
-
 ## ProductHunt Store Shape:
+
 ```js
 store = {
     session: {},
@@ -240,8 +395,8 @@ store = {
 }
 ```
 
-
 ## Quora Store Shape:
+
 ```js
 store = {
     session: {},
@@ -268,40 +423,8 @@ store = {
 }
 ```
 
-
-## SoundCloud Store Shape:
-```js
-store = {
-    session: {},
-    songDetail: {
-        songId: {
-                songData,
-                user: {userData of author},
-                album: {
-                    albumData,
-                    user: {userData of author}
-                }
-                comments: {
-                    commentId: {
-                            commentData,
-                            user: {userData of author}
-                    },
-                    optionalOrderedList: []
-                }
-        }
-    },
-    allAlbums: {
-        albumId: {
-            albumData,
-            user: {userData of author}
-        },
-        optionalOrderedList: []
-    }
-}
-```
-
-
 ## Yelp Store Shape:
+
 ```js
 store = {
     session: {},
@@ -327,3 +450,4 @@ store = {
     }
 }
 ```
+-->
