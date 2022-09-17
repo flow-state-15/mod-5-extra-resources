@@ -7,6 +7,9 @@ your own redux store shapes.
 
 Please feel free to deviate if it makes sense to you for your project.
 
+**Only implement slices of state as you need it.** Most of these examples are
+designed with 3+ features. Pick the parts you as you implement that feature.
+
 ## AirBnb Store Shape:
 
 There are two examples for AirBnB, there are pros and cons to each approach.
