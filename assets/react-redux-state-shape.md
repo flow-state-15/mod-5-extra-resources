@@ -250,7 +250,7 @@ store = {
         songsData
       }
     }
-  }
+  },
   // You will want some slice of state to keep track of the song being played
   // and to keep track of playlist/album for continuous play.
   songPlayer: {
