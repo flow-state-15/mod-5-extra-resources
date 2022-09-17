@@ -9,6 +9,16 @@ Please feel free to deviate if it makes sense to you for your project.
 
 ## AirBnb Store Shape:
 
+There are two examples for AirBnB, there are pros and cons to each approach.
+
+For the "beginner" example, you have less nested state which may help avoid
+certain kinds of bugs. However you will need to write more code for each of
+different slices of states since they each need their own reducer.
+
+For the "intermediate" example, the data structure is more nested. This should
+mean less files, reducers and code. This is closer to the implementation you
+would expect for typical projects.
+
 _BEGINNER_
 
 ```js
