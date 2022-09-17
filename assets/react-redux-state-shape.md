@@ -7,9 +7,22 @@ your own redux store shapes.
 
 Please feel free to deviate if it makes sense to you for your project.
 
+**Only implement slices of state as you need it.** Most of these examples are
+designed with 3+ features. Pick the parts you as you implement that feature.
+
 ## AirBnb Store Shape:
 
-_BEGINNER_
+There are two examples for AirBnB, there are pros and cons to each approach.
+
+For the "beginner" example, you have less nested state which may help avoid
+certain kinds of bugs. However you will need to write more code for each of
+different slices of states since they each need their own reducer.
+
+For the "intermediate" example, the data structure is more nested. This should
+mean less files, reducers and code. This is closer to the implementation you
+would expect for typical projects.
+
+### _BEGINNER_ AirBnb Store Shape:
 
 ```js
 store = {
@@ -75,7 +88,7 @@ store = {
 };
 ```
 
-_INTERMEDIATE_
+### _INTERMEDIATE_ AirBnb Store Shape:
 
 ```js
 store = {
@@ -223,6 +236,31 @@ store = {
       // Not a required feature for first 2 CRUD features
       Album: {},
     },
+  },
+  playlists: {
+    allPlaylists: {
+      [playlistId] : {
+        playlistData
+      },
+      optionalOrderedList: [],
+    },
+    singlePlaylist: {
+      playlistData,
+      Songs : {
+        songsData
+      }
+    }
+  }
+  // You will want some slice of state to keep track of the song being played
+  // and to keep track of playlist/album for continuous play.
+  songPlayer: {
+    currentSong: { songData }
+    currentPlaylist: {
+      playlistData,
+      Songs : {
+        songsData
+      }
+    }
   },
 };
 ```
