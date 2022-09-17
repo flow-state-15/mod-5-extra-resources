@@ -22,7 +22,7 @@ For the "intermediate" example, the data structure is more nested. This should
 mean less files, reducers and code. This is closer to the implementation you
 would expect for typical projects.
 
-_BEGINNER_
+### _BEGINNER_ AirBnb Store Shape:
 
 ```js
 store = {
@@ -88,7 +88,7 @@ store = {
 };
 ```
 
-_INTERMEDIATE_
+### _INTERMEDIATE_ AirBnb Store Shape:
 
 ```js
 store = {
