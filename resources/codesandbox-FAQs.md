@@ -2,7 +2,7 @@
 ## Table of Contents
 
  - [How can I save a Github repo as a sandbox?](https://github.com/flow-state-15/mod-5-extra-resources/blob/main/resources/codesandbox-FAQs.md#how-can-i-save-a-github-repo-as-a-sandbox)
- - [My files are not saving?](https://github.com/flow-state-15/mod-5-extra-resources/blob/main/resources/codesandbox-FAQs.md#my-files-are-not-saving)
+ - [My files are not saving? / My changes aren't reflected in browser?](https://github.com/flow-state-15/mod-5-extra-resources/blob/main/resources/codesandbox-FAQs.md#my-files-are-not-saving-my-changes-arent-reflected-in-browser)
  - [How do I stop my code if its stuck in an infinite loop?](https://github.com/flow-state-15/mod-5-extra-resources/blob/main/resources/codesandbox-FAQs.md#how-do-i-stop-my-code-if-its-stuck-in-an-infinite-loop)
  - [How do I see React DevTools?](https://github.com/flow-state-15/mod-5-extra-resources/blob/main/resources/codesandbox-FAQs.md#how-do-i-see-react-devtools)
  - [I don't see my file structure or side navigation buttons, how do I get it back?](https://github.com/flow-state-15/mod-5-extra-resources/blob/main/resources/codesandbox-FAQs.md#i-dont-see-my-file-structure-or-side-navigation-buttons-how-do-i-get-it-back)
@@ -12,9 +12,7 @@
     - *Example:* `https://githubbox.com/appacademy/...`
 2. **Make sure you are logged in to your own account so you can save your progress!** 
     - To register, click "Sign In" or go to https://codesandbox.io/signin and sign in using your Github or Google account. 
-3. **Click `File` --> `Save As`..** 
-4. **Click Enter on the next popup.**
-    - ![/App.js popup screenshot](https://user-images.githubusercontent.com/89945390/194419740-5bd7af82-637d-4a55-ab40-fa9a75b4f47f.png)
+3. **Click the "Fork" button on the top-right.** 
 5. After it reloads, it will assign a random name to the file and it will be placed in `Drafts`:
     - *Example:*  
     - ![drafts and random name "jolly-parm-16dm5r" screenshot](https://user-images.githubusercontent.com/89945390/194420301-bc64b9ca-4894-406e-8645-5adf0d2691ca.png)
@@ -24,13 +22,23 @@
    - Either select `All Sandboxes` or an already created folder to store it in. 
    - Right-clicking will allow you to create a folder, too. 
 -----------------------
-## My files are not saving?
-1. **Transfer any code you have written in the current file outside of CodeSandbox, like a Google Document or Notepad.**
-2. **Hard refresh your browser.** 
+## My files are not saving? / My changes aren't reflected in browser?
+> Here are a few ways to try and fix your issue!
+1. **First off, check if you are in the right App.js file.** If you did not use the above "Fork" method and instead clicked **File --> Save As..** and clicked enter on this popup:
+    - ![codesandbox /App.js screenshot](https://user-images.githubusercontent.com/89945390/194419740-5bd7af82-637d-4a55-ab40-fa9a75b4f47f.png) 
+    - Then codesandbox might've created another App.js in the wrong folder. If yes, then transfer your code to the correct App.js file and see if the changes are reflected/save is working now. If not, try the next step. 
+2. **Sometimes the auto Format On Save setting causes a Save issue.**
+    - In CodeSandbox click **(Ctrl or Cmd) + Shift + P**
+    - Search "user settings" in the input field that pops up and select **Preferences: Open User Settings**
+    - Search for "save" on the "Search Settings" input and uncheck **Editor: Format On Save**. 
+    - ![User settings format on save screenshot](../assets/images/readme-screenshots/format-on-save.png)
+    - Try to save now. If this did not fix your issue, try the next step.
+4. **Transfer any code you have written in the current file outside of CodeSandbox, like a Google Document or Notepad.**
+5. **Hard refresh your browser.** 
     - *Chrome & Firefox:*
 	    - Windows: Hold **Ctrl** and then press the "Reload" button OR **F5**
 	    - Mac: Hold **Cmd** +**Shift** and then press the "Reload" button OR **R**
-3. **Test after Saving now.**
+6. **Test after Saving now.**
     - *Still not working?* Please try to screen record the behavior and contact us. 
 -----------------------
 ## How do I stop my code if its stuck in an infinite loop?
