@@ -30,7 +30,7 @@ This is Redux in a nutshell: <br>
 - Use the Redux DevTools Extension to view your state tree in the browser. This extension will help you track actions taken with your state as well as enable you to visualize how your data flows through Redux.
 
 ```js
-import { createStore, combineReducers } from "react-redux";
+import { createStore, combineReducers } from 'react-redux';
 
 // this is the top of the state tree and what you see in Redux Dev Tools
 const rootReducer = combineReducers({
@@ -81,7 +81,7 @@ Syntax:
 
 ```js
 // in React's index.js
-import { configureStore } from "./store";
+import { configureStore } from './store';
 
 const store = configureStore(); // store = { getState, subscribe, dispatch }
 // store is the core of Redux
@@ -105,7 +105,7 @@ Extra Notes:
 
 ```js
 //react's index.js
-import { Provider as ReduxProvider } from "react-redux";
+import { Provider as ReduxProvider } from 'react-redux';
 
 // ...
 
@@ -187,14 +187,14 @@ export default function sliceReducer(oldState, action) {
   const newState = { ...oldState };
 
   switch (action.type) {
-    case "CREATE":
+    case 'CREATE':
       // mutate the copy
       newState[action.payload.id] = action.payload;
 
       // return the mutated copy
       return newState;
 
-    case "READ/GET":
+    case 'READ/GET':
       // Data from a db needs to be NORMALIZED before inserting it into your state
       action.payload.forEach((item) => {
         // insert your data as kvp's with the key as the item's db id
@@ -204,7 +204,7 @@ export default function sliceReducer(oldState, action) {
       // return the mutated copy
       return newState;
 
-    case "UPDATE":
+    case 'UPDATE':
       // mutate the copy
       // here we are assuming that the action payload is the updated object returned from database. We expect the key to already be in state since this is an update, so syntax below is actually overwriting the existing key in the state object and assigning it to the database data. The old data under the key is erased.
       newState[action.payload.id] = action.payload;
@@ -212,7 +212,7 @@ export default function sliceReducer(oldState, action) {
       // return the mutated copy
       return newState;
 
-    case "DELETE":
+    case 'DELETE':
       // mutate the copy
       delete newState[action.payload.id];
 
@@ -244,13 +244,15 @@ Redux documentation: [Redux Docs](https://redux.js.org/tutorials/essentials/part
 
 react-redux hooks documentation: [react-redux api reference](https://react-redux.js.org/api/hooks)
 
-Mark Erikson, When (and when not) to reach for Redux: [when to use Redux](https://changelog.com/posts/when-and-when-not-to-reach-for-redux)
-
-Flux Architecture Docs: [Flux in-depth overview](https://facebook.github.io/flux/docs/in-depth-overview)
-
+<<<<<<< Updated upstream:learning-objectives/w15-d2.md
 <p align="right" style="font-size:10px">
   <a href="#readme-top">Back to the top</a>
 </p>
 <p align="right" style="font-size:10px">
   <a href="./README.md">Back to learning objectives README.md</a>
 </p>
+=======
+Mark Erikson, When (and when not) to reach for Redux: [when to use Redux](https://changelog.com/posts/when-and-when-not-to-reach-for-redux)
+
+Flux Architecture Docs: [Flux in-depth overview](https://facebook.github.io/flux/docs/in-depth-overview)
+>>>>>>> Stashed changes:learning-objectives/W15D2.md
