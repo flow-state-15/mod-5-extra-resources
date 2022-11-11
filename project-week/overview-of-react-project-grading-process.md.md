@@ -9,31 +9,26 @@
 This is an outline of the steps you will take for your presentations of the
 project on Monday of week 17. Grading takes place on the same day.
 
-**There is no formal pre-grading process**. Everyone must present on Monday.
-Your project must meet all requirements during presentation in order to pass, no exceptions.
-
-## Grading Format:
+## Grading Format
 
 - All grades are based on the scorecards you created for this project.
 - Every select field must be marked as `Yes` in the following categories:
   - Base Requirements:
     - Auth and Splash/Landing
-  - General Requirements:
-    - "About links present?" is not required on Monday. You will do this in mod 7.
   - Core Functionality:
-    - Feature 1 and Feature 2. Full CRUD for one feature, 3/4 CRUD for other feature. Update is the only one you can skip.
-    - If ALL of those sections meet the requirement to be marked Yes you pass.
+    - Feature 1 and Feature 2. Full CRUD for one feature, 3/4 CRUD for other feature. Update on feature 2 is the only one you can skip.
 
 ### Additional Conditions for Passing Mod 5
 
 - No additional commits may be pushed after 8:00am PT on day of presentations.
   - If we suspect changes to the live deployed app were made during or after
     presentations we have other methods to check this.
-- All grading will be done on your live Heroku app. No exceptions.
-- All students will present to their respective teams.
-  - Presenting work to others is an important part (if not common) of the regular
+- Grading will be done on your live site.
+- Students will present to their respective teams.
+  - Standups and presenting work to others is an important part of the regular
     job as a SWE. This is practice for that.
   - If you would like to practice/prepare, we recommend that you demo with yourself and your peers.
+  - If you choose not to present on Monday, you still need to attend presentations with your team to show support.
 
 ## Presentation Format
 
@@ -44,11 +39,9 @@ your presentations.
 1. Demo splash page:
 
    - All links must be valid and cannot be dead. Be mindful of styling that
-     looks like links.
+     looks like links but are not.
 
-   - This must be intuitive. If you're not sure what's a link ask yourself, or
-     your peers if something looks like a link that would navigate you
-     elsewhere.
+   - This must be intuitive. If you're not sure ask your peers if something looks like a link that would navigate you elsewhere.
 
    - Instructors will ask you to click on these links during presentation.
 

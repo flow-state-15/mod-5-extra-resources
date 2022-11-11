@@ -11,7 +11,7 @@ presenting your portfolio projects to potential employers.
 
 A visually satisfying portfolio project will more likely catch and
 hold the attention of a potential employer than a portfolio project
-that lacks visual appeal **regardless** of functionality.
+that *lacks* visual appeal **regardless** of functionality.
 
 To keep future potential employers and interviewers interested in your
 portfolio project, you must make your portfolio project visually
@@ -29,13 +29,12 @@ full-stack portfolio project is on CSS, and that is normal**. CSS is the
 make-or-break factor of your portfolio project from a potential employer's
 perspective.
 
-The rest of this document will outline what you should achieve to meet the
-minimum CSS requirements of your full-stack portfolio project.
+The rest of this document is a guide to help you achieve a complete and visually appealing full-stack portfolio project.
 
 ## CSS Specifications
 
 You must follow the design of the application you are cloning as close as
-possible, down to the colors. This is not a bootcamp for creating designers,
+possible, down to the colors. App Academy is not a bootcamp for creating designers
 and you are not training to be designers. The application that you are
 cloning is already designed and you must replicate and implement the design
 of the target cloned site through organizing your HTML elements and
@@ -43,8 +42,7 @@ styling them through CSS.
 
 ### TO DO CHECKLIST
 
-**Important Note**: You must finish the basic functionality of your feature
-before styling it.
+**Important Note**: After finishing the basic functionality of your feature it's a good time to add limited styling so your workload is not as heavy later in the week.
 
 - ✅ All links, buttons, input fields, and text features on the site are
   functioning properly and belong to the features that were worked on
@@ -81,16 +79,15 @@ before styling it.
 - ❌ Don't copy the CSS styling directly from the application that you are cloning
 - ❌ Don't look at or copy the HTML element structure from another student's
   application
-- ❌ Don't look at or copy the CSS styling from another student's application
-- ❌ Don't work on CSS animations or transitions
-- ❌ Don't use any React component library (MaterialUI, Ant Design, etc)
-- ❌ Don't use any UI/CSS frameworks (Tailwind, Bootstrap, etc.)
+- ❌ Don't copy/paste the CSS styling from another student's application
+- ❌ Don't work on CSS animations or transitions from target site
+- ❌ Don't use any UI/CSS frameworks (Tailwind, Bootstrap, MaterialUI, Ant Design, etc)
 
 **Important Note**: If you wish to use a CSS/JavaScript library or NPM package,
 you must consult and get approval from your Project Advisor.
 
 If you have any questions, or if you are not sure if your feature meets these
-minimum CSS requirements, please consult your Project Advisor.
+CSS completion requirements, please consult your Project Advisor.
 
 <p align="right" style="font-size:10px">
   <a href="#readme-top">Back to the top</a>

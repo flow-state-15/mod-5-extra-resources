@@ -7,13 +7,13 @@
 </p>
 
 Every great project needs great documentation, including a README and a Wiki.
-The goals of documentation are to answer the following questions:
+Complete documentation answers the following questions:
 
 1. What is your project, what does it do, and how was it designed?
 2. How can someone run, develop and use your code?
 3. How can you be contacted or asked a question?
 
-## Overview and Checklist of Requirements
+## Checklist for Documentation Completion
 
 - `/` **README.md**
   - Located at project root (`/`).
@@ -39,7 +39,7 @@ The goals of documentation are to answer the following questions:
     - Features list.
       - Include descriptions and some details. This does not need to be as
         detailed as user stories
-    - Redux state shape.
+    - Redux state shape (this entry is for your development benefit in Mod 5. For security reasons it should be removed after you graduate).
 
 ## Resources
 
@@ -57,7 +57,7 @@ generation of documentation for your projects.
 ## README Examples
 
 Note, parts of this documentation will only be completable once most of your
-project is complete, such as images of your web app.
+project is complete, such as images of your web app. Most students complete their READMEs once their app is relatively finished.
 
 - Flicker Clone
 
