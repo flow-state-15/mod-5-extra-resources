@@ -10,6 +10,7 @@ This project will be in your portfolio for showcasing your skills to future empl
 
 Everyone will have a staff member as their project advisor. Project Advisors will be leading standups every day with their group during Week 16 Project Week, where they keep track of your progress. You will be added to a team Slack channel with your project advisor before EOD Friday.
 Presentations with your team and grading will occur on Monday morning, Week 17. By completing this project, you will officially be a **full-stack developer**! 
+
 ![Bill Nye happy computer gif](https://media0.giphy.com/media/l3nWqD4ViFej9REAw/giphy.gif?cid=ecf05e47igpzk6ql1l16cjebsutwhnpzsrfllbidrgvcjwg2&rid=giphy.gif&ct=g)
 > Be aware that this is a living document and subject to updates and is not a comprehensive list--should be supplemented by reading the materials on aA Open. 
 
