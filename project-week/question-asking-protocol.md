@@ -7,16 +7,15 @@
 </p>
 
 Questions during project week will be asked on Slack! Please do so in your
-cohort's online lecture questions channel. This way other students, not in your
-circles, may benefit from the shared knowledge of those questions being
+cohort's online lecture questions channel. This way all students may benefit from the shared knowledge of those questions being
 resolved.
 
 ## How to Ask A Question During Solo Project Week
 
-After spending around 15 minutes debugging on your own:
+After spending around 1 hour debugging on your own:
 
 Your peers and instructional team will attempt to help you with the question
-via Slack first. If unable to solve the issue via slack, a member of the
+via Slack first. If unable to solve the issue via slack a member of the
 Instructional team will come to your Breakout Room. Please remember wait times
 may be long during project week.
 
@@ -31,7 +30,7 @@ Problem: <what you expected but what is actually happening>
 
 What you’ve tried: <self explanatory>
 
-Github branch: <all students must make a branch for debugging, please provide a direct link to the branch>
+Github branch: <bugged code should be pushed to your debugging branch by the time the question is on slack. Provide a direct link to the branch>
 
 Screenshots: <snippets/ss of code that you think we would need to solve the problem, always provide screenshot of any errors in the terminal or console>
 ```
@@ -40,7 +39,7 @@ Screenshots: <snippets/ss of code that you think we would need to solve the prob
 
 > Problem: I'm having an issue when creating a pokemon. When creating a pokemon, the pokemon is created in the database, but only appears when refreshing the page.
 >
-> What you’ve tried: I've tried tracing the data flow from the submission of the create pokemon form to the database. I found that the pokemon was created in the database, so the error must be in my store file for pokemon. I've checked my thunk, reducer, and actions but I'm unsure of what the error could be. There are no errors in the console or backend terminal. Attached below are my handleSubmit, thunk, action, reducer, and backend route.
+> What you’ve tried: I traced the data flow from the submission of the create pokemon form to the database. I found that the pokemon was created in the database, so the error must be in my store file for pokemon. I've checked my thunk, reducer, and actions but I'm unsure of what the error could be. There are no errors in the console or backend terminal. Attached below are my handleSubmit, thunk, action, reducer, and backend route.
 >
 > Github branch: ...github.com/your-user-name/my-solo-project/tree/debug
 >
@@ -49,19 +48,18 @@ Screenshots: <snippets/ss of code that you think we would need to solve the prob
 ## Reminders
 
 - It is unacceptable to just post “Can someone come help me in my room”. You
-  must, first, ask a question on Slack.
-- Please do not DM the instructors for help.
-- Instructors are not there to pair program or build your app, they are only
-  there to guide you in the right direction
+  must first ask a question on Slack.
+- Please do not DM the instructors for debugging help. You may directly reach out for any other support not related to a bug.
+- Instructors are not there to pair program or build your app. Their purpose is to help unblock you and guide you in the right direction
 
 ## Why Are We Using This Protocol?
 
 Please keep in mind, the goal of this process is not to arbitrarily make the
 project more challenging. This question asking process is simulating how you
-might request assistance on the job as a software engineer.
+will request assistance on the job as a software engineer.
 
 Outside of a/A, you will not have anyone on standby to help. Anyone that could
-help likely has responsibilities of their own. This means, the most effective
+help has responsibilities of their own. This means, the most effective
 way to receive help is by making it as easy as possible to be helped!
 
 This process is to practice and improve your abilities at requesting assistance.
