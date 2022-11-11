@@ -109,18 +109,18 @@ The gray or blue check means the question seems to have been resolved by a TA or
 - [ ] Must be a way to DELETE!
 
 # AirBnB
+![Airbnb logo banner](https://storage.googleapis.com/kaggle-competitions/kaggle/4651/media/airbnb_banner.png) 
 > See AAO "React Project Assessment > Project List" for list of approved features for AirBnB. 
-### Web Pages / Routes:
-#### Basic Pages Needed
+### Basic Pages Needed
  - Home Page
  - Spot Details Page
  - Create Spot Page or Modal
  - Edit Spot Page or Modal
- #### Modals Needed
+ ### Modals Needed
  - Sign Up Modal
  - Log In Modal
  
-#### Extra Pages & Modals
+### Extra Pages & Modals
 > Not required to pass but good to have eventually!
 - Profile Page
 	- User's Reviews
@@ -129,7 +129,7 @@ The gray or blue check means the question seems to have been resolved by a TA or
 - Create Review as Modal
 - 404 Page
 
-### Forms:
+## Forms:
 > Some advice on specific features
 #### Spots
 - **Edit form doesn't need to include the option to edit the previewImage.**
@@ -139,9 +139,9 @@ The gray or blue check means the question seems to have been resolved by a TA or
 	 - Later it would be great to refactor and implement something like Google Maps API into your project to replace the hardcoded data.
 
 # Meetup
+![meetup logo banner](https://img.freepik.com/vector-premium/concepto-meetup-colegas-empresarios-personajes-empleados-empresa-pausa-cafe-personas-que-comunican-charlan-pasan-tiempo-libre-juntos-discuten-cuestiones-laborales-ilustracion-vectorial-dibujos-animados_87771-14282.jpg)
 > See AAO "React Project Assessment > Project List" for list of approved features for Meetup. 
-### Pages:
-#### Basic Pages Needed
+### Basic Pages Needed
  - Splash Page
  - Home Page
 	 - Tab for viewing list of groups
@@ -153,10 +153,10 @@ The gray or blue check means the question seems to have been resolved by a TA or
  - Event Details Page (if events is your second feature)
  - Create Event Page or Modal (if applicable)
  - Edit Event Page or Modal (if applicable) 
- #### Modals Needed
+ ### Modals Needed
   - Sign Up Modal
  - Log In Modal
- #### Extra Pages & Modals
+ ### Extra Pages & Modals
  > Not required to pass but good to have eventually!
 - Profile Page
 	- User's Created Groups
@@ -165,11 +165,13 @@ The gray or blue check means the question seems to have been resolved by a TA or
 	- User's Joined Groups
 - Create Modal for second feature
 - 404 Page
-### Forms:
+## Forms:
 > Some advice on specific features
 #### Groups
 - **Edit form doesn't need to include the option to edit the previewImage.**
 - **Meetup has a multi-step create form for groups. You do NOT need a multi-step form.** You are allowed to put all the input fields on one page. 
+
+------------------------------------
 
 ## General Advice
  - If you cannot view a part of your clone site because you would have to pay (like reviewing a spot or creating a group)
