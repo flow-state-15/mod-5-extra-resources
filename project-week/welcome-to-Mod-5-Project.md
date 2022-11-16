@@ -130,9 +130,11 @@ The gray or blue check means the question seems to have been resolved by a TA or
 - Create Review as Modal
 - 404 Page
 
-## Forms:
-> Some advice on specific features
+## Forms
+
+Some advice on specific features:
 #### Spots
+
 - **Edit form doesn't need to include the option to edit the previewImage.**
  - **Longitude and Latitude don't need to be input fields**
 	 - Regular users aren't going to know this information; its usually an external map API that would be able to calculate these from address input.
@@ -166,15 +168,18 @@ The gray or blue check means the question seems to have been resolved by a TA or
 	- User's Joined Groups
 - Create Modal for second feature
 - 404 Page
-## Forms:
-> Some advice on specific features
+## Forms
+
+Some advice on specific features:
 #### Groups
+
 - **Edit form doesn't need to include the option to edit the previewImage.**
 - **Meetup has a multi-step create form for groups. You do NOT need a multi-step form.** You are allowed to put all the input fields on one page.
 
 ------------------------------------
 
 ## General Advice
+
  - If you cannot view a part of your clone site because you would have to pay (like reviewing a spot or creating a group)
 	 - It does not have to be accurate to the site! Please copy the styling and format from the forms and pages you can see.
 - NPM packages must be approved by your project advisor.
@@ -182,6 +187,7 @@ The gray or blue check means the question seems to have been resolved by a TA or
 - NOTE: **Programatic hard refreshes are not allowed**. This includes manipulating the url through the `window` object. React provides all the tools necessary for dynamic rerendering or window relocation. If you have to have to refresh the page to see your data this is an indication that your reducer/selector code is bugged.
 
 ## Helpful Links
+
 - [GitHub README and Wiki Guidelines](https://github.com/flow-state-15/mod-5-extra-resources/blob/main/project-week/github-README-and-wiki-guidelines.md)
 - [Whit's CSS Tips](https://docs.google.com/document/d/1VkeCDf12jokoTdriQycheyfnlfdc-qypDXsxCO5tqNk/edit?usp=sharing)
 - [Helpful Heroku Tips](https://github.com/whitnessme/helpful-heroku-tips)
